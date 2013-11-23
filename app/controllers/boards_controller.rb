@@ -5,7 +5,7 @@ class BoardsController < ApplicationController
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
 		if state && !county && !city
-			render json: {success: 'this shows a states info'}
+			render json: {state_boards: state.boards}
 		elsif state && county && city || state && city && !county
 			render json: {success: 'this shows a cities info'}
 		elsif state && county && !city 
@@ -16,7 +16,7 @@ class BoardsController < ApplicationController
 	end
 
 	def update
-		
+
 	end
 
 	def destroy

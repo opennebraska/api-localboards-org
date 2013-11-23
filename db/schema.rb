@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131123201956) do
+ActiveRecord::Schema.define(:version => 20131123210631) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
@@ -19,15 +19,17 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
     t.integer  "board_seat_id"
+    t.boolean  "is_active"
   end
 
   create_table "board_seats", :force => true do |t|
     t.integer  "board_id"
     t.boolean  "alternate"
     t.text     "qualifications"
-    t.integer  "term_length"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+    t.string   "term_notes"
+    t.boolean  "is_active"
   end
 
   create_table "boards", :force => true do |t|
@@ -38,6 +40,8 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.integer  "alternating_seats"
     t.text     "qualifications"
     t.integer  "department_id"
+    t.integer  "term_length"
+    t.boolean  "is_active"
   end
 
   create_table "cities", :force => true do |t|
@@ -45,6 +49,7 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "state_id"
+    t.boolean  "is_active"
   end
 
   create_table "city_counties", :force => true do |t|
@@ -52,6 +57,7 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.integer  "county_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.boolean  "is_active"
   end
 
   create_table "counties", :force => true do |t|
@@ -60,12 +66,14 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.datetime "updated_at", :null => false
     t.integer  "state_id"
     t.integer  "code_id"
+    t.boolean  "is_active"
   end
 
   create_table "departments", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.boolean  "is_active"
   end
 
   create_table "members", :force => true do |t|
@@ -73,6 +81,7 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.datetime "updated_at", :null => false
     t.string   "first_name"
     t.string   "last_name"
+    t.boolean  "is_active"
   end
 
   create_table "states", :force => true do |t|
@@ -81,6 +90,7 @@ ActiveRecord::Schema.define(:version => 20131123201956) do
     t.datetime "updated_at",   :null => false
     t.string   "abbreviation"
     t.integer  "code_id"
+    t.boolean  "is_active"
   end
 
 end

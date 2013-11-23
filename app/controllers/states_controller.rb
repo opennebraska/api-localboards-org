@@ -17,8 +17,11 @@ class StatesController < ApplicationController
 	def get_jurisdiction(state)
 		state = State.where(abbreviation: state).first
 		state = State.where(id: state) unless state
-
-		return state
+		if state
+			return state
+		else
+			render json: {fail: 'Invalid API query'}
+		end
 	end
 
 end
