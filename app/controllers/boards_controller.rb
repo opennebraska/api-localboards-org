@@ -7,9 +7,9 @@ class BoardsController < ApplicationController
 		if state && !county && !city
 			render json: {state_boards: state.boards}
 		elsif state && county && city || state && city && !county
-			render json: {success: 'this shows a cities info'}
+			render json: {city_boards: city.boards}
 		elsif state && county && !city 
-			render json: {success: 'this shows a counties info'}
+			render json: {county_boards: county.boards}
 		else
 			render json: {fail: 'Invalid API format'}
 		end
@@ -23,18 +23,18 @@ class BoardsController < ApplicationController
 
 	end
 
-	def get_jurisdiction(state,city,county)
+	def get_jurisdiction(state,county,city)
 		state = State.where(abbreviation: state).first
 		state = State.where(id: state) unless state
 		
-		if params[:county_id]
+		if county
 			county = County.where(name: county, state_id: state.id).first
 			county = County.where(id: county, state_id: state.id) unless county
 		else
 			county = nil
 		end
 
-		if params[:city_id]
+		if city
 			city = City.where(name: city, state_id: state.id).first
 			city = City.where(id: city) unless city
 		else

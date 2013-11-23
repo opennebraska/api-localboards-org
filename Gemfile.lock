@@ -14,6 +14,7 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_seed (1.0.5)
     activemodel (3.2.14)
       activesupport (= 3.2.14)
       builder (~> 3.0.0)
@@ -124,6 +125,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_seed
   coffee-rails (~> 3.2.1)
   jquery-rails
   less-rails

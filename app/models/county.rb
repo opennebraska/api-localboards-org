@@ -4,5 +4,5 @@ class County < ActiveRecord::Base
   has_many :city_counties
   has_many :cities, through: :city_counties
   belongs_to :state
-
+  has_many :boards
 end
