@@ -40,6 +40,11 @@ ActiveRecord::Schema.define(:version => 20131123210631) do
     t.integer  "alternating_seats"
     t.text     "qualifications"
     t.integer  "department_id"
+    t.string   "meeting_dates"
+    t.string   "meeting_place"
+    t.datetime "meeting_time"
+    t.text     "duties"
+    t.string   "url"
     t.integer  "term_length"
     t.boolean  "is_active"
   end
