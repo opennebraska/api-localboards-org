@@ -11,25 +11,40 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131123172239) do
+ActiveRecord::Schema.define(:version => 20131123192317) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
     t.integer  "member_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "board_seat_id"
+  end
+
+  create_table "board_seats", :force => true do |t|
+    t.integer  "board_id"
+    t.boolean  "alternate"
+    t.text     "qualifications"
+    t.integer  "term_length"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "boards", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
     t.string   "title"
+    t.integer  "seats"
+    t.integer  "alternating_seats"
+    t.text     "qualifications"
+    t.integer  "department_id"
   end
 
   create_table "cities", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "state_id"
   end
 
   create_table "city_counties", :force => true do |t|
@@ -46,6 +61,12 @@ ActiveRecord::Schema.define(:version => 20131123172239) do
     t.integer  "state_id"
   end
 
+  create_table "departments", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "members", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -55,8 +76,9 @@ ActiveRecord::Schema.define(:version => 20131123172239) do
 
   create_table "states", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "abbreviation"
   end
 
 end

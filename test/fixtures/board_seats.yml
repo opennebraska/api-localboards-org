@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  board_id: 1
+  alternate: false
+  qualifications: MyText
+  term_length: 1
+
+two:
+  board_id: 1
+  alternate: false
+  qualifications: MyText
+  term_length: 1

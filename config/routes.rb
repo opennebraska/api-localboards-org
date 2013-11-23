@@ -1,7 +1,31 @@
 OrgOrg::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  root to: 'boards#index'
+
+
+  resources :states do
+    resources :counties do
+
+      resources :cities do 
+        resources :boards do
+          resources :members
+        end
+        resources :members
+      end
+
+      resources :boards do
+        resources :members
+      end
+      resources :members
+    end
+
+    resources :boards do
+      resources :members
+    end
+
+    resources :members
+  end
+      
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
