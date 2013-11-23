@@ -11,3 +11,15 @@ if (County.where(name: 'Douglas').empty? && City.where(name: 'Omaha').empty?)
 	city = City.create(name: 'Omaha')
 	CityCounty.create(city_id: city.id, county_id: county.id)
 end
+
+File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line do |line|
+	temp = line.chop.split("\t")
+	Board.create(
+		title:             temp[0],
+		seats:             temp[1],
+		alternating_seats: temp[2]
+	)
+end
+
+
+
