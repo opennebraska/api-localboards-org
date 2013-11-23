@@ -54,10 +54,9 @@ class BoardsController < ApplicationController
 	end
 
 	def allow_cors
-	  headers["Access-Control-Allow-Origin"] = "localhost:3000"
-	  headers["Access-Control-Allow-Methods"] = %w{GET POST PUT DELETE}.join(",")
-	  headers["Access-Control-Allow-Headers"] =
-	    %w{Origin Accept Content-Type X-Requested-With X-CSRF-Token}.join(",")
+	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
+	  headers["Access-Control-Allow-Headers"] = '*,x-requested-with'
 
 	  head(:ok) if request.request_method == "OPTIONS"
 	  # or, render text: ''
