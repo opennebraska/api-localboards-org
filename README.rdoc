@@ -1,3 +1,7 @@
+Rails has a very nice README, so I'll leave it. Our stack is Ruby 1.9.4 and Rails 3.2.14.
+
+When installing gems do not run bundle update. Everytime you do that a kitten gets very sad. VERY SAD.
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
