@@ -15,12 +15,8 @@ class BoardsController < ApplicationController
 		end
 	end
 
-	def state
-
-	end
-
 	def update
-
+		
 	end
 
 	def destroy

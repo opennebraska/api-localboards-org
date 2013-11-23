@@ -1,17 +1,8 @@
 OrgOrg::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
-
   resources :states do
     resources :counties do
-
-      resources :cities do 
-        resources :boards do
-          resources :members
-        end
-        resources :members
-      end
 
       resources :boards do
         resources :members
@@ -23,6 +14,12 @@ OrgOrg::Application.routes.draw do
       resources :members
     end
 
+    resources :cities do
+      resources :boards do
+        resources :members
+      end
+      resources :members
+    end
     resources :members
   end
       
