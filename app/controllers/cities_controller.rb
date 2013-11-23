@@ -3,7 +3,7 @@ class CitiesController < ApplicationController
 	def show
 		if params[:id] && params[:state_id]
 			state, city = get_jurisdiction(params[:state_id],params[:id])
-			render json: {success: "get #{city.name} city info in #{state.name} state"}
+			render json: {counties: city.counties}.to_json
 		else
 			render json: {fail: 'Invlalid API query'}
 		end
