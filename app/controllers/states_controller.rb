@@ -1,7 +1,11 @@
 class StatesController < ApplicationController
 
 	def index
-		states = State.all
+		if params[:pg] && params[:pgSize]
+			states = State.paginate(page: params[:pg], per_page: params[:pgSize])
+		else
+			states = State.all
+		end
 		render json: {states: states}
 	end
 	
