@@ -19,6 +19,11 @@ class BoardSeatsController < OptionsController
 
 	end
 
+	def new
+
+	end
+
+	
 	def create
 		inject_option_headers
 		params[:board_seat][:board_id] = params[:board_id]

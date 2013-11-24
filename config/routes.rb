@@ -36,6 +36,9 @@ OrgOrg::Application.routes.draw do
   match '/states/:state_id/cities/:city_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
   match '/states/:state_id/counties/:county_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
 
+  match '/states/:id/departments', controller: 'departments', action: 'options'
+  match '/states/:id/counties/:id/departments', controller: 'departments', action: 'options'
+  match '/states/:id/cities/:id/departments', controller: 'departments', action: 'options'
 
   resources :states do
     collection do
@@ -48,6 +51,7 @@ OrgOrg::Application.routes.draw do
         resources :board_seats, path: 'seats'
       end
       resources :members
+      resources :departments
     end
 
     resources :boards do
@@ -61,9 +65,13 @@ OrgOrg::Application.routes.draw do
         resources :board_seats, path: 'seats'
       end
       resources :members
+      resources :departments
     end
     resources :members
+    resources :departments
   end
+
+  resources :departments
 
 
 

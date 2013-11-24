@@ -35,6 +35,10 @@ class BoardsController < OptionsController
 		end
 	end
 
+	def edit
+
+	end
+
 	def update
 		inject_option_headers
 
