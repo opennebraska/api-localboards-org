@@ -21,7 +21,8 @@ class OptionsController < ApplicationController
     headers["Access-Control-Allow-Headers"] = '*'
     # end
     p 'end inject options'
-  end  def inject_cors_headers( )
+  end  
+  def inject_cors_headers( )
     headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
     headers['Content-Type'] = 'application/json'
     headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
