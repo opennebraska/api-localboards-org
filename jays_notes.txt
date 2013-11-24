@@ -62,7 +62,7 @@ rake db:create
 rake db:migrate
 rake db:seed
 
-heroku run rake db:seed
+heroku run rake db:seed --app api-localboards-org
 
 heroku config | grep POSTGRESQL
 heroku pg:reset HEROKU_POSTGRESQL_COPPER_URL --confirm api-localboards-org

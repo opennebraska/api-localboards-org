@@ -20,7 +20,6 @@ File.open("db/human_data_entry/counties.tsv","r").each_line.with_index do |line,
     state = State.where(id: line[1]).first
     state || next
     # p "...#{line[0]}..."
-    # p "...#{line[1]}..."
     County.create(name: line[0],state_id: state.id, code_id: line[2])
 end
 state = State.where(abbreviation: 'NE').first
@@ -84,12 +83,13 @@ File.open("db/human_data_entry/omaha-boards - seats.tsv", "r").each_line.with_in
     board = my_boards[temp[0]]
     bs = BoardSeat.create(
         board_id:        board.id,
-        # alternate:       
+        alternate:       /alternate/i.match(temp[1]) ? 1 : 0,
         qualifications:  temp[1], 
         # term_notes: 
         is_active:       1 
         # period:   
     )
+    # p bs.alternate
 end
 
 
