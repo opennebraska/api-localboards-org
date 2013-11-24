@@ -105,14 +105,17 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
         first_name: temp[1],
         is_active:  1
     )
-    bs = BoardSeat.create(
-        board_id:        board.id,
-        # alternate:       
-        # qualifications: 
-        # term_notes: 
-        is_active:       1 
-        # period:   
-    )
+  
+    bs = BoardSeat.new
+    BoardSeat.where(board_id: board.id).each do |this_bs|
+        next if this_bs.board_member
+        bs = this_bs
+    end
+    # p "JAY0|#{temp[0]}|#{bs.id}|"    
+    if bs.id.nil? 
+        # oh crap...?
+    end
+
     bm = BoardMember.create(
         board_id:           board.id,
         member_id:          m.id,
