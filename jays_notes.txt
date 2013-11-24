@@ -28,7 +28,10 @@ Board.all
 Board.pluck(:title)
 Board.first(3)
 Board.select([:title, :department_id])
+Board.where("title like 'METRO%'")
+Board.where("title like ?", 'METRO%')
 Department.select([:id, :name])
+BoardSeat.where(board_id: 30)
 
 reload!
 
@@ -57,6 +60,8 @@ rails g migration AddAppointmentDateToBoardMembers appointment_date:datetime
 rails g migration ChangeMeetingTimeDatatype
 
 rails g migration AddGeoInfoToMembers state_id:integer county_id:integer city_id:integer 
+
+rails g migration AddTitleToBoardSeats title:string
 
 
 rake db:drop

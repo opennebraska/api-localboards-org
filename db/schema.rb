@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131124163313) do
+ActiveRecord::Schema.define(:version => 20131124174821) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20131124163313) do
     t.string   "term_notes"
     t.boolean  "is_active"
     t.integer  "period"
+    t.string   "title"
   end
 
   create_table "boards", :force => true do |t|

@@ -86,7 +86,7 @@ File.open("db/human_data_entry/omaha-boards - seats.tsv", "r").each_line.with_in
         alternate:       /true/i.match(temp[2]) ? 1 : 0,
         qualifications:  temp[1], 
         # term_notes: 
-        is_active:       1 
+        is_active:       1
         # period:   
     )
     # p bs.alternate
@@ -113,10 +113,21 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
     BoardSeat.where(board_id: board.id).each do |this_bs|
         next if this_bs.board_member
         bs = this_bs
+        bs.update_attributes(title: temp[3])
     end
     # p "JAY0|#{temp[0]}|#{bs.id}|"    
     if bs.id.nil? 
-        # oh crap...?
+        # WHOOPS! More members than seats?? Weird. Add another seat so dude(tte) can sit down
+        bs = BoardSeat.create(
+            board_id:        board.id,
+            alternate:       /true/i.match(temp[2]) ? 1 : 0,
+            # qualifications:  temp[1], 
+            # term_notes: 
+            is_active:       1,
+            # period:
+            title:           temp[3] 
+        )
+        # p "JAY1|#{temp[0]}|#{bs.id}|"    
     end
 
     bm = BoardMember.create(
