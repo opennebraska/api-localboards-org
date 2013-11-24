@@ -1,6 +1,7 @@
 OrgOrg::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  match '/states/:id/boards/', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
   resources :states do
     resources :counties do
 
@@ -22,7 +23,9 @@ OrgOrg::Application.routes.draw do
     end
     resources :members
   end
-      
+
+
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
