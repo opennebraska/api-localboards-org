@@ -5,4 +5,5 @@ class State < ActiveRecord::Base
   has_many :cities
   has_many :boards
 
+  has_many :departments, through: :boards
 end
