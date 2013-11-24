@@ -13,6 +13,8 @@ OrgOrg::Application.routes.draw do
 
   match '/states/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/members/:id', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/counties/:id/members/:id', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/cities/:id/members/:id', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/', :controller => 'counties', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/cities/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}  
   match '/states/:id/counties/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
