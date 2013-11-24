@@ -19,7 +19,7 @@ class StatesController < ApplicationController
 	end
 
 	def get_jurisdiction(state)
-		state = State.where(abbreviation: state).first
+		state = State.where("lower(abbreviation) = ?", state.downcase).first
 		state = State.where(id: state) unless state
 		if state
 			return state

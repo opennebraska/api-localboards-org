@@ -78,9 +78,9 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
     )
 end
 
-# state = State.where(name: 'Nebraska')
-# city = City.create(name: 'Omaha', state_id: , state.id)
-# county = County.where(state_id: state.id, )
-# CityCounty.create(city_id: city.id, county_id: county.id)
+state = State.where(abbreviation: 'NE').first
+county = County.where(name: "Douglas").last
+city = City.create(name: 'Omaha', state_id: 27)
+CityCounty.create(city_id: city.id, county_id: county.id)
 
 

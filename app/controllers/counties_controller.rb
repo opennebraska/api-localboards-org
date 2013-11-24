@@ -14,7 +14,7 @@ class CountiesController < ApplicationController
 	end
 
 	def get_jurisdiction(state,county,page=nil,page_start=nil)
-		state = State.where(abbreviation: state).first
+		state = State.where("lower(abbreviation) = ?", state.downcase ).first
 		state = State.where(id: state).first unless state
 		
 		county = County.where(name: county, state_id: state.id).first

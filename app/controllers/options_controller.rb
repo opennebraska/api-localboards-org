@@ -21,4 +21,3 @@ class OptionsController < ApplicationController
 	  # if that's more your style
 	end
 end
-end

@@ -15,7 +15,7 @@ class BoardSeatsController < OptionsController
 	end
 	
 	def get_boardSeats( id, page=null, page_start=null )
-		board = BoardSeats.where(board_id: id).first
+		board = BoardSeat.where(board_id: id).first
 		return [board]
 	end
 end
