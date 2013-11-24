@@ -1,6 +1,5 @@
 class BoardsController < ApplicationController
 	
-	before_filter :allow_cors
 
 
 	def index
@@ -23,6 +22,11 @@ class BoardsController < ApplicationController
 		board = Board.where(id: params[:id]).first
 		render json: {board: board}
 	end
+
+	def options
+        allow_cors
+        head :ok
+      end
 
 	def update
 

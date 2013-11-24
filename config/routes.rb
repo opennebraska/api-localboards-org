@@ -22,7 +22,10 @@ OrgOrg::Application.routes.draw do
     end
     resources :members
   end
-      
+
+  match '/states/ne/boards/', :controller => 'boards_controller', :action => 'options', :constraints => {:method => 'OPTIONS'}
+
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
