@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   	headers['Access-Control-Allow-Origin'] = 'http://localhost:3000' 
       headers['Content-Type'] = 'application/json'
   	headers['Access-Control-Request-Method'] = '*'
-      headers['Access-Control-Request-Headers'] = '*' 
+      headers['Access-Control-Allow-Headers'] = '*' 
   end
 end
