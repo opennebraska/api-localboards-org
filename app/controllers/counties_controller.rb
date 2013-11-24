@@ -1,15 +1,17 @@
 class CountiesController < ApplicationController
 
 	def show
+		inject_option_headers
+
 		if params[:state_id] && params[:id]
 			state, county = get_jurisdiction(params[:state_id],params[:id],page,page_start)
 			if params[:pg] && params[:pgStart]
-				render json: {cities: county.cities.paginate(page: params[:pg], per_page: params[:pgStart])}
+				render json: RestResponse.success(county.cities.paginate(page: params[:pg], per_page: params[:pgStart]))
 			else
-				render json: {cities: county.cities.pageinate}
+				render json: RestResponse.success(county.cities.pageinate)
 			end
 		else	
-			render json: {fail: 'Invalid API query'}
+			RestResponse.notFound('Invalid API query')
 		end
 	end
 
@@ -20,6 +22,10 @@ class CountiesController < ApplicationController
 		county = County.where(name: county, state_id: state.id).first
 		county = County.where(id: county, state_id: state.id).first unless county
 
-		return [state,county]
+		if county
+			return [state,county]
+		else
+			RestResponse.notFound('Invalid API query')
+		end
 	end
 end

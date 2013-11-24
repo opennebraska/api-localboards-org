@@ -8,7 +8,7 @@ class StatesController < ApplicationController
 		else
 			states = State.all
 		end
-		render json: {states: states}
+		render json: RestResponse.success(states)
 	end
 	
 	def show
@@ -16,9 +16,9 @@ class StatesController < ApplicationController
 
 		if params[:id]
 			state = get_jurisdiction(params[:id])
-			render json: {cities: state.cities}
+			render json: RestResponse.success(state.cities)
 		else	
-			render json: {fail: 'Invalid API query'}
+			RestResponse.notFound( 'Invalid API query')
 		end
 	end
 
@@ -28,7 +28,7 @@ class StatesController < ApplicationController
 		if state
 			return state
 		else
-			render json: {fail: 'Invalid API query'}
+			RestResponse.notFound('Invalid API query')
 		end
 	end
 

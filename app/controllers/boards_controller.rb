@@ -1,6 +1,4 @@
 class BoardsController < OptionsController
-	include RestResponseHelper
-
 	def index
 		inject_option_headers
 
@@ -9,13 +7,13 @@ class BoardsController < OptionsController
 
 		if state && !county && !city
 			# render json: {success: true, message: nil, data: state.boards}
-			RestResponse.success( state.boards )
+			render json: RestResponse.success( state.boards )
 		elsif state && county && city || state && city && !county
 			# render json: {success: true, message: nil, data: city.boards}
-			RestResponse.success( city.boards )
+			render json: RestResponse.success( city.boards )
 		elsif state && county && !city 
 			# render json: {success: true, message: nil, data: county.boards}
-			success( county.boards )
+			render json: RestResponse.success( county.boards )
 		else
 			# render json: {success: false, message: 'No response from database', data: []}
 			RestResponse.notFound( 'No Response from database' )
@@ -28,11 +26,11 @@ class BoardsController < OptionsController
 		board = Board.where(id: params[:id]).first
 		if board
 			# render json: {success: true, message: '', data: board}
-			RestResponse.success(board)
+			render json: RestResponse.success(board)
 		else
 			## render json: {success: false, message: 'Board Not Found', data: nil}
 			# raise ActionController::RoutingError.new('Not Found')
-			RestResponse.notFound( 'Not Found' )
+			render json: RestResponse.notFound( 'Not Found' )
 
 		end
 	end
