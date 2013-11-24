@@ -103,6 +103,9 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
     m = Member.create(
         last_name:  temp[0],
         first_name: temp[1],
+        state_id:   state.id,
+        county_id:  county.id,
+        city_id:    city.id,        
         is_active:  1
     )
   

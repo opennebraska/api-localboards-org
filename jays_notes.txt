@@ -56,6 +56,8 @@ rails g migration AddAppointmentDateToBoardMembers appointment_date:datetime
 
 rails g migration ChangeMeetingTimeDatatype
 
+rails g migration AddGeoInfoToMembers state_id:integer county_id:integer city_id:integer 
+
 
 rake db:drop
 rake db:create
@@ -79,6 +81,11 @@ willy nilly add shit to app/models/board.rb
 
 
 SELECT title, department_id FROM "boards"
+
+
+
+
+
 
 
 
