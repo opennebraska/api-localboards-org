@@ -7,13 +7,17 @@ class BoardsController < OptionsController
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
 		if state && !county && !city
-			render json: {success: true, message: nil, data: state.boards}
+			# render json: {success: true, message: nil, data: state.boards}
+			RestResponse.success( state.boards )
 		elsif state && county && city || state && city && !county
-			render json: {success: true, message: nil, data: city.boards}
+			# render json: {success: true, message: nil, data: city.boards}
+			RestResponse.success( city.boards )
 		elsif state && county && !city 
-			render json: {success: true, message: nil, data: county.boards}
+			# render json: {success: true, message: nil, data: county.boards}
+			RestResponse.success( county.boards )
 		else
-			render json: {success: false, message: 'No response from database', data: []}
+			# render json: {success: false, message: 'No response from database', data: []}
+			RestResponse.notFound( 'No Response from database' )
 		end
 	end
 
@@ -23,10 +27,12 @@ class BoardsController < OptionsController
 		p params[:q]
 		board = Board.where(id: params[:id]).first
 		if board
-			render json: {success: true, message: '', data: board}
+			# render json: {success: true, message: '', data: board}
+			RestResponse.success( board )
 		else
 			## render json: {success: false, message: 'Board Not Found', data: nil}
-			raise ActionController::RoutingError.new('Not Found')
+			# raise ActionController::RoutingError.new('Not Found')
+			RestResopnse.notFound( 'Not Found' )
 	end
 
 	def update

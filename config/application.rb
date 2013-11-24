@@ -60,5 +60,8 @@ module OrgOrg
     config.assets.version = '1.0'
 
     config.assets.initialize_on_precompile = false
+    
+    # Autoload utility classes
+    config.autoload_paths += %W(#{config.root}/lib)
   end
 end
