@@ -1,4 +1,4 @@
-class StatesController < ApplicationController
+class StatesController < OptionsController
 
 	def index
 		inject_option_headers
