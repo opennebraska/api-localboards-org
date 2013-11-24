@@ -48,11 +48,22 @@ my_boards.each do |board|
         url:               board[16],
     #    term_length:       board[5],  TODD
         is_active:         1
-    #    state_id:          board[5],
-    #    county_id:         board[5],
-    #    city_id:           board[5],
+        state_id:          1,
+        county_id:         1,
+        city_id:           1,
     )
 end
 
+
+
+
+my_people = []
+File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_index do |line, i|
+    next if i == 0 
+    temp = line.chop.split("\t")
+    temp = temp.collect{|x| x.strip}
+#    Member.create(
+#   )
+end
 
 
