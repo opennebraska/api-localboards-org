@@ -21,7 +21,7 @@ class BoardsController < OptionsController
 	end
 
 	def show
-		inject_option_headers
+		# inject_option_headers
 
 		board = Board.where(id: params[:id]).first
 		if board
