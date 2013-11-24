@@ -23,10 +23,10 @@ class BoardsController < ApplicationController
 		render json: {board: board}
 	end
 
-	# def options
- #        allow_cors
- #        head :ok
- #      end
+	def options
+        allow_cors
+        head :ok
+      end
 
 	def update
 
