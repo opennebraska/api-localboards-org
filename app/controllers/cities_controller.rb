@@ -1,4 +1,4 @@
-class CitiesController < ApplicationController
+class CitiesController < OptionsController
 
 	def index
 		inject_option_headers

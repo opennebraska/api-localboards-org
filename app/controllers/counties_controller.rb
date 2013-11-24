@@ -1,4 +1,4 @@
-class CountiesController < ApplicationController
+class CountiesController < OptionsController
 
 	def show
 		inject_option_headers
