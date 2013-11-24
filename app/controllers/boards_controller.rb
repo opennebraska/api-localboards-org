@@ -1,13 +1,15 @@
 class BoardsController < OptionsController
 	def index
-		inject_option_headers
+		
 
+		inject_option_headers
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
 		if state && !county && !city
 			# render json: {success: true, message: nil, data: state.boards}
 			render json: RestResponse.success( state.boards )
+			
 		elsif state && county && city || state && city && !county
 			# render json: {success: true, message: nil, data: city.boards}
 			render json: RestResponse.success( city.boards )

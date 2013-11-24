@@ -9,19 +9,15 @@ class OptionsController < ApplicationController
 
 
   def inject_option_headers( )
-    p '*' * 100
-    p request.env['HTTP_USER_AGENT']
-
-    p 'start inject options'
+    p request.env['HTTP_ORIGIN']
     headers['Content-Type'] = 'application/json'
-    # if request.remote_ip == '184.187.10.3'
-    p 'end conetent type'
-    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-    p 'end origin'
-    headers["Access-Control-Allow-Headers"] = '*'
-    # end
-    p 'end inject options'
-  end  
+    if request.env['HTTP_ORIGIN']
+      headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+      headers["Access-Control-Allow-Headers"] = '*'
+    end
+
+  end
+
   def inject_cors_headers( )
     headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
     headers['Content-Type'] = 'application/json'
