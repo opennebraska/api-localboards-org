@@ -30,7 +30,7 @@ class BoardsController < OptionsController
 		else
 			## render json: {success: false, message: 'Board Not Found', data: nil}
 			# raise ActionController::RoutingError.new('Not Found')
-			render json: RestResponse.notFound( 'Not Found' )
+			RestResponse.notFound( 'Not Found' )
 
 		end
 	end
@@ -47,13 +47,19 @@ class BoardsController < OptionsController
 		state = State.where("lower(abbreviation) = ?", state.downcase ).first
 		
 		if county
-			county = County.where(code_id: county, state_id: state.id)
+			county = County.where(code_id: county, state_id: state.id).first
+			unless county
+				RestResponse.notFound( 'Not Found' )
+			end
 		else
 			county = nil
 		end
 
 		if city
-			city = City.where(id: city) unless city
+			city = City.where(id: city).first
+			unless city
+				RestResponse.notFound( 'Not Found' )
+			end
 		else
 			city = nil
 		end
