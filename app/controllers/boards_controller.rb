@@ -20,13 +20,14 @@ class BoardsController < OptionsController
 	def show
 		inject_option_headers
 	    
-		p params[:q]
+		# p params[:q]
 		board = Board.where(id: params[:id]).first
 		if board
 			render json: {success: true, message: '', data: board}
 		else
 			## render json: {success: false, message: 'Board Not Found', data: nil}
 			raise ActionController::RoutingError.new('Not Found')
+		end
 	end
 
 	def update
