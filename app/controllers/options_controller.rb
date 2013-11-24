@@ -6,10 +6,7 @@ class OptionsController < ApplicationController
   
   def inject_option_headers( )
     headers['Content-Type'] = 'application/json'
-    p "8" * 100
-    p request.remote_ip
-    p "8" * 100
-    if request.host.include?('localboards.org')
+    if request.remote_ip == '184.187.10.3'
       headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
       headers["Access-Control-Allow-Headers"] = '*'
     end
