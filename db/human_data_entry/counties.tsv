@@ -1,3143 +1,3143 @@
-name,state_id,code_id
-Autauga,01,001
-Baldwin,01,003
-Barbour,01,005
-Bibb,01,007
-Blount,01,009
-Bullock,01,011
-Butler,01,013
-Calhoun,01,015
-Chambers,01,017
-Cherokee,01,019
-Chilton,01,021
-Choctaw,01,023
-Clarke,01,025
-Clay,01,027
-Cleburne,01,029
-Coffee,01,031
-Colbert,01,033
-Conecuh,01,035
-Coosa,01,037
-Covington,01,039
-Crenshaw,01,041
-Cullman,01,043
-Dale,01,045
-Dallas,01,047
-De Kalb,01,049
-Elmore,01,051
-Escambia,01,053
-Etowah,01,055
-Fayette,01,057
-Franklin,01,059
-Geneva,01,061
-Greene,01,063
-Hale,01,065
-Henry,01,067
-Houston,01,069
-Jackson,01,071
-Jefferson,01,073
-Lamar,01,075
-Lauderdale,01,077
-Lawrence,01,079
-Lee,01,081
-Limestone,01,083
-Lowndes,01,085
-Macon,01,087
-Madison,01,089
-Marengo,01,091
-Marion,01,093
-Marshall,01,095
-Mobile,01,097
-Monroe,01,099
-Montgomery,01,101
-Morgan,01,103
-Perry,01,105
-Pickens,01,107
-Pike,01,109
-Randolph,01,111
-Russell,01,113
-St Clair,01,115
-Shelby,01,117
-Sumter,01,119
-Talladega,01,121
-Tallapoosa,01,123
-Tuscaloosa,01,125
-Walker,01,127
-Washington,01,129
-Wilcox,01,131
-Winston,01,133
-Aleutians East,02,013
-Aleutians West,02,016
-Anchorage,02,020
-Bethel,02,050
-Bristol Bay,02,060
-Denali,02,068
-Dillingham,02,070
-Fairbanks North Star,02,090
-Haines,02,100
-Juneau,02,110
-Kenai Peninsula,02,122
-Ketchikan Gateway,02,130
-Kodiak Island,02,150
-Lake and Peninsula,02,164
-Matanuska Susitna,02,170
-Nome,02,180
-North Slope,02,185
-Northwest Arctic,02,188
-Prince Wales Ketchikan,02,201
-Sitka,02,220
-Skagway Hoonah Angoon,02,232
-Southeast Fairbanks,02,240
-Valdez Cordova,02,261
-Wade Hampton,02,270
-Wrangell Petersburg,02,280
-Yakutat,02,282
-Yukon Koyukuk,02,290
-Apache,04,001
-Cochise,04,003
-Coconino,04,005
-Gila,04,007
-Graham,04,009
-Greenlee,04,011
-La Paz,04,012
-Maricopa,04,013
-Mohave,04,015
-Navajo,04,017
-Pima,04,019
-Pinal,04,021
-Santa Cruz,04,023
-Yavapai,04,025
-Yuma,04,027
-Arkansas,05,001
-Ashley,05,003
-Baxter,05,005
-Benton,05,007
-Boone,05,009
-Bradley,05,011
-Calhoun,05,013
-Carroll,05,015
-Chicot,05,017
-Clark,05,019
-Clay,05,021
-Cleburne,05,023
-Cleveland,05,025
-Columbia,05,027
-Conway,05,029
-Craighead,05,031
-Crawford,05,033
-Crittenden,05,035
-Cross,05,037
-Dallas,05,039
-Desha,05,041
-Drew,05,043
-Faulkner,05,045
-Franklin,05,047
-Fulton,05,049
-Garland,05,051
-Grant,05,053
-Greene,05,055
-Hempstead,05,057
-Hot Spring,05,059
-Howard,05,061
-Independence,05,063
-Izard,05,065
-Jackson,05,067
-Jefferson,05,069
-Johnson,05,071
-Lafayette,05,073
-Lawrence,05,075
-Lee,05,077
-Lincoln,05,079
-Little River,05,081
-Logan,05,083
-Lonoke,05,085
-Madison,05,087
-Marion,05,089
-Miller,05,091
-Mississippi,05,093
-Monroe,05,095
-Nevada,05,099
-Newton,05,101
-Ouachita,05,103
-Perry,05,105
-Phillips,05,107
-Pike,05,109
-Poinsett,05,111
-Polk,05,113
-Pope,05,115
-Prairie,05,117
-Pulaski,05,119
-Randolph,05,121
-St Francis,05,123
-Saline,05,125
-Scott,05,127
-Searcy,05,129
-Sebastian,05,131
-Sevier,05,133
-Sharp,05,135
-Stone,05,137
-Union,05,139
-Van Buren,05,141
-Washington,05,143
-White,05,145
-Woodruff,05,147
-Yell,05,149
-Alameda,06,001
-Alpine,06,003
-Amador,06,005
-Butte,06,007
-Calaveras,06,009
-Colusa,06,011
-Contra Costa,06,013
-Del Norte,06,015
-El Dorado,06,017
-Fresno,06,019
-Glenn,06,021
-Humboldt,06,023
-Imperial,06,025
-Inyo,06,027
-Kern,06,029
-Kings,06,031
-Lake,06,033
-Lassen,06,035
-Los Angeles,06,037
-Madera,06,039
-Marin,06,041
-Mariposa,06,043
-Mendocino,06,045
-Merced,06,047
-Modoc,06,049
-Mono,06,051
-Monterey,06,053
-Napa,06,055
-Nevada,06,057
-Orange,06,059
-Placer,06,061
-Plumas,06,063
-Riverside,06,065
-Sacramento,06,067
-San Benito,06,069
-San Bernardino,06,071
-San Diego,06,073
-San Francisco,06,075
-San Joaquin,06,077
-San Luis Obispo,06,079
-San Mateo,06,081
-Santa Barbara,06,083
-Santa Clara,06,085
-Santa Cruz,06,087
-Shasta,06,089
-Sierra,06,091
-Siskiyou,06,093
-Solano,06,095
-Sonoma,06,097
-Stanislaus,06,099
-Sutter,06,101
-Tehama,06,103
-Trinity,06,105
-Tulare,06,107
-Tuolumne,06,109
-Ventura,06,111
-Yolo,06,113
-Yuba,06,115
-Adams,08,001
-Alamosa,08,003
-Arapahoe,08,005
-Archuleta,08,007
-Baca,08,009
-Bent,08,011
-Boulder,08,013
-Broomfield,08,014
-Chaffee,08,015
-Cheyenne,08,017
-Clear Creek,08,019
-Conejos,08,021
-Costilla,08,023
-Crowley,08,025
-Custer,08,027
-Delta,08,029
-Denver,08,031
-Dolores,08,033
-Douglas,08,035
-Eagle,08,037
-Elbert,08,039
-El Paso,08,041
-Fremont,08,043
-Garfield,08,045
-Gilpin,08,047
-Grand,08,049
-Gunnison,08,051
-Hinsdale,08,053
-Huerfano,08,055
-Jackson,08,057
-Jefferson,08,059
-Kiowa,08,061
-Kit Carson,08,063
-Lake,08,065
-La Plata,08,067
-Larimer,08,069
-Las Animas,08,071
-Lincoln,08,073
-Logan,08,075
-Mesa,08,077
-Mineral,08,079
-Moffat,08,081
-Montezuma,08,083
-Montrose,08,085
-Morgan,08,087
-Otero,08,089
-Ouray,08,091
-Park,08,093
-Phillips,08,095
-Pitkin,08,097
-Prowers,08,099
-Pueblo,08,101
-Rio Blanco,08,103
-Rio Grande,08,105
-Routt,08,107
-Saguache,08,109
-San Juan,08,111
-San Miguel,08,113
-Sedgwick,08,115
-Summit,08,117
-Teller,08,119
-Washington,08,121
-Weld,08,123
-Yuma,08,125
-Fairfield,09,001
-Hartford,09,003
-Litchfield,09,005
-Middlesex,09,007
-New Haven,09,009
-New London,09,011
-Tolland,09,013
-Windham,09,015
-Kent,10,001
-New Castle,10,003
-Sussex,10,005
-District of Columbia,11,001
-Montgomery,11,031
-Alachua,12,001
-Baker,12,003
-Bay,12,005
-Bradford,12,007
-Brevard,12,009
-Broward,12,011
-Calhoun,12,013
-Charlotte,12,015
-Citrus,12,017
-Clay,12,019
-Collier,12,021
-Columbia,12,023
-De Soto,12,027
-Dixie,12,029
-Duval,12,031
-Escambia,12,033
-Flagler,12,035
-Franklin,12,037
-Gadsden,12,039
-Gilchrist,12,041
-Glades,12,043
-Gulf,12,045
-Hamilton,12,047
-Hardee,12,049
-Hendry,12,051
-Hernando,12,053
-Highlands,12,055
-Hillsborough,12,057
-Holmes,12,059
-Indian River,12,061
-Jackson,12,063
-Jefferson,12,065
-Lafayette,12,067
-Lake,12,069
-Lee,12,071
-Leon,12,073
-Levy,12,075
-Liberty,12,077
-Madison,12,079
-Manatee,12,081
-Marion,12,083
-Martin,12,085
-Miami-Dade,12,086
-Monroe,12,087
-Nassau,12,089
-Okaloosa,12,091
-Okeechobee,12,093
-Orange,12,095
-Osceola,12,097
-Palm Beach,12,099
-Pasco,12,101
-Pinellas,12,103
-Polk,12,105
-Putnam,12,107
-St Johns,12,109
-St Lucie,12,111
-Santa Rosa,12,113
-Sarasota,12,115
-Seminole,12,117
-Sumter,12,119
-Suwannee,12,121
-Taylor,12,123
-Union,12,125
-Volusia,12,127
-Wakulla,12,129
-Walton,12,131
-Washington,12,133
-Appling,13,001
-Atkinson,13,003
-Bacon,13,005
-Baker,13,007
-Baldwin,13,009
-Banks,13,011
-Barrow,13,013
-Bartow,13,015
-Ben Hill,13,017
-Berrien,13,019
-Bibb,13,021
-Bleckley,13,023
-Brantley,13,025
-Brooks,13,027
-Bryan,13,029
-Bulloch,13,031
-Burke,13,033
-Butts,13,035
-Calhoun,13,037
-Camden,13,039
-Candler,13,043
-Carroll,13,045
-Catoosa,13,047
-Charlton,13,049
-Chatham,13,051
-Chattahoochee,13,053
-Chattooga,13,055
-Cherokee,13,057
-Clarke,13,059
-Clay,13,061
-Clayton,13,063
-Clinch,13,065
-Cobb,13,067
-Coffee,13,069
-Colquitt,13,071
-Columbia,13,073
-Cook,13,075
-Coweta,13,077
-Crawford,13,079
-Crisp,13,081
-Dade,13,083
-Dawson,13,085
-Decatur,13,087
-De Kalb,13,089
-Dodge,13,091
-Dooly,13,093
-Dougherty,13,095
-Douglas,13,097
-Early,13,099
-Echols,13,101
-Effingham,13,103
-Elbert,13,105
-Emanuel,13,107
-Evans,13,109
-Fannin,13,111
-Fayette,13,113
-Floyd,13,115
-Forsyth,13,117
-Franklin,13,119
-Fulton,13,121
-Gilmer,13,123
-Glascock,13,125
-Glynn,13,127
-Gordon,13,129
-Grady,13,131
-Greene,13,133
-Gwinnett,13,135
-Habersham,13,137
-Hall,13,139
-Hancock,13,141
-Haralson,13,143
-Harris,13,145
-Hart,13,147
-Heard,13,149
-Henry,13,151
-Houston,13,153
-Irwin,13,155
-Jackson,13,157
-Jasper,13,159
-Jeff Davis,13,161
-Jefferson,13,163
-Jenkins,13,165
-Johnson,13,167
-Jones,13,169
-Lamar,13,171
-Lanier,13,173
-Laurens,13,175
-Lee,13,177
-Liberty,13,179
-Lincoln,13,181
-Long,13,183
-Lowndes,13,185
-Lumpkin,13,187
-McDuffie,13,189
-McIntosh,13,191
-Macon,13,193
-Madison,13,195
-Marion,13,197
-Meriwether,13,199
-Miller,13,201
-Mitchell,13,205
-Monroe,13,207
-Montgomery,13,209
-Morgan,13,211
-Murray,13,213
-Muscogee,13,215
-Newton,13,217
-Oconee,13,219
-Oglethorpe,13,221
-Paulding,13,223
-Peach,13,225
-Pickens,13,227
-Pierce,13,229
-Pike,13,231
-Polk,13,233
-Pulaski,13,235
-Putnam,13,237
-Quitman,13,239
-Rabun,13,241
-Randolph,13,243
-Richmond,13,245
-Rockdale,13,247
-Schley,13,249
-Screven,13,251
-Seminole,13,253
-Spalding,13,255
-Stephens,13,257
-Stewart,13,259
-Sumter,13,261
-Talbot,13,263
-Taliaferro,13,265
-Tattnall,13,267
-Taylor,13,269
-Telfair,13,271
-Terrell,13,273
-Thomas,13,275
-Tift,13,277
-Toombs,13,279
-Towns,13,281
-Treutlen,13,283
-Troup,13,285
-Turner,13,287
-Twiggs,13,289
-Union,13,291
-Upson,13,293
-Walker,13,295
-Walton,13,297
-Ware,13,299
-Warren,13,301
-Washington,13,303
-Wayne,13,305
-Webster,13,307
-Wheeler,13,309
-White,13,311
-Whitfield,13,313
-Wilcox,13,315
-Wilkes,13,317
-Wilkinson,13,319
-Worth,13,321
-Hawaii,15,001
-Honolulu,15,003
-Kauai,15,007
-Maui,15,009
-Ada,16,001
-Adams,16,003
-Bannock,16,005
-Bear Lake,16,007
-Benewah,16,009
-Bingham,16,011
-Blaine,16,013
-Boise,16,015
-Bonner,16,017
-Bonneville,16,019
-Boundary,16,021
-Butte,16,023
-Camas,16,025
-Canyon,16,027
-Caribou,16,029
-Cassia,16,031
-Clark,16,033
-Clearwater,16,035
-Custer,16,037
-Elmore,16,039
-Franklin,16,041
-Fremont,16,043
-Gem,16,045
-Gooding,16,047
-Idaho,16,049
-Jefferson,16,051
-Jerome,16,053
-Kootenai,16,055
-Latah,16,057
-Lemhi,16,059
-Lewis,16,061
-Lincoln,16,063
-Madison,16,065
-Minidoka,16,067
-Nez Perce,16,069
-Oneida,16,071
-Owyhee,16,073
-Payette,16,075
-Power,16,077
-Shoshone,16,079
-Teton,16,081
-Twin Falls,16,083
-Valley,16,085
-Washington,16,087
-Adams,17,001
-Alexander,17,003
-Bond,17,005
-Boone,17,007
-Brown,17,009
-Bureau,17,011
-Calhoun,17,013
-Carroll,17,015
-Cass,17,017
-Champaign,17,019
-Christian,17,021
-Clark,17,023
-Clay,17,025
-Clinton,17,027
-Coles,17,029
-Cook,17,031
-Crawford,17,033
-Cumberland,17,035
-De Kalb,17,037
-Dewitt,17,039
-Douglas,17,041
-Du Page,17,043
-Edgar,17,045
-Edwards,17,047
-Effingham,17,049
-Fayette,17,051
-Ford,17,053
-Franklin,17,055
-Fulton,17,057
-Gallatin,17,059
-Greene,17,061
-Grundy,17,063
-Hamilton,17,065
-Hancock,17,067
-Hardin,17,069
-Henderson,17,071
-Henry,17,073
-Iroquois,17,075
-Jackson,17,077
-Jasper,17,079
-Jefferson,17,081
-Jersey,17,083
-Jo Daviess,17,085
-Johnson,17,087
-Kane,17,089
-Kankakee,17,091
-Kendall,17,093
-Knox,17,095
-Lake,17,097
-La Salle,17,099
-Lawrence,17,101
-Lee,17,103
-Livingston,17,105
-Logan,17,107
-McDonough,17,109
-McHenry,17,111
-Mclean,17,113
-Macon,17,115
-Macoupin,17,117
-Madison,17,119
-Marion,17,121
-Marshall,17,123
-Mason,17,125
-Massac,17,127
-Menard,17,129
-Mercer,17,131
-Monroe,17,133
-Montgomery,17,135
-Morgan,17,137
-Moultrie,17,139
-Ogle,17,141
-Peoria,17,143
-Perry,17,145
-Piatt,17,147
-Pike,17,149
-Pope,17,151
-Pulaski,17,153
-Putnam,17,155
-Randolph,17,157
-Richland,17,159
-Rock Island,17,161
-St Clair,17,163
-Saline,17,165
-Sangamon,17,167
-Schuyler,17,169
-Scott,17,171
-Shelby,17,173
-Stark,17,175
-Stephenson,17,177
-Tazewell,17,179
-Union,17,181
-Vermilion,17,183
-Wabash,17,185
-Warren,17,187
-Washington,17,189
-Wayne,17,191
-White,17,193
-Whiteside,17,195
-Will,17,197
-Williamson,17,199
-Winnebago,17,201
-Woodford,17,203
-Adams,18,001
-Allen,18,003
-Bartholomew,18,005
-Benton,18,007
-Blackford,18,009
-Boone,18,011
-Brown,18,013
-Carroll,18,015
-Cass,18,017
-Clark,18,019
-Clay,18,021
-Clinton,18,023
-Crawford,18,025
-Daviess,18,027
-Dearborn,18,029
-Decatur,18,031
-De Kalb,18,033
-Delaware,18,035
-Dubois,18,037
-Elkhart,18,039
-Fayette,18,041
-Floyd,18,043
-Fountain,18,045
-Franklin,18,047
-Fulton,18,049
-Gibson,18,051
-Grant,18,053
-Greene,18,055
-Hamilton,18,057
-Hancock,18,059
-Harrison,18,061
-Hendricks,18,063
-Henry,18,065
-Howard,18,067
-Huntington,18,069
-Jackson,18,071
-Jasper,18,073
-Jay,18,075
-Jefferson,18,077
-Jennings,18,079
-Johnson,18,081
-Knox,18,083
-Kosciusko,18,085
-Lagrange,18,087
-Lake,18,089
-La Porte,18,091
-Lawrence,18,093
-Madison,18,095
-Marion,18,097
-Marshall,18,099
-Martin,18,101
-Miami,18,103
-Monroe,18,105
-Montgomery,18,107
-Morgan,18,109
-Newton,18,111
-Noble,18,113
-Ohio,18,115
-Orange,18,117
-Owen,18,119
-Parke,18,121
-Perry,18,123
-Pike,18,125
-Porter,18,127
-Posey,18,129
-Pulaski,18,131
-Putnam,18,133
-Randolph,18,135
-Ripley,18,137
-Rush,18,139
-St Joseph,18,141
-Scott,18,143
-Shelby,18,145
-Spencer,18,147
-Starke,18,149
-Steuben,18,151
-Sullivan,18,153
-Switzerland,18,155
-Tippecanoe,18,157
-Tipton,18,159
-Union,18,161
-Vanderburgh,18,163
-Vermillion,18,165
-Vigo,18,167
-Wabash,18,169
-Warren,18,171
-Warrick,18,173
-Washington,18,175
-Wayne,18,177
-Wells,18,179
-White,18,181
-Whitley,18,183
-Adair,19,001
-Adams,19,003
-Allamakee,19,005
-Appanoose,19,007
-Audubon,19,009
-Benton,19,011
-Black Hawk,19,013
-Boone,19,015
-Bremer,19,017
-Buchanan,19,019
-Buena Vista,19,021
-Butler,19,023
-Calhoun,19,025
-Carroll,19,027
-Cass,19,029
-Cedar,19,031
-Cerro Gordo,19,033
-Cherokee,19,035
-Chickasaw,19,037
-Clarke,19,039
-Clay,19,041
-Clayton,19,043
-Clinton,19,045
-Crawford,19,047
-Dallas,19,049
-Davis,19,051
-Decatur,19,053
-Delaware,19,055
-Des Moines,19,057
-Dickinson,19,059
-Dubuque,19,061
-Emmet,19,063
-Fayette,19,065
-Floyd,19,067
-Franklin,19,069
-Fremont,19,071
-Greene,19,073
-Grundy,19,075
-Guthrie,19,077
-Hamilton,19,079
-Hancock,19,081
-Hardin,19,083
-Harrison,19,085
-Henry,19,087
-Howard,19,089
-Humboldt,19,091
-Ida,19,093
-Iowa,19,095
-Jackson,19,097
-Jasper,19,099
-Jefferson,19,101
-Johnson,19,103
-Jones,19,105
-Keokuk,19,107
-Kossuth,19,109
-Lee,19,111
-Linn,19,113
-Louisa,19,115
-Lucas,19,117
-Lyon,19,119
-Madison,19,121
-Mahaska,19,123
-Marion,19,125
-Marshall,19,127
-Mills,19,129
-Mitchell,19,131
-Monona,19,133
-Monroe,19,135
-Montgomery,19,137
-Muscatine,19,139
-Obrien,19,141
-Osceola,19,143
-Page,19,145
-Palo Alto,19,147
-Plymouth,19,149
-Pocahontas,19,151
-Polk,19,153
-Pottawattamie,19,155
-Poweshiek,19,157
-Ringgold,19,159
-Sac,19,161
-Scott,19,163
-Shelby,19,165
-Sioux,19,167
-Story,19,169
-Tama,19,171
-Taylor,19,173
-Union,19,175
-Van Buren,19,177
-Wapello,19,179
-Warren,19,181
-Washington,19,183
-Wayne,19,185
-Webster,19,187
-Winnebago,19,189
-Winneshiek,19,191
-Woodbury,19,193
-Worth,19,195
-Wright,19,197
-Allen,20,001
-Anderson,20,003
-Atchison,20,005
-Barber,20,007
-Barton,20,009
-Bourbon,20,011
-Brown,20,013
-Butler,20,015
-Chase,20,017
-Chautauqua,20,019
-Cherokee,20,021
-Cheyenne,20,023
-Clark,20,025
-Clay,20,027
-Cloud,20,029
-Coffey,20,031
-Comanche,20,033
-Cowley,20,035
-Crawford,20,037
-Decatur,20,039
-Dickinson,20,041
-Doniphan,20,043
-Douglas,20,045
-Edwards,20,047
-Elk,20,049
-Ellis,20,051
-Ellsworth,20,053
-Finney,20,055
-Ford,20,057
-Franklin,20,059
-Geary,20,061
-Gove,20,063
-Graham,20,065
-Grant,20,067
-Gray,20,069
-Greeley,20,071
-Greenwood,20,073
-Hamilton,20,075
-Harper,20,077
-Harvey,20,079
-Haskell,20,081
-Hodgeman,20,083
-Jackson,20,085
-Jefferson,20,087
-Jewell,20,089
-Johnson,20,091
-Kearny,20,093
-Kingman,20,095
-Kiowa,20,097
-Labette,20,099
-Lane,20,101
-Leavenworth,20,103
-Lincoln,20,105
-Linn,20,107
-Logan,20,109
-Lyon,20,111
-McPherson,20,113
-Marion,20,115
-Marshall,20,117
-Meade,20,119
-Miami,20,121
-Mitchell,20,123
-Montgomery,20,125
-Morris,20,127
-Morton,20,129
-Nemaha,20,131
-Neosho,20,133
-Ness,20,135
-Norton,20,137
-Osage,20,139
-Osborne,20,141
-Ottawa,20,143
-Pawnee,20,145
-Phillips,20,147
-Pottawatomie,20,149
-Pratt,20,151
-Rawlins,20,153
-Reno,20,155
-Republic,20,157
-Rice,20,159
-Riley,20,161
-Rooks,20,163
-Rush,20,165
-Russell,20,167
-Saline,20,169
-Scott,20,171
-Sedgwick,20,173
-Seward,20,175
-Shawnee,20,177
-Sheridan,20,179
-Sherman,20,181
-Smith,20,183
-Stafford,20,185
-Stanton,20,187
-Stevens,20,189
-Sumner,20,191
-Thomas,20,193
-Trego,20,195
-Wabaunsee,20,197
-Wallace,20,199
-Washington,20,201
-Wichita,20,203
-Wilson,20,205
-Woodson,20,207
-Wyandotte,20,209
-Adair,21,001
-Allen,21,003
-Anderson,21,005
-Ballard,21,007
-Barren,21,009
-Bath,21,011
-Bell,21,013
-Boone,21,015
-Bourbon,21,017
-Boyd,21,019
-Boyle,21,021
-Bracken,21,023
-Breathitt,21,025
-Breckinridge,21,027
-Bullitt,21,029
-Butler,21,031
-Caldwell,21,033
-Calloway,21,035
-Campbell,21,037
-Carlisle,21,039
-Carroll,21,041
-Carter,21,043
-Casey,21,045
-Christian,21,047
-Clark,21,049
-Clay,21,051
-Clinton,21,053
-Crittenden,21,055
-Cumberland,21,057
-Daviess,21,059
-Edmonson,21,061
-Elliott,21,063
-Estill,21,065
-Fayette,21,067
-Fleming,21,069
-Floyd,21,071
-Franklin,21,073
-Fulton,21,075
-Gallatin,21,077
-Garrard,21,079
-Grant,21,081
-Graves,21,083
-Grayson,21,085
-Green,21,087
-Greenup,21,089
-Hancock,21,091
-Hardin,21,093
-Harlan,21,095
-Harrison,21,097
-Hart,21,099
-Henderson,21,101
-Henry,21,103
-Hickman,21,105
-Hopkins,21,107
-Jackson,21,109
-Jefferson,21,111
-Jessamine,21,113
-Johnson,21,115
-Kenton,21,117
-Knott,21,119
-Knox,21,121
-Larue,21,123
-Laurel,21,125
-Lawrence,21,127
-Lee,21,129
-Leslie,21,131
-Letcher,21,133
-Lewis,21,135
-Lincoln,21,137
-Livingston,21,139
-Logan,21,141
-Lyon,21,143
-McCracken,21,145
-McCreary,21,147
-Mclean,21,149
-Madison,21,151
-Magoffin,21,153
-Marion,21,155
-Marshall,21,157
-Martin,21,159
-Mason,21,161
-Meade,21,163
-Menifee,21,165
-Mercer,21,167
-Metcalfe,21,169
-Monroe,21,171
-Montgomery,21,173
-Morgan,21,175
-Muhlenberg,21,177
-Nelson,21,179
-Nicholas,21,181
-Ohio,21,183
-Oldham,21,185
-Owen,21,187
-Owsley,21,189
-Pendleton,21,191
-Perry,21,193
-Pike,21,195
-Powell,21,197
-Pulaski,21,199
-Robertson,21,201
-Rockcastle,21,203
-Rowan,21,205
-Russell,21,207
-Scott,21,209
-Shelby,21,211
-Simpson,21,213
-Spencer,21,215
-Taylor,21,217
-Todd,21,219
-Trigg,21,221
-Trimble,21,223
-Union,21,225
-Warren,21,227
-Washington,21,229
-Wayne,21,231
-Webster,21,233
-Whitley,21,235
-Wolfe,21,237
-Woodford,21,239
-Acadia,22,001
-Allen,22,003
-Ascension,22,005
-Assumption,22,007
-Avoyelles,22,009
-Beauregard,22,011
-Bienville,22,013
-Bossier,22,015
-Caddo,22,017
-Calcasieu,22,019
-Caldwell,22,021
-Cameron,22,023
-Catahoula,22,025
-Claiborne,22,027
-Concordia,22,029
-De Soto,22,031
-East Baton Rouge,22,033
-East Carroll,22,035
-East Feliciana,22,037
-Evangeline,22,039
-Franklin,22,041
-Grant,22,043
-Iberia,22,045
-Iberville,22,047
-Jackson,22,049
-Jefferson,22,051
-Jefferson Davis,22,053
-Lafayette,22,055
-Lafourche,22,057
-La Salle,22,059
-Lincoln,22,061
-Livingston,22,063
-Madison,22,065
-Morehouse,22,067
-Natchitoches,22,069
-Orleans,22,071
-Ouachita,22,073
-Plaquemines,22,075
-Pointe Coupee,22,077
-Rapides,22,079
-Red River,22,081
-Richland,22,083
-Sabine,22,085
-St Bernard,22,087
-St Charles,22,089
-St Helena,22,091
-St James,22,093
-St John The Baptist,22,095
-St Landry,22,097
-St Martin,22,099
-St Mary,22,101
-St Tammany,22,103
-Tangipahoa,22,105
-Tensas,22,107
-Terrebonne,22,109
-Union,22,111
-Vermilion,22,113
-Vernon,22,115
-Washington,22,117
-Webster,22,119
-West Baton Rouge,22,121
-West Carroll,22,123
-West Feliciana,22,125
-Winn,22,127
-Androscoggin,23,001
-Aroostook,23,003
-Cumberland,23,005
-Franklin,23,007
-Hancock,23,009
-Kennebec,23,011
-Knox,23,013
-Lincoln,23,015
-Oxford,23,017
-Penobscot,23,019
-Piscataquis,23,021
-Sagadahoc,23,023
-Somerset,23,025
-Waldo,23,027
-Washington,23,029
-York,23,031
-Allegany,24,001
-Anne Arundel,24,003
-Baltimore,24,005
-Calvert,24,009
-Caroline,24,011
-Carroll,24,013
-Cecil,24,015
-Charles,24,017
-Dorchester,24,019
-Frederick,24,021
-Garrett,24,023
-Harford,24,025
-Howard,24,027
-Kent,24,029
-Montgomery,24,031
-Prince Georges,24,033
-Queen Annes,24,035
-St Marys,24,037
-Somerset,24,039
-Talbot,24,041
-Washington,24,043
-Wicomico,24,045
-Worcester,24,047
-Baltimore City,24,510
-Barnstable,25,001
-Berkshire,25,003
-Bristol,25,005
-Dukes,25,007
-Essex,25,009
-Franklin,25,011
-Hampden,25,013
-Hampshire,25,015
-Middlesex,25,017
-Nantucket,25,019
-Norfolk,25,021
-Plymouth,25,023
-Suffolk,25,025
-Worcester,25,027
-Alcona,26,001
-Alger,26,003
-Allegan,26,005
-Alpena,26,007
-Antrim,26,009
-Arenac,26,011
-Baraga,26,013
-Barry,26,015
-Bay,26,017
-Benzie,26,019
-Berrien,26,021
-Branch,26,023
-Calhoun,26,025
-Cass,26,027
-Charlevoix,26,029
-Cheboygan,26,031
-Chippewa,26,033
-Clare,26,035
-Clinton,26,037
-Crawford,26,039
-Delta,26,041
-Dickinson,26,043
-Eaton,26,045
-Emmet,26,047
-Genesee,26,049
-Gladwin,26,051
-Gogebic,26,053
-Grand Traverse,26,055
-Gratiot,26,057
-Hillsdale,26,059
-Houghton,26,061
-Huron,26,063
-Ingham,26,065
-Ionia,26,067
-Iosco,26,069
-Iron,26,071
-Isabella,26,073
-Jackson,26,075
-Kalamazoo,26,077
-Kalkaska,26,079
-Kent,26,081
-Keweenaw,26,083
-Lake,26,085
-Lapeer,26,087
-Leelanau,26,089
-Lenawee,26,091
-Livingston,26,093
-Luce,26,095
-Mackinac,26,097
-Macomb,26,099
-Manistee,26,101
-Marquette,26,103
-Mason,26,105
-Mecosta,26,107
-Menominee,26,109
-Midland,26,111
-Missaukee,26,113
-Monroe,26,115
-Montcalm,26,117
-Montmorency,26,119
-Muskegon,26,121
-Newaygo,26,123
-Oakland,26,125
-Oceana,26,127
-Ogemaw,26,129
-Ontonagon,26,131
-Osceola,26,133
-Oscoda,26,135
-Otsego,26,137
-Ottawa,26,139
-Presque Isle,26,141
-Roscommon,26,143
-Saginaw,26,145
-St Clair,26,147
-St Joseph,26,149
-Sanilac,26,151
-Schoolcraft,26,153
-Shiawassee,26,155
-Tuscola,26,157
-Van Buren,26,159
-Washtenaw,26,161
-Wayne,26,163
-Wexford,26,165
-Aitkin,27,001
-Anoka,27,003
-Becker,27,005
-Beltrami,27,007
-Benton,27,009
-Big Stone,27,011
-Blue Earth,27,013
-Brown,27,015
-Carlton,27,017
-Carver,27,019
-Cass,27,021
-Chippewa,27,023
-Chisago,27,025
-Clay,27,027
-Clearwater,27,029
-Cook,27,031
-Cottonwood,27,033
-Crow Wing,27,035
-Dakota,27,037
-Dodge,27,039
-Douglas,27,041
-Faribault,27,043
-Fillmore,27,045
-Freeborn,27,047
-Goodhue,27,049
-Grant,27,051
-Hennepin,27,053
-Houston,27,055
-Hubbard,27,057
-Isanti,27,059
-Itasca,27,061
-Jackson,27,063
-Kanabec,27,065
-Kandiyohi,27,067
-Kittson,27,069
-Koochiching,27,071
-Lac Qui Parle,27,073
-Lake,27,075
-Lake of The Woods,27,077
-Le Sueur,27,079
-Lincoln,27,081
-Lyon,27,083
-McLeod,27,085
-Mahnomen,27,087
-Marshall,27,089
-Martin,27,091
-Meeker,27,093
-Mille Lacs,27,095
-Morrison,27,097
-Mower,27,099
-Murray,27,101
-Nicollet,27,103
-Nobles,27,105
-Norman,27,107
-Olmsted,27,109
-Otter Tail,27,111
-Pennington,27,113
-Pine,27,115
-Pipestone,27,117
-Polk,27,119
-Pope,27,121
-Ramsey,27,123
-Red Lake,27,125
-Redwood,27,127
-Renville,27,129
-Rice,27,131
-Rock,27,133
-Roseau,27,135
-St Louis,27,137
-Scott,27,139
-Sherburne,27,141
-Sibley,27,143
-Stearns,27,145
-Steele,27,147
-Stevens,27,149
-Swift,27,151
-Todd,27,153
-Traverse,27,155
-Wabasha,27,157
-Wadena,27,159
-Waseca,27,161
-Washington,27,163
-Watonwan,27,165
-Wilkin,27,167
-Winona,27,169
-Wright,27,171
-Yellow Medicine,27,173
-Adams,28,001
-Alcorn,28,003
-Amite,28,005
-Attala,28,007
-Benton,28,009
-Bolivar,28,011
-Calhoun,28,013
-Carroll,28,015
-Chickasaw,28,017
-Choctaw,28,019
-Claiborne,28,021
-Clarke,28,023
-Clay,28,025
-Coahoma,28,027
-Copiah,28,029
-Covington,28,031
-De Soto,28,033
-Forrest,28,035
-Franklin,28,037
-George,28,039
-Greene,28,041
-Grenada,28,043
-Hancock,28,045
-Harrison,28,047
-Hinds,28,049
-Holmes,28,051
-Humphreys,28,053
-Issaquena,28,055
-Itawamba,28,057
-Jackson,28,059
-Jasper,28,061
-Jefferson,28,063
-Jefferson Davis,28,065
-Jones,28,067
-Kemper,28,069
-Lafayette,28,071
-Lamar,28,073
-Lauderdale,28,075
-Lawrence,28,077
-Leake,28,079
-Lee,28,081
-Leflore,28,083
-Lincoln,28,085
-Lowndes,28,087
-Madison,28,089
-Marion,28,091
-Marshall,28,093
-Monroe,28,095
-Montgomery,28,097
-Neshoba,28,099
-Newton,28,101
-Noxubee,28,103
-Oktibbeha,28,105
-Panola,28,107
-Pearl River,28,109
-Perry,28,111
-Pike,28,113
-Pontotoc,28,115
-Prentiss,28,117
-Quitman,28,119
-Rankin,28,121
-Scott,28,123
-Sharkey,28,125
-Simpson,28,127
-Smith,28,129
-Stone,28,131
-Sunflower,28,133
-Tallahatchie,28,135
-Tate,28,137
-Tippah,28,139
-Tishomingo,28,141
-Tunica,28,143
-Union,28,145
-Walthall,28,147
-Warren,28,149
-Washington,28,151
-Wayne,28,153
-Webster,28,155
-Wilkinson,28,157
-Winston,28,159
-Yalobusha,28,161
-Yazoo,28,163
-Adair,29,001
-Andrew,29,003
-Atchison,29,005
-Audrain,29,007
-Barry,29,009
-Barton,29,011
-Bates,29,013
-Benton,29,015
-Bollinger,29,017
-Boone,29,019
-Buchanan,29,021
-Butler,29,023
-Caldwell,29,025
-Callaway,29,027
-Camden,29,029
-Cape Girardeau,29,031
-Carroll,29,033
-Carter,29,035
-Cass,29,037
-Cedar,29,039
-Chariton,29,041
-Christian,29,043
-Clark,29,045
-Clay,29,047
-Clinton,29,049
-Cole,29,051
-Cooper,29,053
-Crawford,29,055
-Dade,29,057
-Dallas,29,059
-Daviess,29,061
-Dekalb,29,063
-Dent,29,065
-Douglas,29,067
-Dunklin,29,069
-Franklin,29,071
-Gasconade,29,073
-Gentry,29,075
-Greene,29,077
-Grundy,29,079
-Harrison,29,081
-Henry,29,083
-Hickory,29,085
-Holt,29,087
-Howard,29,089
-Howell,29,091
-Iron,29,093
-Jackson,29,095
-Jasper,29,097
-Jefferson,29,099
-Johnson,29,101
-Knox,29,103
-Laclede,29,105
-Lafayette,29,107
-Lawrence,29,109
-Lewis,29,111
-Lincoln,29,113
-Linn,29,115
-Livingston,29,117
-Mcdonald,29,119
-Macon,29,121
-Madison,29,123
-Maries,29,125
-Marion,29,127
-Mercer,29,129
-Miller,29,131
-Mississippi,29,133
-Moniteau,29,135
-Monroe,29,137
-Montgomery,29,139
-Morgan,29,141
-New Madrid,29,143
-Newton,29,145
-Nodaway,29,147
-Oregon,29,149
-Osage,29,151
-Ozark,29,153
-Pemiscot,29,155
-Perry,29,157
-Pettis,29,159
-Phelps,29,161
-Pike,29,163
-Platte,29,165
-Polk,29,167
-Pulaski,29,169
-Putnam,29,171
-Ralls,29,173
-Randolph,29,175
-Ray,29,177
-Reynolds,29,179
-Ripley,29,181
-St Charles,29,183
-St Clair,29,185
-Ste Genevieve,29,186
-St Francois,29,187
-St Louis,29,189
-Saline,29,195
-Schuyler,29,197
-Scotland,29,199
-Scott,29,201
-Shannon,29,203
-Shelby,29,205
-Stoddard,29,207
-Stone,29,209
-Sullivan,29,211
-Taney,29,213
-Texas,29,215
-Vernon,29,217
-Warren,29,219
-Washington,29,221
-Wayne,29,223
-Webster,29,225
-Worth,29,227
-Wright,29,229
-St Louis City,29,510
-Beaverhead,30,001
-Big Horn,30,003
-Blaine,30,005
-Broadwater,30,007
-Carbon,30,009
-Carter,30,011
-Cascade,30,013
-Chouteau,30,015
-Custer,30,017
-Daniels,30,019
-Dawson,30,021
-Deer Lodge,30,023
-Fallon,30,025
-Fergus,30,027
-Flathead,30,029
-Gallatin,30,031
-Garfield,30,033
-Glacier,30,035
-Golden Valley,30,037
-Granite,30,039
-Hill,30,041
-Jefferson,30,043
-Judith Basin,30,045
-Lake,30,047
-Lewis and Clark,30,049
-Liberty,30,051
-Lincoln,30,053
-McCone,30,055
-Madison,30,057
-Meagher,30,059
-Mineral,30,061
-Missoula,30,063
-Musselshell,30,065
-Park,30,067
-Petroleum,30,069
-Phillips,30,071
-Pondera,30,073
-Powder River,30,075
-Powell,30,077
-Prairie,30,079
-Ravalli,30,081
-Richland,30,083
-Roosevelt,30,085
-Rosebud,30,087
-Sanders,30,089
-Sheridan,30,091
-Silver Bow,30,093
-Stillwater,30,095
-Sweet Grass,30,097
-Teton,30,099
-Toole,30,101
-Treasure,30,103
-Valley,30,105
-Wheatland,30,107
-Wibaux,30,109
-Yellowstone,30,111
-Adams,31,001
-Antelope,31,003
-Arthur,31,005
-Banner,31,007
-Blaine,31,009
-Boone,31,011
-Box Butte,31,013
-Boyd,31,015
-Brown,31,017
-Buffalo,31,019
-Burt,31,021
-Butler,31,023
-Cass,31,025
-Cedar,31,027
-Chase,31,029
-Cherry,31,031
-Cheyenne,31,033
-Clay,31,035
-Colfax,31,037
-Cuming,31,039
-Custer,31,041
-Dakota,31,043
-Dawes,31,045
-Dawson,31,047
-Deuel,31,049
-Dixon,31,051
-Dodge,31,053
-Douglas,31,055
-Dundy,31,057
-Fillmore,31,059
-Franklin,31,061
-Frontier,31,063
-Furnas,31,065
-Gage,31,067
-Garden,31,069
-Garfield,31,071
-Gosper,31,073
-Grant,31,075
-Greeley,31,077
-Hall,31,079
-Hamilton,31,081
-Harlan,31,083
-Hayes,31,085
-Hitchcock,31,087
-Holt,31,089
-Hooker,31,091
-Howard,31,093
-Jefferson,31,095
-Johnson,31,097
-Kearney,31,099
-Keith,31,101
-Keya Paha,31,103
-Kimball,31,105
-Knox,31,107
-Lancaster,31,109
-Lincoln,31,111
-Logan,31,113
-Loup,31,115
-McPherson,31,117
-Madison,31,119
-Merrick,31,121
-Morrill,31,123
-Nance,31,125
-Nemaha,31,127
-Nuckolls,31,129
-Otoe,31,131
-Pawnee,31,133
-Perkins,31,135
-Phelps,31,137
-Pierce,31,139
-Platte,31,141
-Polk,31,143
-Red Willow,31,145
-Richardson,31,147
-Rock,31,149
-Saline,31,151
-Sarpy,31,153
-Saunders,31,155
-Scotts Bluff,31,157
-Seward,31,159
-Sheridan,31,161
-Sherman,31,163
-Sioux,31,165
-Stanton,31,167
-Thayer,31,169
-Thomas,31,171
-Thurston,31,173
-Valley,31,175
-Washington,31,177
-Wayne,31,179
-Webster,31,181
-Wheeler,31,183
-York,31,185
-Churchill,32,001
-Clark,32,003
-Douglas,32,005
-Elko,32,007
-Esmeralda,32,009
-Eureka,32,011
-Humboldt,32,013
-Lander,32,015
-Lincoln,32,017
-Lyon,32,019
-Mineral,32,021
-Nye,32,023
-Pershing,32,027
-Storey,32,029
-Washoe,32,031
-White Pine,32,033
-Carson City,32,510
-Belknap,33,001
-Carroll,33,003
-Cheshire,33,005
-Coos,33,007
-Grafton,33,009
-Hillsborough,33,011
-Merrimack,33,013
-Rockingham,33,015
-Strafford,33,017
-Sullivan,33,019
-Atlantic,34,001
-Bergen,34,003
-Burlington,34,005
-Camden,34,007
-Cape May,34,009
-Cumberland,34,011
-Essex,34,013
-Gloucester,34,015
-Hudson,34,017
-Hunterdon,34,019
-Mercer,34,021
-Middlesex,34,023
-Monmouth,34,025
-Morris,34,027
-Ocean,34,029
-Passaic,34,031
-Salem,34,033
-Somerset,34,035
-Sussex,34,037
-Union,34,039
-Warren,34,041
-Bernalillo,35,001
-Catron,35,003
-Chaves,35,005
-Cibola,35,006
-Colfax,35,007
-Curry,35,009
-De Baca,35,011
-Dona Ana,35,013
-Eddy,35,015
-Grant,35,017
-Guadalupe,35,019
-Harding,35,021
-Hidalgo,35,023
-Lea,35,025
-Lincoln,35,027
-Los Alamos,35,028
-Luna,35,029
-Mckinley,35,031
-Mora,35,033
-Otero,35,035
-Quay,35,037
-Rio Arriba,35,039
-Roosevelt,35,041
-Sandoval,35,043
-San Juan,35,045
-San Miguel,35,047
-Santa Fe,35,049
-Sierra,35,051
-Socorro,35,053
-Taos,35,055
-Torrance,35,057
-Union,35,059
-Valencia,35,061
-Albany,36,001
-Allegany,36,003
-Bronx,36,005
-Broome,36,007
-Cattaraugus,36,009
-Cayuga,36,011
-Chautauqua,36,013
-Chemung,36,015
-Chenango,36,017
-Clinton,36,019
-Columbia,36,021
-Cortland,36,023
-Delaware,36,025
-Dutchess,36,027
-Erie,36,029
-Essex,36,031
-Franklin,36,033
-Fulton,36,035
-Genesee,36,037
-Greene,36,039
-Hamilton,36,041
-Herkimer,36,043
-Jefferson,36,045
-Kings,36,047
-Lewis,36,049
-Livingston,36,051
-Madison,36,053
-Monroe,36,055
-Montgomery,36,057
-Nassau,36,059
-New York,36,061
-Niagara,36,063
-Oneida,36,065
-Onondaga,36,067
-Ontario,36,069
-Orange,36,071
-Orleans,36,073
-Oswego,36,075
-Otsego,36,077
-Putnam,36,079
-Queens,36,081
-Rensselaer,36,083
-Richmond,36,085
-Rockland,36,087
-St Lawrence,36,089
-Saratoga,36,091
-Schenectady,36,093
-Schoharie,36,095
-Schuyler,36,097
-Seneca,36,099
-Steuben,36,101
-Suffolk,36,103
-Sullivan,36,105
-Tioga,36,107
-Tompkins,36,109
-Ulster,36,111
-Warren,36,113
-Washington,36,115
-Wayne,36,117
-Westchester,36,119
-Wyoming,36,121
-Yates,36,123
-Alamance,37,001
-Alexander,37,003
-Alleghany,37,005
-Anson,37,007
-Ashe,37,009
-Avery,37,011
-Beaufort,37,013
-Bertie,37,015
-Bladen,37,017
-Brunswick,37,019
-Buncombe,37,021
-Burke,37,023
-Cabarrus,37,025
-Caldwell,37,027
-Camden,37,029
-Carteret,37,031
-Caswell,37,033
-Catawba,37,035
-Chatham,37,037
-Cherokee,37,039
-Chowan,37,041
-Clay,37,043
-Cleveland,37,045
-Columbus,37,047
-Craven,37,049
-Cumberland,37,051
-Currituck,37,053
-Dare,37,055
-Davidson,37,057
-Davie,37,059
-Duplin,37,061
-Durham,37,063
-Edgecombe,37,065
-Forsyth,37,067
-Franklin,37,069
-Gaston,37,071
-Gates,37,073
-Graham,37,075
-Granville,37,077
-Greene,37,079
-Guilford,37,081
-Halifax,37,083
-Harnett,37,085
-Haywood,37,087
-Henderson,37,089
-Hertford,37,091
-Hoke,37,093
-Hyde,37,095
-Iredell,37,097
-Jackson,37,099
-Johnston,37,101
-Jones,37,103
-Lee,37,105
-Lenoir,37,107
-Lincoln,37,109
-McDowell,37,111
-Macon,37,113
-Madison,37,115
-Martin,37,117
-Mecklenburg,37,119
-Mitchell,37,121
-Montgomery,37,123
-Moore,37,125
-Nash,37,127
-New Hanover,37,129
-Northampton,37,131
-Onslow,37,133
-Orange,37,135
-Pamlico,37,137
-Pasquotank,37,139
-Pender,37,141
-Perquimans,37,143
-Person,37,145
-Pitt,37,147
-Polk,37,149
-Randolph,37,151
-Richmond,37,153
-Robeson,37,155
-Rockingham,37,157
-Rowan,37,159
-Rutherford,37,161
-Sampson,37,163
-Scotland,37,165
-Stanly,37,167
-Stokes,37,169
-Surry,37,171
-Swain,37,173
-Transylvania,37,175
-Tyrrell,37,177
-Union,37,179
-Vance,37,181
-Wake,37,183
-Warren,37,185
-Washington,37,187
-Watauga,37,189
-Wayne,37,191
-Wilkes,37,193
-Wilson,37,195
-Yadkin,37,197
-Yancey,37,199
-Adams,38,001
-Barnes,38,003
-Benson,38,005
-Billings,38,007
-Bottineau,38,009
-Bowman,38,011
-Burke,38,013
-Burleigh,38,015
-Cass,38,017
-Cavalier,38,019
-Dickey,38,021
-Divide,38,023
-Dunn,38,025
-Eddy,38,027
-Emmons,38,029
-Foster,38,031
-Golden Valley,38,033
-Grand Forks,38,035
-Grant,38,037
-Griggs,38,039
-Hettinger,38,041
-Kidder,38,043
-Lamoure,38,045
-Logan,38,047
-McHenry,38,049
-McIntosh,38,051
-Mckenzie,38,053
-Mclean,38,055
-Mercer,38,057
-Morton,38,059
-Mountrail,38,061
-Nelson,38,063
-Oliver,38,065
-Pembina,38,067
-Pierce,38,069
-Ramsey,38,071
-Ransom,38,073
-Renville,38,075
-Richland,38,077
-Rolette,38,079
-Sargent,38,081
-Sheridan,38,083
-Sioux,38,085
-Slope,38,087
-Stark,38,089
-Steele,38,091
-Stutsman,38,093
-Towner,38,095
-Traill,38,097
-Walsh,38,099
-Ward,38,101
-Wells,38,103
-Williams,38,105
-Adams,39,001
-Allen,39,003
-Ashland,39,005
-Ashtabula,39,007
-Athens,39,009
-Auglaize,39,011
-Belmont,39,013
-Brown,39,015
-Butler,39,017
-Carroll,39,019
-Champaign,39,021
-Clark,39,023
-Clermont,39,025
-Clinton,39,027
-Columbiana,39,029
-Coshocton,39,031
-Crawford,39,033
-Cuyahoga,39,035
-Darke,39,037
-Defiance,39,039
-Delaware,39,041
-Erie,39,043
-Fairfield,39,045
-Fayette,39,047
-Franklin,39,049
-Fulton,39,051
-Gallia,39,053
-Geauga,39,055
-Greene,39,057
-Guernsey,39,059
-Hamilton,39,061
-Hancock,39,063
-Hardin,39,065
-Harrison,39,067
-Henry,39,069
-Highland,39,071
-Hocking,39,073
-Holmes,39,075
-Huron,39,077
-Jackson,39,079
-Jefferson,39,081
-Knox,39,083
-Lake,39,085
-Lawrence,39,087
-Licking,39,089
-Logan,39,091
-Lorain,39,093
-Lucas,39,095
-Madison,39,097
-Mahoning,39,099
-Marion,39,101
-Medina,39,103
-Meigs,39,105
-Mercer,39,107
-Miami,39,109
-Monroe,39,111
-Montgomery,39,113
-Morgan,39,115
-Morrow,39,117
-Muskingum,39,119
-Noble,39,121
-Ottawa,39,123
-Paulding,39,125
-Perry,39,127
-Pickaway,39,129
-Pike,39,131
-Portage,39,133
-Preble,39,135
-Putnam,39,137
-Richland,39,139
-Ross,39,141
-Sandusky,39,143
-Scioto,39,145
-Seneca,39,147
-Shelby,39,149
-Stark,39,151
-Summit,39,153
-Trumbull,39,155
-Tuscarawas,39,157
-Union,39,159
-Van Wert,39,161
-Vinton,39,163
-Warren,39,165
-Washington,39,167
-Wayne,39,169
-Williams,39,171
-Wood,39,173
-Wyandot,39,175
-Adair,40,001
-Alfalfa,40,003
-Atoka,40,005
-Beaver,40,007
-Beckham,40,009
-Blaine,40,011
-Bryan,40,013
-Caddo,40,015
-Canadian,40,017
-Carter,40,019
-Cherokee,40,021
-Choctaw,40,023
-Cimarron,40,025
-Cleveland,40,027
-Coal,40,029
-Comanche,40,031
-Cotton,40,033
-Craig,40,035
-Creek,40,037
-Custer,40,039
-Delaware,40,041
-Dewey,40,043
-Ellis,40,045
-Garfield,40,047
-Garvin,40,049
-Grady,40,051
-Grant,40,053
-Greer,40,055
-Harmon,40,057
-Harper,40,059
-Haskell,40,061
-Hughes,40,063
-Jackson,40,065
-Jefferson,40,067
-Johnston,40,069
-Kay,40,071
-Kingfisher,40,073
-Kiowa,40,075
-Latimer,40,077
-Le Flore,40,079
-Lincoln,40,081
-Logan,40,083
-Love,40,085
-Mcclain,40,087
-McCurtain,40,089
-McIntosh,40,091
-Major,40,093
-Marshall,40,095
-Mayes,40,097
-Murray,40,099
-Muskogee,40,101
-Noble,40,103
-Nowata,40,105
-Okfuskee,40,107
-Oklahoma,40,109
-Okmulgee,40,111
-Osage,40,113
-Ottawa,40,115
-Pawnee,40,117
-Payne,40,119
-Pittsburg,40,121
-Pontotoc,40,123
-Pottawatomie,40,125
-Pushmataha,40,127
-Roger Mills,40,129
-Rogers,40,131
-Seminole,40,133
-Sequoyah,40,135
-Stephens,40,137
-Texas,40,139
-Tillman,40,141
-Tulsa,40,143
-Wagoner,40,145
-Washington,40,147
-Washita,40,149
-Woods,40,151
-Woodward,40,153
-Baker,41,001
-Benton,41,003
-Clackamas,41,005
-Clatsop,41,007
-Columbia,41,009
-Coos,41,011
-Crook,41,013
-Curry,41,015
-Deschutes,41,017
-Douglas,41,019
-Gilliam,41,021
-Grant,41,023
-Harney,41,025
-Hood River,41,027
-Jackson,41,029
-Jefferson,41,031
-Josephine,41,033
-Klamath,41,035
-Lake,41,037
-Lane,41,039
-Lincoln,41,041
-Linn,41,043
-Malheur,41,045
-Marion,41,047
-Morrow,41,049
-Multnomah,41,051
-Polk,41,053
-Sherman,41,055
-Tillamook,41,057
-Umatilla,41,059
-Union,41,061
-Wallowa,41,063
-Wasco,41,065
-Washington,41,067
-Wheeler,41,069
-Yamhill,41,071
-Adams,42,001
-Allegheny,42,003
-Armstrong,42,005
-Beaver,42,007
-Bedford,42,009
-Berks,42,011
-Blair,42,013
-Bradford,42,015
-Bucks,42,017
-Butler,42,019
-Cambria,42,021
-Cameron,42,023
-Carbon,42,025
-Centre,42,027
-Chester,42,029
-Clarion,42,031
-Clearfield,42,033
-Clinton,42,035
-Columbia,42,037
-Crawford,42,039
-Cumberland,42,041
-Dauphin,42,043
-Delaware,42,045
-Elk,42,047
-Erie,42,049
-Fayette,42,051
-Forest,42,053
-Franklin,42,055
-Fulton,42,057
-Greene,42,059
-Huntingdon,42,061
-Indiana,42,063
-Jefferson,42,065
-Juniata,42,067
-Lackawanna,42,069
-Lancaster,42,071
-Lawrence,42,073
-Lebanon,42,075
-Lehigh,42,077
-Luzerne,42,079
-Lycoming,42,081
-McKean,42,083
-Mercer,42,085
-Mifflin,42,087
-Monroe,42,089
-Montgomery,42,091
-Montour,42,093
-Northampton,42,095
-Northumberland,42,097
-Perry,42,099
-Philadelphia,42,101
-Pike,42,103
-Potter,42,105
-Schuylkill,42,107
-Snyder,42,109
-Somerset,42,111
-Sullivan,42,113
-Susquehanna,42,115
-Tioga,42,117
-Union,42,119
-Venango,42,121
-Warren,42,123
-Washington,42,125
-Wayne,42,127
-Westmoreland,42,129
-Wyoming,42,131
-York,42,133
-Bristol,44,001
-Kent,44,003
-Newport,44,005
-Providence,44,007
-Washington,44,009
-Abbeville,45,001
-Aiken,45,003
-Allendale,45,005
-Anderson,45,007
-Bamberg,45,009
-Barnwell,45,011
-Beaufort,45,013
-Berkeley,45,015
-Calhoun,45,017
-Charleston,45,019
-Cherokee,45,021
-Chester,45,023
-Chesterfield,45,025
-Clarendon,45,027
-Colleton,45,029
-Darlington,45,031
-Dillon,45,033
-Dorchester,45,035
-Edgefield,45,037
-Fairfield,45,039
-Florence,45,041
-Georgetown,45,043
-Greenville,45,045
-Greenwood,45,047
-Hampton,45,049
-Horry,45,051
-Jasper,45,053
-Kershaw,45,055
-Lancaster,45,057
-Laurens,45,059
-Lee,45,061
-Lexington,45,063
-McCormick,45,065
-Marion,45,067
-Marlboro,45,069
-Newberry,45,071
-Oconee,45,073
-Orangeburg,45,075
-Pickens,45,077
-Richland,45,079
-Saluda,45,081
-Spartanburg,45,083
-Sumter,45,085
-Union,45,087
-Williamsburg,45,089
-York,45,091
-Aurora,46,003
-Beadle,46,005
-Bennett,46,007
-Bon Homme,46,009
-Brookings,46,011
-Brown,46,013
-Brule,46,015
-Buffalo,46,017
-Butte,46,019
-Campbell,46,021
-Charles Mix,46,023
-Clark,46,025
-Clay,46,027
-Codington,46,029
-Corson,46,031
-Custer,46,033
-Davison,46,035
-Day,46,037
-Deuel,46,039
-Dewey,46,041
-Douglas,46,043
-Edmunds,46,045
-Fall River,46,047
-Faulk,46,049
-Grant,46,051
-Gregory,46,053
-Haakon,46,055
-Hamlin,46,057
-Hand,46,059
-Hanson,46,061
-Harding,46,063
-Hughes,46,065
-Hutchinson,46,067
-Hyde,46,069
-Jackson,46,071
-Jerauld,46,073
-Jones,46,075
-Kingsbury,46,077
-Lake,46,079
-Lawrence,46,081
-Lincoln,46,083
-Lyman,46,085
-McCook,46,087
-McPherson,46,089
-Marshall,46,091
-Meade,46,093
-Mellette,46,095
-Miner,46,097
-Minnehaha,46,099
-Moody,46,101
-Pennington,46,103
-Perkins,46,105
-Potter,46,107
-Roberts,46,109
-Sanborn,46,111
-Shannon,46,113
-Spink,46,115
-Stanley,46,117
-Sully,46,119
-Todd,46,121
-Tripp,46,123
-Turner,46,125
-Union,46,127
-Walworth,46,129
-Yankton,46,135
-Ziebach,46,137
-Anderson,47,001
-Bedford,47,003
-Benton,47,005
-Bledsoe,47,007
-Blount,47,009
-Bradley,47,011
-Campbell,47,013
-Cannon,47,015
-Carroll,47,017
-Carter,47,019
-Cheatham,47,021
-Chester,47,023
-Claiborne,47,025
-Clay,47,027
-Cocke,47,029
-Coffee,47,031
-Crockett,47,033
-Cumberland,47,035
-Davidson,47,037
-Decatur,47,039
-Dekalb,47,041
-Dickson,47,043
-Dyer,47,045
-Fayette,47,047
-Fentress,47,049
-Franklin,47,051
-Gibson,47,053
-Giles,47,055
-Grainger,47,057
-Greene,47,059
-Grundy,47,061
-Hamblen,47,063
-Hamilton,47,065
-Hancock,47,067
-Hardeman,47,069
-Hardin,47,071
-Hawkins,47,073
-Haywood,47,075
-Henderson,47,077
-Henry,47,079
-Hickman,47,081
-Houston,47,083
-Humphreys,47,085
-Jackson,47,087
-Jefferson,47,089
-Johnson,47,091
-Knox,47,093
-Lake,47,095
-Lauderdale,47,097
-Lawrence,47,099
-Lewis,47,101
-Lincoln,47,103
-Loudon,47,105
-McMinn,47,107
-McNairy,47,109
-Macon,47,111
-Madison,47,113
-Marion,47,115
-Marshall,47,117
-Maury,47,119
-Meigs,47,121
-Monroe,47,123
-Montgomery,47,125
-Moore,47,127
-Morgan,47,129
-Obion,47,131
-Overton,47,133
-Perry,47,135
-Pickett,47,137
-Polk,47,139
-Putnam,47,141
-Rhea,47,143
-Roane,47,145
-Robertson,47,147
-Rutherford,47,149
-Scott,47,151
-Sequatchie,47,153
-Sevier,47,155
-Shelby,47,157
-Smith,47,159
-Stewart,47,161
-Sullivan,47,163
-Sumner,47,165
-Tipton,47,167
-Trousdale,47,169
-Unicoi,47,171
-Union,47,173
-Van Buren,47,175
-Warren,47,177
-Washington,47,179
-Wayne,47,181
-Weakley,47,183
-White,47,185
-Williamson,47,187
-Wilson,47,189
-Anderson,48,001
-Andrews,48,003
-Angelina,48,005
-Aransas,48,007
-Archer,48,009
-Armstrong,48,011
-Atascosa,48,013
-Austin,48,015
-Bailey,48,017
-Bandera,48,019
-Bastrop,48,021
-Baylor,48,023
-Bee,48,025
-Bell,48,027
-Bexar,48,029
-Blanco,48,031
-Borden,48,033
-Bosque,48,035
-Bowie,48,037
-Brazoria,48,039
-Brazos,48,041
-Brewster,48,043
-Briscoe,48,045
-Brooks,48,047
-Brown,48,049
-Burleson,48,051
-Burnet,48,053
-Caldwell,48,055
-Calhoun,48,057
-Callahan,48,059
-Cameron,48,061
-Camp,48,063
-Carson,48,065
-Cass,48,067
-Castro,48,069
-Chambers,48,071
-Cherokee,48,073
-Childress,48,075
-Clay,48,077
-Cochran,48,079
-Coke,48,081
-Coleman,48,083
-Collin,48,085
-Collingsworth,48,087
-Colorado,48,089
-Comal,48,091
-Comanche,48,093
-Concho,48,095
-Cooke,48,097
-Coryell,48,099
-Cottle,48,101
-Crane,48,103
-Crockett,48,105
-Crosby,48,107
-Culberson,48,109
-Dallam,48,111
-Dallas,48,113
-Dawson,48,115
-Deaf Smith,48,117
-Delta,48,119
-Denton,48,121
-De Witt,48,123
-Dickens,48,125
-Dimmit,48,127
-Donley,48,129
-Duval,48,131
-Eastland,48,133
-Ector,48,135
-Edwards,48,137
-Ellis,48,139
-El Paso,48,141
-Erath,48,143
-Falls,48,145
-Fannin,48,147
-Fayette,48,149
-Fisher,48,151
-Floyd,48,153
-Foard,48,155
-Fort Bend,48,157
-Franklin,48,159
-Freestone,48,161
-Frio,48,163
-Gaines,48,165
-Galveston,48,167
-Garza,48,169
-Gillespie,48,171
-Glasscock,48,173
-Goliad,48,175
-Gonzales,48,177
-Gray,48,179
-Grayson,48,181
-Gregg,48,183
-Grimes,48,185
-Guadalupe,48,187
-Hale,48,189
-Hall,48,191
-Hamilton,48,193
-Hansford,48,195
-Hardeman,48,197
-Hardin,48,199
-Harris,48,201
-Harrison,48,203
-Hartley,48,205
-Haskell,48,207
-Hays,48,209
-Hemphill,48,211
-Henderson,48,213
-Hidalgo,48,215
-Hill,48,217
-Hockley,48,219
-Hood,48,221
-Hopkins,48,223
-Houston,48,225
-Howard,48,227
-Hudspeth,48,229
-Hunt,48,231
-Hutchinson,48,233
-Irion,48,235
-Jack,48,237
-Jackson,48,239
-Jasper,48,241
-Jeff Davis,48,243
-Jefferson,48,245
-Jim Hogg,48,247
-Jim Wells,48,249
-Johnson,48,251
-Jones,48,253
-Karnes,48,255
-Kaufman,48,257
-Kendall,48,259
-Kenedy,48,261
-Kent,48,263
-Kerr,48,265
-Kimble,48,267
-King,48,269
-Kinney,48,271
-Kleberg,48,273
-Knox,48,275
-Lamar,48,277
-Lamb,48,279
-Lampasas,48,281
-La Salle,48,283
-Lavaca,48,285
-Lee,48,287
-Leon,48,289
-Liberty,48,291
-Limestone,48,293
-Lipscomb,48,295
-Live Oak,48,297
-Llano,48,299
-Loving,48,301
-Lubbock,48,303
-Lynn,48,305
-McCulloch,48,307
-McLennan,48,309
-McMullen,48,311
-Madison,48,313
-Marion,48,315
-Martin,48,317
-Mason,48,319
-Matagorda,48,321
-Maverick,48,323
-Medina,48,325
-Menard,48,327
-Midland,48,329
-Milam,48,331
-Mills,48,333
-Mitchell,48,335
-Montague,48,337
-Montgomery,48,339
-Moore,48,341
-Morris,48,343
-Motley,48,345
-Nacogdoches,48,347
-Navarro,48,349
-Newton,48,351
-Nolan,48,353
-Nueces,48,355
-Ochiltree,48,357
-Oldham,48,359
-Orange,48,361
-Palo Pinto,48,363
-Panola,48,365
-Parker,48,367
-Parmer,48,369
-Pecos,48,371
-Polk,48,373
-Potter,48,375
-Presidio,48,377
-Rains,48,379
-Randall,48,381
-Reagan,48,383
-Real,48,385
-Red River,48,387
-Reeves,48,389
-Refugio,48,391
-Roberts,48,393
-Robertson,48,395
-Rockwall,48,397
-Runnels,48,399
-Rusk,48,401
-Sabine,48,403
-San Augustine,48,405
-San Jacinto,48,407
-San Patricio,48,409
-San Saba,48,411
-Schleicher,48,413
-Scurry,48,415
-Shackelford,48,417
-Shelby,48,419
-Sherman,48,421
-Smith,48,423
-Somervell,48,425
-Starr,48,427
-Stephens,48,429
-Sterling,48,431
-Stonewall,48,433
-Sutton,48,435
-Swisher,48,437
-Tarrant,48,439
-Taylor,48,441
-Terrell,48,443
-Terry,48,445
-Throckmorton,48,447
-Titus,48,449
-Tom Green,48,451
-Travis,48,453
-Trinity,48,455
-Tyler,48,457
-Upshur,48,459
-Upton,48,461
-Uvalde,48,463
-Val Verde,48,465
-Van Zandt,48,467
-Victoria,48,469
-Walker,48,471
-Waller,48,473
-Ward,48,475
-Washington,48,477
-Webb,48,479
-Wharton,48,481
-Wheeler,48,483
-Wichita,48,485
-Wilbarger,48,487
-Willacy,48,489
-Williamson,48,491
-Wilson,48,493
-Winkler,48,495
-Wise,48,497
-Wood,48,499
-Yoakum,48,501
-Young,48,503
-Zapata,48,505
-Zavala,48,507
-Beaver,49,001
-Box Elder,49,003
-Cache,49,005
-Carbon,49,007
-Daggett,49,009
-Davis,49,011
-Duchesne,49,013
-Emery,49,015
-Garfield,49,017
-Grand,49,019
-Iron,49,021
-Juab,49,023
-Kane,49,025
-Millard,49,027
-Morgan,49,029
-Piute,49,031
-Rich,49,033
-Salt Lake,49,035
-San Juan,49,037
-Sanpete,49,039
-Sevier,49,041
-Summit,49,043
-Tooele,49,045
-Uintah,49,047
-Utah,49,049
-Wasatch,49,051
-Washington,49,053
-Wayne,49,055
-Weber,49,057
-Addison,50,001
-Bennington,50,003
-Caledonia,50,005
-Chittenden,50,007
-Essex,50,009
-Franklin,50,011
-Grand Isle,50,013
-Lamoille,50,015
-Orange,50,017
-Orleans,50,019
-Rutland,50,021
-Washington,50,023
-Windham,50,025
-Windsor,50,027
-Accomack,51,001
-Albemarle,51,003
-Alleghany,51,005
-Amelia,51,007
-Amherst,51,009
-Appomattox,51,011
-Arlington,51,013
-Augusta,51,015
-Bath,51,017
-Bedford,51,019
-Bland,51,021
-Botetourt,51,023
-Brunswick,51,025
-Buchanan,51,027
-Buckingham,51,029
-Campbell,51,031
-Caroline,51,033
-Carroll,51,035
-Charles City,51,036
-Charlotte,51,037
-Chesterfield,51,041
-Clarke,51,043
-Craig,51,045
-Culpeper,51,047
-Cumberland,51,049
-Dickenson,51,051
-Dinwiddie,51,053
-Essex,51,057
-Fairfax,51,059
-Fauquier,51,061
-Floyd,51,063
-Fluvanna,51,065
-Franklin,51,067
-Frederick,51,069
-Giles,51,071
-Gloucester,51,073
-Goochland,51,075
-Grayson,51,077
-Greene,51,079
-Greensville,51,081
-Halifax,51,083
-Hanover,51,085
-Henrico,51,087
-Henry,51,089
-Highland,51,091
-Isle of Wight,51,093
-James City,51,095
-King and Queen,51,097
-King George,51,099
-King William,51,101
-Lancaster,51,103
-Lee,51,105
-Loudoun,51,107
-Louisa,51,109
-Lunenburg,51,111
-Madison,51,113
-Mathews,51,115
-Mecklenburg,51,117
-Middlesex,51,119
-Montgomery,51,121
-Nelson,51,125
-New Kent,51,127
-Northampton,51,131
-Northumberland,51,133
-Nottoway,51,135
-Orange,51,137
-Page,51,139
-Patrick,51,141
-Pittsylvania,51,143
-Powhatan,51,145
-Prince Edward,51,147
-Prince George,51,149
-Prince William,51,153
-Pulaski,51,155
-Rappahannock,51,157
-Richmond,51,159
-Roanoke,51,161
-Rockbridge,51,163
-Rockingham,51,165
-Russell,51,167
-Scott,51,169
-Shenandoah,51,171
-Smyth,51,173
-Southampton,51,175
-Spotsylvania,51,177
-Stafford,51,179
-Surry,51,181
-Sussex,51,183
-Tazewell,51,185
-Warren,51,187
-Washington,51,191
-Westmoreland,51,193
-Wise,51,195
-Wythe,51,197
-York,51,199
-Alexandria City,51,510
-Bedford City,51,515
-Bristol City,51,520
-Buena Vista City,51,530
-Charlottesville City,51,540
-Chesapeake City,51,550
-Clifton Forge City,51,560
-Colonial Heights City,51,570
-Covington City,51,580
-Danville City,51,590
-Emporia City,51,595
-Fairfax City,51,600
-Falls Church City,51,610
-Franklin City,51,620
-Fredericksburg City,51,630
-Galax City,51,640
-Hampton City,51,650
-Harrisonburg City,51,660
-Hopewell City,51,670
-Lexington City,51,678
-Lynchburg City,51,680
-Manassas City,51,683
-Manassas Park City,51,685
-Martinsville City,51,690
-Newport News City,51,700
-Norfolk City,51,710
-Norton City,51,720
-Petersburg City,51,730
-Poquoson City,51,735
-Portsmouth City,51,740
-Radford,51,750
-Richmond City,51,760
-Roanoke City,51,770
-Salem City,51,775
-South Boston City,51,780
-Staunton City,51,790
-Suffolk City,51,800
-Virginia Beach City,51,810
-Waynesboro City,51,820
-Williamsburg City,51,830
-Winchester City,51,840
-Adams,53,001
-Asotin,53,003
-Benton,53,005
-Chelan,53,007
-Clallam,53,009
-Clark,53,011
-Columbia,53,013
-Cowlitz,53,015
-Douglas,53,017
-Ferry,53,019
-Franklin,53,021
-Garfield,53,023
-Grant,53,025
-Grays Harbor,53,027
-Island,53,029
-Jefferson,53,031
-King,53,033
-Kitsap,53,035
-Kittitas,53,037
-Klickitat,53,039
-Lewis,53,041
-Lincoln,53,043
-Mason,53,045
-Okanogan,53,047
-Pacific,53,049
-Pend Oreille,53,051
-Pierce,53,053
-San Juan,53,055
-Skagit,53,057
-Skamania,53,059
-Snohomish,53,061
-Spokane,53,063
-Stevens,53,065
-Thurston,53,067
-Wahkiakum,53,069
-Walla Walla,53,071
-Whatcom,53,073
-Whitman,53,075
-Yakima,53,077
-Barbour,54,001
-Berkeley,54,003
-Boone,54,005
-Braxton,54,007
-Brooke,54,009
-Cabell,54,011
-Calhoun,54,013
-Clay,54,015
-Doddridge,54,017
-Fayette,54,019
-Gilmer,54,021
-Grant,54,023
-Greenbrier,54,025
-Hampshire,54,027
-Hancock,54,029
-Hardy,54,031
-Harrison,54,033
-Jackson,54,035
-Jefferson,54,037
-Kanawha,54,039
-Lewis,54,041
-Lincoln,54,043
-Logan,54,045
-McDowell,54,047
-Marion,54,049
-Marshall,54,051
-Mason,54,053
-Mercer,54,055
-Mineral,54,057
-Mingo,54,059
-Monongalia,54,061
-Monroe,54,063
-Morgan,54,065
-Nicholas,54,067
-Ohio,54,069
-Pendleton,54,071
-Pleasants,54,073
-Pocahontas,54,075
-Preston,54,077
-Putnam,54,079
-Raleigh,54,081
-Randolph,54,083
-Ritchie,54,085
-Roane,54,087
-Summers,54,089
-Taylor,54,091
-Tucker,54,093
-Tyler,54,095
-Upshur,54,097
-Wayne,54,099
-Webster,54,101
-Wetzel,54,103
-Wirt,54,105
-Wood,54,107
-Wyoming,54,109
-Adams,55,001
-Ashland,55,003
-Barron,55,005
-Bayfield,55,007
-Brown,55,009
-Buffalo,55,011
-Burnett,55,013
-Calumet,55,015
-Chippewa,55,017
-Clark,55,019
-Columbia,55,021
-Crawford,55,023
-Dane,55,025
-Dodge,55,027
-Door,55,029
-Douglas,55,031
-Dunn,55,033
-Eau Claire,55,035
-Florence,55,037
-Fond Du Lac,55,039
-Forest,55,041
-Grant,55,043
-Green,55,045
-Green Lake,55,047
-Iowa,55,049
-Iron,55,051
-Jackson,55,053
-Jefferson,55,055
-Juneau,55,057
-Kenosha,55,059
-Kewaunee,55,061
-La Crosse,55,063
-Lafayette,55,065
-Langlade,55,067
-Lincoln,55,069
-Manitowoc,55,071
-Marathon,55,073
-Marinette,55,075
-Marquette,55,077
-Menominee,55,078
-Milwaukee,55,079
-Monroe,55,081
-Oconto,55,083
-Oneida,55,085
-Outagamie,55,087
-Ozaukee,55,089
-Pepin,55,091
-Pierce,55,093
-Polk,55,095
-Portage,55,097
-Price,55,099
-Racine,55,101
-Richland,55,103
-Rock,55,105
-Rusk,55,107
-St Croix,55,109
-Sauk,55,111
-Sawyer,55,113
-Shawano,55,115
-Sheboygan,55,117
-Taylor,55,119
-Trempealeau,55,121
-Vernon,55,123
-Vilas,55,125
-Walworth,55,127
-Washburn,55,129
-Washington,55,131
-Waukesha,55,133
-Waupaca,55,135
-Waushara,55,137
-Winnebago,55,139
-Wood,55,141
-Albany,56,001
-Big Horn,56,003
-Campbell,56,005
-Carbon,56,007
-Converse,56,009
-Crook,56,011
-Fremont,56,013
-Goshen,56,015
-Hot Springs,56,017
-Johnson,56,019
-Laramie,56,021
-Lincoln,56,023
-Natrona,56,025
-Niobrara,56,027
-Park,56,029
-Platte,56,031
-Sheridan,56,033
-Sublette,56,035
-Sweetwater,56,037
-Teton,56,039
-Uinta,56,041
-Washakie,56,043
-Weston,56,045
+name	state_id	code_id
+Autauga	01	001
+Baldwin	01	003
+Barbour	01	005
+Bibb	01	007
+Blount	01	009
+Bullock	01	011
+Butler	01	013
+Calhoun	01	015
+Chambers	01	017
+Cherokee	01	019
+Chilton	01	021
+Choctaw	01	023
+Clarke	01	025
+Clay	01	027
+Cleburne	01	029
+Coffee	01	031
+Colbert	01	033
+Conecuh	01	035
+Coosa	01	037
+Covington	01	039
+Crenshaw	01	041
+Cullman	01	043
+Dale	01	045
+Dallas	01	047
+De Kalb	01	049
+Elmore	01	051
+Escambia	01	053
+Etowah	01	055
+Fayette	01	057
+Franklin	01	059
+Geneva	01	061
+Greene	01	063
+Hale	01	065
+Henry	01	067
+Houston	01	069
+Jackson	01	071
+Jefferson	01	073
+Lamar	01	075
+Lauderdale	01	077
+Lawrence	01	079
+Lee	01	081
+Limestone	01	083
+Lowndes	01	085
+Macon	01	087
+Madison	01	089
+Marengo	01	091
+Marion	01	093
+Marshall	01	095
+Mobile	01	097
+Monroe	01	099
+Montgomery	01	101
+Morgan	01	103
+Perry	01	105
+Pickens	01	107
+Pike	01	109
+Randolph	01	111
+Russell	01	113
+St Clair	01	115
+Shelby	01	117
+Sumter	01	119
+Talladega	01	121
+Tallapoosa	01	123
+Tuscaloosa	01	125
+Walker	01	127
+Washington	01	129
+Wilcox	01	131
+Winston	01	133
+Aleutians East	02	013
+Aleutians West	02	016
+Anchorage	02	020
+Bethel	02	050
+Bristol Bay	02	060
+Denali	02	068
+Dillingham	02	070
+Fairbanks North Star	02	090
+Haines	02	100
+Juneau	02	110
+Kenai Peninsula	02	122
+Ketchikan Gateway	02	130
+Kodiak Island	02	150
+Lake and Peninsula	02	164
+Matanuska Susitna	02	170
+Nome	02	180
+North Slope	02	185
+Northwest Arctic	02	188
+Prince Wales Ketchikan	02	201
+Sitka	02	220
+Skagway Hoonah Angoon	02	232
+Southeast Fairbanks	02	240
+Valdez Cordova	02	261
+Wade Hampton	02	270
+Wrangell Petersburg	02	280
+Yakutat	02	282
+Yukon Koyukuk	02	290
+Apache	04	001
+Cochise	04	003
+Coconino	04	005
+Gila	04	007
+Graham	04	009
+Greenlee	04	011
+La Paz	04	012
+Maricopa	04	013
+Mohave	04	015
+Navajo	04	017
+Pima	04	019
+Pinal	04	021
+Santa Cruz	04	023
+Yavapai	04	025
+Yuma	04	027
+Arkansas	05	001
+Ashley	05	003
+Baxter	05	005
+Benton	05	007
+Boone	05	009
+Bradley	05	011
+Calhoun	05	013
+Carroll	05	015
+Chicot	05	017
+Clark	05	019
+Clay	05	021
+Cleburne	05	023
+Cleveland	05	025
+Columbia	05	027
+Conway	05	029
+Craighead	05	031
+Crawford	05	033
+Crittenden	05	035
+Cross	05	037
+Dallas	05	039
+Desha	05	041
+Drew	05	043
+Faulkner	05	045
+Franklin	05	047
+Fulton	05	049
+Garland	05	051
+Grant	05	053
+Greene	05	055
+Hempstead	05	057
+Hot Spring	05	059
+Howard	05	061
+Independence	05	063
+Izard	05	065
+Jackson	05	067
+Jefferson	05	069
+Johnson	05	071
+Lafayette	05	073
+Lawrence	05	075
+Lee	05	077
+Lincoln	05	079
+Little River	05	081
+Logan	05	083
+Lonoke	05	085
+Madison	05	087
+Marion	05	089
+Miller	05	091
+Mississippi	05	093
+Monroe	05	095
+Nevada	05	099
+Newton	05	101
+Ouachita	05	103
+Perry	05	105
+Phillips	05	107
+Pike	05	109
+Poinsett	05	111
+Polk	05	113
+Pope	05	115
+Prairie	05	117
+Pulaski	05	119
+Randolph	05	121
+St Francis	05	123
+Saline	05	125
+Scott	05	127
+Searcy	05	129
+Sebastian	05	131
+Sevier	05	133
+Sharp	05	135
+Stone	05	137
+Union	05	139
+Van Buren	05	141
+Washington	05	143
+White	05	145
+Woodruff	05	147
+Yell	05	149
+Alameda	06	001
+Alpine	06	003
+Amador	06	005
+Butte	06	007
+Calaveras	06	009
+Colusa	06	011
+Contra Costa	06	013
+Del Norte	06	015
+El Dorado	06	017
+Fresno	06	019
+Glenn	06	021
+Humboldt	06	023
+Imperial	06	025
+Inyo	06	027
+Kern	06	029
+Kings	06	031
+Lake	06	033
+Lassen	06	035
+Los Angeles	06	037
+Madera	06	039
+Marin	06	041
+Mariposa	06	043
+Mendocino	06	045
+Merced	06	047
+Modoc	06	049
+Mono	06	051
+Monterey	06	053
+Napa	06	055
+Nevada	06	057
+Orange	06	059
+Placer	06	061
+Plumas	06	063
+Riverside	06	065
+Sacramento	06	067
+San Benito	06	069
+San Bernardino	06	071
+San Diego	06	073
+San Francisco	06	075
+San Joaquin	06	077
+San Luis Obispo	06	079
+San Mateo	06	081
+Santa Barbara	06	083
+Santa Clara	06	085
+Santa Cruz	06	087
+Shasta	06	089
+Sierra	06	091
+Siskiyou	06	093
+Solano	06	095
+Sonoma	06	097
+Stanislaus	06	099
+Sutter	06	101
+Tehama	06	103
+Trinity	06	105
+Tulare	06	107
+Tuolumne	06	109
+Ventura	06	111
+Yolo	06	113
+Yuba	06	115
+Adams	08	001
+Alamosa	08	003
+Arapahoe	08	005
+Archuleta	08	007
+Baca	08	009
+Bent	08	011
+Boulder	08	013
+Broomfield	08	014
+Chaffee	08	015
+Cheyenne	08	017
+Clear Creek	08	019
+Conejos	08	021
+Costilla	08	023
+Crowley	08	025
+Custer	08	027
+Delta	08	029
+Denver	08	031
+Dolores	08	033
+Douglas	08	035
+Eagle	08	037
+Elbert	08	039
+El Paso	08	041
+Fremont	08	043
+Garfield	08	045
+Gilpin	08	047
+Grand	08	049
+Gunnison	08	051
+Hinsdale	08	053
+Huerfano	08	055
+Jackson	08	057
+Jefferson	08	059
+Kiowa	08	061
+Kit Carson	08	063
+Lake	08	065
+La Plata	08	067
+Larimer	08	069
+Las Animas	08	071
+Lincoln	08	073
+Logan	08	075
+Mesa	08	077
+Mineral	08	079
+Moffat	08	081
+Montezuma	08	083
+Montrose	08	085
+Morgan	08	087
+Otero	08	089
+Ouray	08	091
+Park	08	093
+Phillips	08	095
+Pitkin	08	097
+Prowers	08	099
+Pueblo	08	101
+Rio Blanco	08	103
+Rio Grande	08	105
+Routt	08	107
+Saguache	08	109
+San Juan	08	111
+San Miguel	08	113
+Sedgwick	08	115
+Summit	08	117
+Teller	08	119
+Washington	08	121
+Weld	08	123
+Yuma	08	125
+Fairfield	09	001
+Hartford	09	003
+Litchfield	09	005
+Middlesex	09	007
+New Haven	09	009
+New London	09	011
+Tolland	09	013
+Windham	09	015
+Kent	10	001
+New Castle	10	003
+Sussex	10	005
+District of Columbia	11	001
+Montgomery	11	031
+Alachua	12	001
+Baker	12	003
+Bay	12	005
+Bradford	12	007
+Brevard	12	009
+Broward	12	011
+Calhoun	12	013
+Charlotte	12	015
+Citrus	12	017
+Clay	12	019
+Collier	12	021
+Columbia	12	023
+De Soto	12	027
+Dixie	12	029
+Duval	12	031
+Escambia	12	033
+Flagler	12	035
+Franklin	12	037
+Gadsden	12	039
+Gilchrist	12	041
+Glades	12	043
+Gulf	12	045
+Hamilton	12	047
+Hardee	12	049
+Hendry	12	051
+Hernando	12	053
+Highlands	12	055
+Hillsborough	12	057
+Holmes	12	059
+Indian River	12	061
+Jackson	12	063
+Jefferson	12	065
+Lafayette	12	067
+Lake	12	069
+Lee	12	071
+Leon	12	073
+Levy	12	075
+Liberty	12	077
+Madison	12	079
+Manatee	12	081
+Marion	12	083
+Martin	12	085
+Miami-Dade	12	086
+Monroe	12	087
+Nassau	12	089
+Okaloosa	12	091
+Okeechobee	12	093
+Orange	12	095
+Osceola	12	097
+Palm Beach	12	099
+Pasco	12	101
+Pinellas	12	103
+Polk	12	105
+Putnam	12	107
+St Johns	12	109
+St Lucie	12	111
+Santa Rosa	12	113
+Sarasota	12	115
+Seminole	12	117
+Sumter	12	119
+Suwannee	12	121
+Taylor	12	123
+Union	12	125
+Volusia	12	127
+Wakulla	12	129
+Walton	12	131
+Washington	12	133
+Appling	13	001
+Atkinson	13	003
+Bacon	13	005
+Baker	13	007
+Baldwin	13	009
+Banks	13	011
+Barrow	13	013
+Bartow	13	015
+Ben Hill	13	017
+Berrien	13	019
+Bibb	13	021
+Bleckley	13	023
+Brantley	13	025
+Brooks	13	027
+Bryan	13	029
+Bulloch	13	031
+Burke	13	033
+Butts	13	035
+Calhoun	13	037
+Camden	13	039
+Candler	13	043
+Carroll	13	045
+Catoosa	13	047
+Charlton	13	049
+Chatham	13	051
+Chattahoochee	13	053
+Chattooga	13	055
+Cherokee	13	057
+Clarke	13	059
+Clay	13	061
+Clayton	13	063
+Clinch	13	065
+Cobb	13	067
+Coffee	13	069
+Colquitt	13	071
+Columbia	13	073
+Cook	13	075
+Coweta	13	077
+Crawford	13	079
+Crisp	13	081
+Dade	13	083
+Dawson	13	085
+Decatur	13	087
+De Kalb	13	089
+Dodge	13	091
+Dooly	13	093
+Dougherty	13	095
+Douglas	13	097
+Early	13	099
+Echols	13	101
+Effingham	13	103
+Elbert	13	105
+Emanuel	13	107
+Evans	13	109
+Fannin	13	111
+Fayette	13	113
+Floyd	13	115
+Forsyth	13	117
+Franklin	13	119
+Fulton	13	121
+Gilmer	13	123
+Glascock	13	125
+Glynn	13	127
+Gordon	13	129
+Grady	13	131
+Greene	13	133
+Gwinnett	13	135
+Habersham	13	137
+Hall	13	139
+Hancock	13	141
+Haralson	13	143
+Harris	13	145
+Hart	13	147
+Heard	13	149
+Henry	13	151
+Houston	13	153
+Irwin	13	155
+Jackson	13	157
+Jasper	13	159
+Jeff Davis	13	161
+Jefferson	13	163
+Jenkins	13	165
+Johnson	13	167
+Jones	13	169
+Lamar	13	171
+Lanier	13	173
+Laurens	13	175
+Lee	13	177
+Liberty	13	179
+Lincoln	13	181
+Long	13	183
+Lowndes	13	185
+Lumpkin	13	187
+McDuffie	13	189
+McIntosh	13	191
+Macon	13	193
+Madison	13	195
+Marion	13	197
+Meriwether	13	199
+Miller	13	201
+Mitchell	13	205
+Monroe	13	207
+Montgomery	13	209
+Morgan	13	211
+Murray	13	213
+Muscogee	13	215
+Newton	13	217
+Oconee	13	219
+Oglethorpe	13	221
+Paulding	13	223
+Peach	13	225
+Pickens	13	227
+Pierce	13	229
+Pike	13	231
+Polk	13	233
+Pulaski	13	235
+Putnam	13	237
+Quitman	13	239
+Rabun	13	241
+Randolph	13	243
+Richmond	13	245
+Rockdale	13	247
+Schley	13	249
+Screven	13	251
+Seminole	13	253
+Spalding	13	255
+Stephens	13	257
+Stewart	13	259
+Sumter	13	261
+Talbot	13	263
+Taliaferro	13	265
+Tattnall	13	267
+Taylor	13	269
+Telfair	13	271
+Terrell	13	273
+Thomas	13	275
+Tift	13	277
+Toombs	13	279
+Towns	13	281
+Treutlen	13	283
+Troup	13	285
+Turner	13	287
+Twiggs	13	289
+Union	13	291
+Upson	13	293
+Walker	13	295
+Walton	13	297
+Ware	13	299
+Warren	13	301
+Washington	13	303
+Wayne	13	305
+Webster	13	307
+Wheeler	13	309
+White	13	311
+Whitfield	13	313
+Wilcox	13	315
+Wilkes	13	317
+Wilkinson	13	319
+Worth	13	321
+Hawaii	15	001
+Honolulu	15	003
+Kauai	15	007
+Maui	15	009
+Ada	16	001
+Adams	16	003
+Bannock	16	005
+Bear Lake	16	007
+Benewah	16	009
+Bingham	16	011
+Blaine	16	013
+Boise	16	015
+Bonner	16	017
+Bonneville	16	019
+Boundary	16	021
+Butte	16	023
+Camas	16	025
+Canyon	16	027
+Caribou	16	029
+Cassia	16	031
+Clark	16	033
+Clearwater	16	035
+Custer	16	037
+Elmore	16	039
+Franklin	16	041
+Fremont	16	043
+Gem	16	045
+Gooding	16	047
+Idaho	16	049
+Jefferson	16	051
+Jerome	16	053
+Kootenai	16	055
+Latah	16	057
+Lemhi	16	059
+Lewis	16	061
+Lincoln	16	063
+Madison	16	065
+Minidoka	16	067
+Nez Perce	16	069
+Oneida	16	071
+Owyhee	16	073
+Payette	16	075
+Power	16	077
+Shoshone	16	079
+Teton	16	081
+Twin Falls	16	083
+Valley	16	085
+Washington	16	087
+Adams	17	001
+Alexander	17	003
+Bond	17	005
+Boone	17	007
+Brown	17	009
+Bureau	17	011
+Calhoun	17	013
+Carroll	17	015
+Cass	17	017
+Champaign	17	019
+Christian	17	021
+Clark	17	023
+Clay	17	025
+Clinton	17	027
+Coles	17	029
+Cook	17	031
+Crawford	17	033
+Cumberland	17	035
+De Kalb	17	037
+Dewitt	17	039
+Douglas	17	041
+Du Page	17	043
+Edgar	17	045
+Edwards	17	047
+Effingham	17	049
+Fayette	17	051
+Ford	17	053
+Franklin	17	055
+Fulton	17	057
+Gallatin	17	059
+Greene	17	061
+Grundy	17	063
+Hamilton	17	065
+Hancock	17	067
+Hardin	17	069
+Henderson	17	071
+Henry	17	073
+Iroquois	17	075
+Jackson	17	077
+Jasper	17	079
+Jefferson	17	081
+Jersey	17	083
+Jo Daviess	17	085
+Johnson	17	087
+Kane	17	089
+Kankakee	17	091
+Kendall	17	093
+Knox	17	095
+Lake	17	097
+La Salle	17	099
+Lawrence	17	101
+Lee	17	103
+Livingston	17	105
+Logan	17	107
+McDonough	17	109
+McHenry	17	111
+Mclean	17	113
+Macon	17	115
+Macoupin	17	117
+Madison	17	119
+Marion	17	121
+Marshall	17	123
+Mason	17	125
+Massac	17	127
+Menard	17	129
+Mercer	17	131
+Monroe	17	133
+Montgomery	17	135
+Morgan	17	137
+Moultrie	17	139
+Ogle	17	141
+Peoria	17	143
+Perry	17	145
+Piatt	17	147
+Pike	17	149
+Pope	17	151
+Pulaski	17	153
+Putnam	17	155
+Randolph	17	157
+Richland	17	159
+Rock Island	17	161
+St Clair	17	163
+Saline	17	165
+Sangamon	17	167
+Schuyler	17	169
+Scott	17	171
+Shelby	17	173
+Stark	17	175
+Stephenson	17	177
+Tazewell	17	179
+Union	17	181
+Vermilion	17	183
+Wabash	17	185
+Warren	17	187
+Washington	17	189
+Wayne	17	191
+White	17	193
+Whiteside	17	195
+Will	17	197
+Williamson	17	199
+Winnebago	17	201
+Woodford	17	203
+Adams	18	001
+Allen	18	003
+Bartholomew	18	005
+Benton	18	007
+Blackford	18	009
+Boone	18	011
+Brown	18	013
+Carroll	18	015
+Cass	18	017
+Clark	18	019
+Clay	18	021
+Clinton	18	023
+Crawford	18	025
+Daviess	18	027
+Dearborn	18	029
+Decatur	18	031
+De Kalb	18	033
+Delaware	18	035
+Dubois	18	037
+Elkhart	18	039
+Fayette	18	041
+Floyd	18	043
+Fountain	18	045
+Franklin	18	047
+Fulton	18	049
+Gibson	18	051
+Grant	18	053
+Greene	18	055
+Hamilton	18	057
+Hancock	18	059
+Harrison	18	061
+Hendricks	18	063
+Henry	18	065
+Howard	18	067
+Huntington	18	069
+Jackson	18	071
+Jasper	18	073
+Jay	18	075
+Jefferson	18	077
+Jennings	18	079
+Johnson	18	081
+Knox	18	083
+Kosciusko	18	085
+Lagrange	18	087
+Lake	18	089
+La Porte	18	091
+Lawrence	18	093
+Madison	18	095
+Marion	18	097
+Marshall	18	099
+Martin	18	101
+Miami	18	103
+Monroe	18	105
+Montgomery	18	107
+Morgan	18	109
+Newton	18	111
+Noble	18	113
+Ohio	18	115
+Orange	18	117
+Owen	18	119
+Parke	18	121
+Perry	18	123
+Pike	18	125
+Porter	18	127
+Posey	18	129
+Pulaski	18	131
+Putnam	18	133
+Randolph	18	135
+Ripley	18	137
+Rush	18	139
+St Joseph	18	141
+Scott	18	143
+Shelby	18	145
+Spencer	18	147
+Starke	18	149
+Steuben	18	151
+Sullivan	18	153
+Switzerland	18	155
+Tippecanoe	18	157
+Tipton	18	159
+Union	18	161
+Vanderburgh	18	163
+Vermillion	18	165
+Vigo	18	167
+Wabash	18	169
+Warren	18	171
+Warrick	18	173
+Washington	18	175
+Wayne	18	177
+Wells	18	179
+White	18	181
+Whitley	18	183
+Adair	19	001
+Adams	19	003
+Allamakee	19	005
+Appanoose	19	007
+Audubon	19	009
+Benton	19	011
+Black Hawk	19	013
+Boone	19	015
+Bremer	19	017
+Buchanan	19	019
+Buena Vista	19	021
+Butler	19	023
+Calhoun	19	025
+Carroll	19	027
+Cass	19	029
+Cedar	19	031
+Cerro Gordo	19	033
+Cherokee	19	035
+Chickasaw	19	037
+Clarke	19	039
+Clay	19	041
+Clayton	19	043
+Clinton	19	045
+Crawford	19	047
+Dallas	19	049
+Davis	19	051
+Decatur	19	053
+Delaware	19	055
+Des Moines	19	057
+Dickinson	19	059
+Dubuque	19	061
+Emmet	19	063
+Fayette	19	065
+Floyd	19	067
+Franklin	19	069
+Fremont	19	071
+Greene	19	073
+Grundy	19	075
+Guthrie	19	077
+Hamilton	19	079
+Hancock	19	081
+Hardin	19	083
+Harrison	19	085
+Henry	19	087
+Howard	19	089
+Humboldt	19	091
+Ida	19	093
+Iowa	19	095
+Jackson	19	097
+Jasper	19	099
+Jefferson	19	101
+Johnson	19	103
+Jones	19	105
+Keokuk	19	107
+Kossuth	19	109
+Lee	19	111
+Linn	19	113
+Louisa	19	115
+Lucas	19	117
+Lyon	19	119
+Madison	19	121
+Mahaska	19	123
+Marion	19	125
+Marshall	19	127
+Mills	19	129
+Mitchell	19	131
+Monona	19	133
+Monroe	19	135
+Montgomery	19	137
+Muscatine	19	139
+Obrien	19	141
+Osceola	19	143
+Page	19	145
+Palo Alto	19	147
+Plymouth	19	149
+Pocahontas	19	151
+Polk	19	153
+Pottawattamie	19	155
+Poweshiek	19	157
+Ringgold	19	159
+Sac	19	161
+Scott	19	163
+Shelby	19	165
+Sioux	19	167
+Story	19	169
+Tama	19	171
+Taylor	19	173
+Union	19	175
+Van Buren	19	177
+Wapello	19	179
+Warren	19	181
+Washington	19	183
+Wayne	19	185
+Webster	19	187
+Winnebago	19	189
+Winneshiek	19	191
+Woodbury	19	193
+Worth	19	195
+Wright	19	197
+Allen	20	001
+Anderson	20	003
+Atchison	20	005
+Barber	20	007
+Barton	20	009
+Bourbon	20	011
+Brown	20	013
+Butler	20	015
+Chase	20	017
+Chautauqua	20	019
+Cherokee	20	021
+Cheyenne	20	023
+Clark	20	025
+Clay	20	027
+Cloud	20	029
+Coffey	20	031
+Comanche	20	033
+Cowley	20	035
+Crawford	20	037
+Decatur	20	039
+Dickinson	20	041
+Doniphan	20	043
+Douglas	20	045
+Edwards	20	047
+Elk	20	049
+Ellis	20	051
+Ellsworth	20	053
+Finney	20	055
+Ford	20	057
+Franklin	20	059
+Geary	20	061
+Gove	20	063
+Graham	20	065
+Grant	20	067
+Gray	20	069
+Greeley	20	071
+Greenwood	20	073
+Hamilton	20	075
+Harper	20	077
+Harvey	20	079
+Haskell	20	081
+Hodgeman	20	083
+Jackson	20	085
+Jefferson	20	087
+Jewell	20	089
+Johnson	20	091
+Kearny	20	093
+Kingman	20	095
+Kiowa	20	097
+Labette	20	099
+Lane	20	101
+Leavenworth	20	103
+Lincoln	20	105
+Linn	20	107
+Logan	20	109
+Lyon	20	111
+McPherson	20	113
+Marion	20	115
+Marshall	20	117
+Meade	20	119
+Miami	20	121
+Mitchell	20	123
+Montgomery	20	125
+Morris	20	127
+Morton	20	129
+Nemaha	20	131
+Neosho	20	133
+Ness	20	135
+Norton	20	137
+Osage	20	139
+Osborne	20	141
+Ottawa	20	143
+Pawnee	20	145
+Phillips	20	147
+Pottawatomie	20	149
+Pratt	20	151
+Rawlins	20	153
+Reno	20	155
+Republic	20	157
+Rice	20	159
+Riley	20	161
+Rooks	20	163
+Rush	20	165
+Russell	20	167
+Saline	20	169
+Scott	20	171
+Sedgwick	20	173
+Seward	20	175
+Shawnee	20	177
+Sheridan	20	179
+Sherman	20	181
+Smith	20	183
+Stafford	20	185
+Stanton	20	187
+Stevens	20	189
+Sumner	20	191
+Thomas	20	193
+Trego	20	195
+Wabaunsee	20	197
+Wallace	20	199
+Washington	20	201
+Wichita	20	203
+Wilson	20	205
+Woodson	20	207
+Wyandotte	20	209
+Adair	21	001
+Allen	21	003
+Anderson	21	005
+Ballard	21	007
+Barren	21	009
+Bath	21	011
+Bell	21	013
+Boone	21	015
+Bourbon	21	017
+Boyd	21	019
+Boyle	21	021
+Bracken	21	023
+Breathitt	21	025
+Breckinridge	21	027
+Bullitt	21	029
+Butler	21	031
+Caldwell	21	033
+Calloway	21	035
+Campbell	21	037
+Carlisle	21	039
+Carroll	21	041
+Carter	21	043
+Casey	21	045
+Christian	21	047
+Clark	21	049
+Clay	21	051
+Clinton	21	053
+Crittenden	21	055
+Cumberland	21	057
+Daviess	21	059
+Edmonson	21	061
+Elliott	21	063
+Estill	21	065
+Fayette	21	067
+Fleming	21	069
+Floyd	21	071
+Franklin	21	073
+Fulton	21	075
+Gallatin	21	077
+Garrard	21	079
+Grant	21	081
+Graves	21	083
+Grayson	21	085
+Green	21	087
+Greenup	21	089
+Hancock	21	091
+Hardin	21	093
+Harlan	21	095
+Harrison	21	097
+Hart	21	099
+Henderson	21	101
+Henry	21	103
+Hickman	21	105
+Hopkins	21	107
+Jackson	21	109
+Jefferson	21	111
+Jessamine	21	113
+Johnson	21	115
+Kenton	21	117
+Knott	21	119
+Knox	21	121
+Larue	21	123
+Laurel	21	125
+Lawrence	21	127
+Lee	21	129
+Leslie	21	131
+Letcher	21	133
+Lewis	21	135
+Lincoln	21	137
+Livingston	21	139
+Logan	21	141
+Lyon	21	143
+McCracken	21	145
+McCreary	21	147
+Mclean	21	149
+Madison	21	151
+Magoffin	21	153
+Marion	21	155
+Marshall	21	157
+Martin	21	159
+Mason	21	161
+Meade	21	163
+Menifee	21	165
+Mercer	21	167
+Metcalfe	21	169
+Monroe	21	171
+Montgomery	21	173
+Morgan	21	175
+Muhlenberg	21	177
+Nelson	21	179
+Nicholas	21	181
+Ohio	21	183
+Oldham	21	185
+Owen	21	187
+Owsley	21	189
+Pendleton	21	191
+Perry	21	193
+Pike	21	195
+Powell	21	197
+Pulaski	21	199
+Robertson	21	201
+Rockcastle	21	203
+Rowan	21	205
+Russell	21	207
+Scott	21	209
+Shelby	21	211
+Simpson	21	213
+Spencer	21	215
+Taylor	21	217
+Todd	21	219
+Trigg	21	221
+Trimble	21	223
+Union	21	225
+Warren	21	227
+Washington	21	229
+Wayne	21	231
+Webster	21	233
+Whitley	21	235
+Wolfe	21	237
+Woodford	21	239
+Acadia	22	001
+Allen	22	003
+Ascension	22	005
+Assumption	22	007
+Avoyelles	22	009
+Beauregard	22	011
+Bienville	22	013
+Bossier	22	015
+Caddo	22	017
+Calcasieu	22	019
+Caldwell	22	021
+Cameron	22	023
+Catahoula	22	025
+Claiborne	22	027
+Concordia	22	029
+De Soto	22	031
+East Baton Rouge	22	033
+East Carroll	22	035
+East Feliciana	22	037
+Evangeline	22	039
+Franklin	22	041
+Grant	22	043
+Iberia	22	045
+Iberville	22	047
+Jackson	22	049
+Jefferson	22	051
+Jefferson Davis	22	053
+Lafayette	22	055
+Lafourche	22	057
+La Salle	22	059
+Lincoln	22	061
+Livingston	22	063
+Madison	22	065
+Morehouse	22	067
+Natchitoches	22	069
+Orleans	22	071
+Ouachita	22	073
+Plaquemines	22	075
+Pointe Coupee	22	077
+Rapides	22	079
+Red River	22	081
+Richland	22	083
+Sabine	22	085
+St Bernard	22	087
+St Charles	22	089
+St Helena	22	091
+St James	22	093
+St John The Baptist	22	095
+St Landry	22	097
+St Martin	22	099
+St Mary	22	101
+St Tammany	22	103
+Tangipahoa	22	105
+Tensas	22	107
+Terrebonne	22	109
+Union	22	111
+Vermilion	22	113
+Vernon	22	115
+Washington	22	117
+Webster	22	119
+West Baton Rouge	22	121
+West Carroll	22	123
+West Feliciana	22	125
+Winn	22	127
+Androscoggin	23	001
+Aroostook	23	003
+Cumberland	23	005
+Franklin	23	007
+Hancock	23	009
+Kennebec	23	011
+Knox	23	013
+Lincoln	23	015
+Oxford	23	017
+Penobscot	23	019
+Piscataquis	23	021
+Sagadahoc	23	023
+Somerset	23	025
+Waldo	23	027
+Washington	23	029
+York	23	031
+Allegany	24	001
+Anne Arundel	24	003
+Baltimore	24	005
+Calvert	24	009
+Caroline	24	011
+Carroll	24	013
+Cecil	24	015
+Charles	24	017
+Dorchester	24	019
+Frederick	24	021
+Garrett	24	023
+Harford	24	025
+Howard	24	027
+Kent	24	029
+Montgomery	24	031
+Prince Georges	24	033
+Queen Annes	24	035
+St Marys	24	037
+Somerset	24	039
+Talbot	24	041
+Washington	24	043
+Wicomico	24	045
+Worcester	24	047
+Baltimore City	24	510
+Barnstable	25	001
+Berkshire	25	003
+Bristol	25	005
+Dukes	25	007
+Essex	25	009
+Franklin	25	011
+Hampden	25	013
+Hampshire	25	015
+Middlesex	25	017
+Nantucket	25	019
+Norfolk	25	021
+Plymouth	25	023
+Suffolk	25	025
+Worcester	25	027
+Alcona	26	001
+Alger	26	003
+Allegan	26	005
+Alpena	26	007
+Antrim	26	009
+Arenac	26	011
+Baraga	26	013
+Barry	26	015
+Bay	26	017
+Benzie	26	019
+Berrien	26	021
+Branch	26	023
+Calhoun	26	025
+Cass	26	027
+Charlevoix	26	029
+Cheboygan	26	031
+Chippewa	26	033
+Clare	26	035
+Clinton	26	037
+Crawford	26	039
+Delta	26	041
+Dickinson	26	043
+Eaton	26	045
+Emmet	26	047
+Genesee	26	049
+Gladwin	26	051
+Gogebic	26	053
+Grand Traverse	26	055
+Gratiot	26	057
+Hillsdale	26	059
+Houghton	26	061
+Huron	26	063
+Ingham	26	065
+Ionia	26	067
+Iosco	26	069
+Iron	26	071
+Isabella	26	073
+Jackson	26	075
+Kalamazoo	26	077
+Kalkaska	26	079
+Kent	26	081
+Keweenaw	26	083
+Lake	26	085
+Lapeer	26	087
+Leelanau	26	089
+Lenawee	26	091
+Livingston	26	093
+Luce	26	095
+Mackinac	26	097
+Macomb	26	099
+Manistee	26	101
+Marquette	26	103
+Mason	26	105
+Mecosta	26	107
+Menominee	26	109
+Midland	26	111
+Missaukee	26	113
+Monroe	26	115
+Montcalm	26	117
+Montmorency	26	119
+Muskegon	26	121
+Newaygo	26	123
+Oakland	26	125
+Oceana	26	127
+Ogemaw	26	129
+Ontonagon	26	131
+Osceola	26	133
+Oscoda	26	135
+Otsego	26	137
+Ottawa	26	139
+Presque Isle	26	141
+Roscommon	26	143
+Saginaw	26	145
+St Clair	26	147
+St Joseph	26	149
+Sanilac	26	151
+Schoolcraft	26	153
+Shiawassee	26	155
+Tuscola	26	157
+Van Buren	26	159
+Washtenaw	26	161
+Wayne	26	163
+Wexford	26	165
+Aitkin	27	001
+Anoka	27	003
+Becker	27	005
+Beltrami	27	007
+Benton	27	009
+Big Stone	27	011
+Blue Earth	27	013
+Brown	27	015
+Carlton	27	017
+Carver	27	019
+Cass	27	021
+Chippewa	27	023
+Chisago	27	025
+Clay	27	027
+Clearwater	27	029
+Cook	27	031
+Cottonwood	27	033
+Crow Wing	27	035
+Dakota	27	037
+Dodge	27	039
+Douglas	27	041
+Faribault	27	043
+Fillmore	27	045
+Freeborn	27	047
+Goodhue	27	049
+Grant	27	051
+Hennepin	27	053
+Houston	27	055
+Hubbard	27	057
+Isanti	27	059
+Itasca	27	061
+Jackson	27	063
+Kanabec	27	065
+Kandiyohi	27	067
+Kittson	27	069
+Koochiching	27	071
+Lac Qui Parle	27	073
+Lake	27	075
+Lake of The Woods	27	077
+Le Sueur	27	079
+Lincoln	27	081
+Lyon	27	083
+McLeod	27	085
+Mahnomen	27	087
+Marshall	27	089
+Martin	27	091
+Meeker	27	093
+Mille Lacs	27	095
+Morrison	27	097
+Mower	27	099
+Murray	27	101
+Nicollet	27	103
+Nobles	27	105
+Norman	27	107
+Olmsted	27	109
+Otter Tail	27	111
+Pennington	27	113
+Pine	27	115
+Pipestone	27	117
+Polk	27	119
+Pope	27	121
+Ramsey	27	123
+Red Lake	27	125
+Redwood	27	127
+Renville	27	129
+Rice	27	131
+Rock	27	133
+Roseau	27	135
+St Louis	27	137
+Scott	27	139
+Sherburne	27	141
+Sibley	27	143
+Stearns	27	145
+Steele	27	147
+Stevens	27	149
+Swift	27	151
+Todd	27	153
+Traverse	27	155
+Wabasha	27	157
+Wadena	27	159
+Waseca	27	161
+Washington	27	163
+Watonwan	27	165
+Wilkin	27	167
+Winona	27	169
+Wright	27	171
+Yellow Medicine	27	173
+Adams	28	001
+Alcorn	28	003
+Amite	28	005
+Attala	28	007
+Benton	28	009
+Bolivar	28	011
+Calhoun	28	013
+Carroll	28	015
+Chickasaw	28	017
+Choctaw	28	019
+Claiborne	28	021
+Clarke	28	023
+Clay	28	025
+Coahoma	28	027
+Copiah	28	029
+Covington	28	031
+De Soto	28	033
+Forrest	28	035
+Franklin	28	037
+George	28	039
+Greene	28	041
+Grenada	28	043
+Hancock	28	045
+Harrison	28	047
+Hinds	28	049
+Holmes	28	051
+Humphreys	28	053
+Issaquena	28	055
+Itawamba	28	057
+Jackson	28	059
+Jasper	28	061
+Jefferson	28	063
+Jefferson Davis	28	065
+Jones	28	067
+Kemper	28	069
+Lafayette	28	071
+Lamar	28	073
+Lauderdale	28	075
+Lawrence	28	077
+Leake	28	079
+Lee	28	081
+Leflore	28	083
+Lincoln	28	085
+Lowndes	28	087
+Madison	28	089
+Marion	28	091
+Marshall	28	093
+Monroe	28	095
+Montgomery	28	097
+Neshoba	28	099
+Newton	28	101
+Noxubee	28	103
+Oktibbeha	28	105
+Panola	28	107
+Pearl River	28	109
+Perry	28	111
+Pike	28	113
+Pontotoc	28	115
+Prentiss	28	117
+Quitman	28	119
+Rankin	28	121
+Scott	28	123
+Sharkey	28	125
+Simpson	28	127
+Smith	28	129
+Stone	28	131
+Sunflower	28	133
+Tallahatchie	28	135
+Tate	28	137
+Tippah	28	139
+Tishomingo	28	141
+Tunica	28	143
+Union	28	145
+Walthall	28	147
+Warren	28	149
+Washington	28	151
+Wayne	28	153
+Webster	28	155
+Wilkinson	28	157
+Winston	28	159
+Yalobusha	28	161
+Yazoo	28	163
+Adair	29	001
+Andrew	29	003
+Atchison	29	005
+Audrain	29	007
+Barry	29	009
+Barton	29	011
+Bates	29	013
+Benton	29	015
+Bollinger	29	017
+Boone	29	019
+Buchanan	29	021
+Butler	29	023
+Caldwell	29	025
+Callaway	29	027
+Camden	29	029
+Cape Girardeau	29	031
+Carroll	29	033
+Carter	29	035
+Cass	29	037
+Cedar	29	039
+Chariton	29	041
+Christian	29	043
+Clark	29	045
+Clay	29	047
+Clinton	29	049
+Cole	29	051
+Cooper	29	053
+Crawford	29	055
+Dade	29	057
+Dallas	29	059
+Daviess	29	061
+Dekalb	29	063
+Dent	29	065
+Douglas	29	067
+Dunklin	29	069
+Franklin	29	071
+Gasconade	29	073
+Gentry	29	075
+Greene	29	077
+Grundy	29	079
+Harrison	29	081
+Henry	29	083
+Hickory	29	085
+Holt	29	087
+Howard	29	089
+Howell	29	091
+Iron	29	093
+Jackson	29	095
+Jasper	29	097
+Jefferson	29	099
+Johnson	29	101
+Knox	29	103
+Laclede	29	105
+Lafayette	29	107
+Lawrence	29	109
+Lewis	29	111
+Lincoln	29	113
+Linn	29	115
+Livingston	29	117
+Mcdonald	29	119
+Macon	29	121
+Madison	29	123
+Maries	29	125
+Marion	29	127
+Mercer	29	129
+Miller	29	131
+Mississippi	29	133
+Moniteau	29	135
+Monroe	29	137
+Montgomery	29	139
+Morgan	29	141
+New Madrid	29	143
+Newton	29	145
+Nodaway	29	147
+Oregon	29	149
+Osage	29	151
+Ozark	29	153
+Pemiscot	29	155
+Perry	29	157
+Pettis	29	159
+Phelps	29	161
+Pike	29	163
+Platte	29	165
+Polk	29	167
+Pulaski	29	169
+Putnam	29	171
+Ralls	29	173
+Randolph	29	175
+Ray	29	177
+Reynolds	29	179
+Ripley	29	181
+St Charles	29	183
+St Clair	29	185
+Ste Genevieve	29	186
+St Francois	29	187
+St Louis	29	189
+Saline	29	195
+Schuyler	29	197
+Scotland	29	199
+Scott	29	201
+Shannon	29	203
+Shelby	29	205
+Stoddard	29	207
+Stone	29	209
+Sullivan	29	211
+Taney	29	213
+Texas	29	215
+Vernon	29	217
+Warren	29	219
+Washington	29	221
+Wayne	29	223
+Webster	29	225
+Worth	29	227
+Wright	29	229
+St Louis City	29	510
+Beaverhead	30	001
+Big Horn	30	003
+Blaine	30	005
+Broadwater	30	007
+Carbon	30	009
+Carter	30	011
+Cascade	30	013
+Chouteau	30	015
+Custer	30	017
+Daniels	30	019
+Dawson	30	021
+Deer Lodge	30	023
+Fallon	30	025
+Fergus	30	027
+Flathead	30	029
+Gallatin	30	031
+Garfield	30	033
+Glacier	30	035
+Golden Valley	30	037
+Granite	30	039
+Hill	30	041
+Jefferson	30	043
+Judith Basin	30	045
+Lake	30	047
+Lewis and Clark	30	049
+Liberty	30	051
+Lincoln	30	053
+McCone	30	055
+Madison	30	057
+Meagher	30	059
+Mineral	30	061
+Missoula	30	063
+Musselshell	30	065
+Park	30	067
+Petroleum	30	069
+Phillips	30	071
+Pondera	30	073
+Powder River	30	075
+Powell	30	077
+Prairie	30	079
+Ravalli	30	081
+Richland	30	083
+Roosevelt	30	085
+Rosebud	30	087
+Sanders	30	089
+Sheridan	30	091
+Silver Bow	30	093
+Stillwater	30	095
+Sweet Grass	30	097
+Teton	30	099
+Toole	30	101
+Treasure	30	103
+Valley	30	105
+Wheatland	30	107
+Wibaux	30	109
+Yellowstone	30	111
+Adams	31	001
+Antelope	31	003
+Arthur	31	005
+Banner	31	007
+Blaine	31	009
+Boone	31	011
+Box Butte	31	013
+Boyd	31	015
+Brown	31	017
+Buffalo	31	019
+Burt	31	021
+Butler	31	023
+Cass	31	025
+Cedar	31	027
+Chase	31	029
+Cherry	31	031
+Cheyenne	31	033
+Clay	31	035
+Colfax	31	037
+Cuming	31	039
+Custer	31	041
+Dakota	31	043
+Dawes	31	045
+Dawson	31	047
+Deuel	31	049
+Dixon	31	051
+Dodge	31	053
+Douglas	31	055
+Dundy	31	057
+Fillmore	31	059
+Franklin	31	061
+Frontier	31	063
+Furnas	31	065
+Gage	31	067
+Garden	31	069
+Garfield	31	071
+Gosper	31	073
+Grant	31	075
+Greeley	31	077
+Hall	31	079
+Hamilton	31	081
+Harlan	31	083
+Hayes	31	085
+Hitchcock	31	087
+Holt	31	089
+Hooker	31	091
+Howard	31	093
+Jefferson	31	095
+Johnson	31	097
+Kearney	31	099
+Keith	31	101
+Keya Paha	31	103
+Kimball	31	105
+Knox	31	107
+Lancaster	31	109
+Lincoln	31	111
+Logan	31	113
+Loup	31	115
+McPherson	31	117
+Madison	31	119
+Merrick	31	121
+Morrill	31	123
+Nance	31	125
+Nemaha	31	127
+Nuckolls	31	129
+Otoe	31	131
+Pawnee	31	133
+Perkins	31	135
+Phelps	31	137
+Pierce	31	139
+Platte	31	141
+Polk	31	143
+Red Willow	31	145
+Richardson	31	147
+Rock	31	149
+Saline	31	151
+Sarpy	31	153
+Saunders	31	155
+Scotts Bluff	31	157
+Seward	31	159
+Sheridan	31	161
+Sherman	31	163
+Sioux	31	165
+Stanton	31	167
+Thayer	31	169
+Thomas	31	171
+Thurston	31	173
+Valley	31	175
+Washington	31	177
+Wayne	31	179
+Webster	31	181
+Wheeler	31	183
+York	31	185
+Churchill	32	001
+Clark	32	003
+Douglas	32	005
+Elko	32	007
+Esmeralda	32	009
+Eureka	32	011
+Humboldt	32	013
+Lander	32	015
+Lincoln	32	017
+Lyon	32	019
+Mineral	32	021
+Nye	32	023
+Pershing	32	027
+Storey	32	029
+Washoe	32	031
+White Pine	32	033
+Carson City	32	510
+Belknap	33	001
+Carroll	33	003
+Cheshire	33	005
+Coos	33	007
+Grafton	33	009
+Hillsborough	33	011
+Merrimack	33	013
+Rockingham	33	015
+Strafford	33	017
+Sullivan	33	019
+Atlantic	34	001
+Bergen	34	003
+Burlington	34	005
+Camden	34	007
+Cape May	34	009
+Cumberland	34	011
+Essex	34	013
+Gloucester	34	015
+Hudson	34	017
+Hunterdon	34	019
+Mercer	34	021
+Middlesex	34	023
+Monmouth	34	025
+Morris	34	027
+Ocean	34	029
+Passaic	34	031
+Salem	34	033
+Somerset	34	035
+Sussex	34	037
+Union	34	039
+Warren	34	041
+Bernalillo	35	001
+Catron	35	003
+Chaves	35	005
+Cibola	35	006
+Colfax	35	007
+Curry	35	009
+De Baca	35	011
+Dona Ana	35	013
+Eddy	35	015
+Grant	35	017
+Guadalupe	35	019
+Harding	35	021
+Hidalgo	35	023
+Lea	35	025
+Lincoln	35	027
+Los Alamos	35	028
+Luna	35	029
+Mckinley	35	031
+Mora	35	033
+Otero	35	035
+Quay	35	037
+Rio Arriba	35	039
+Roosevelt	35	041
+Sandoval	35	043
+San Juan	35	045
+San Miguel	35	047
+Santa Fe	35	049
+Sierra	35	051
+Socorro	35	053
+Taos	35	055
+Torrance	35	057
+Union	35	059
+Valencia	35	061
+Albany	36	001
+Allegany	36	003
+Bronx	36	005
+Broome	36	007
+Cattaraugus	36	009
+Cayuga	36	011
+Chautauqua	36	013
+Chemung	36	015
+Chenango	36	017
+Clinton	36	019
+Columbia	36	021
+Cortland	36	023
+Delaware	36	025
+Dutchess	36	027
+Erie	36	029
+Essex	36	031
+Franklin	36	033
+Fulton	36	035
+Genesee	36	037
+Greene	36	039
+Hamilton	36	041
+Herkimer	36	043
+Jefferson	36	045
+Kings	36	047
+Lewis	36	049
+Livingston	36	051
+Madison	36	053
+Monroe	36	055
+Montgomery	36	057
+Nassau	36	059
+New York	36	061
+Niagara	36	063
+Oneida	36	065
+Onondaga	36	067
+Ontario	36	069
+Orange	36	071
+Orleans	36	073
+Oswego	36	075
+Otsego	36	077
+Putnam	36	079
+Queens	36	081
+Rensselaer	36	083
+Richmond	36	085
+Rockland	36	087
+St Lawrence	36	089
+Saratoga	36	091
+Schenectady	36	093
+Schoharie	36	095
+Schuyler	36	097
+Seneca	36	099
+Steuben	36	101
+Suffolk	36	103
+Sullivan	36	105
+Tioga	36	107
+Tompkins	36	109
+Ulster	36	111
+Warren	36	113
+Washington	36	115
+Wayne	36	117
+Westchester	36	119
+Wyoming	36	121
+Yates	36	123
+Alamance	37	001
+Alexander	37	003
+Alleghany	37	005
+Anson	37	007
+Ashe	37	009
+Avery	37	011
+Beaufort	37	013
+Bertie	37	015
+Bladen	37	017
+Brunswick	37	019
+Buncombe	37	021
+Burke	37	023
+Cabarrus	37	025
+Caldwell	37	027
+Camden	37	029
+Carteret	37	031
+Caswell	37	033
+Catawba	37	035
+Chatham	37	037
+Cherokee	37	039
+Chowan	37	041
+Clay	37	043
+Cleveland	37	045
+Columbus	37	047
+Craven	37	049
+Cumberland	37	051
+Currituck	37	053
+Dare	37	055
+Davidson	37	057
+Davie	37	059
+Duplin	37	061
+Durham	37	063
+Edgecombe	37	065
+Forsyth	37	067
+Franklin	37	069
+Gaston	37	071
+Gates	37	073
+Graham	37	075
+Granville	37	077
+Greene	37	079
+Guilford	37	081
+Halifax	37	083
+Harnett	37	085
+Haywood	37	087
+Henderson	37	089
+Hertford	37	091
+Hoke	37	093
+Hyde	37	095
+Iredell	37	097
+Jackson	37	099
+Johnston	37	101
+Jones	37	103
+Lee	37	105
+Lenoir	37	107
+Lincoln	37	109
+McDowell	37	111
+Macon	37	113
+Madison	37	115
+Martin	37	117
+Mecklenburg	37	119
+Mitchell	37	121
+Montgomery	37	123
+Moore	37	125
+Nash	37	127
+New Hanover	37	129
+Northampton	37	131
+Onslow	37	133
+Orange	37	135
+Pamlico	37	137
+Pasquotank	37	139
+Pender	37	141
+Perquimans	37	143
+Person	37	145
+Pitt	37	147
+Polk	37	149
+Randolph	37	151
+Richmond	37	153
+Robeson	37	155
+Rockingham	37	157
+Rowan	37	159
+Rutherford	37	161
+Sampson	37	163
+Scotland	37	165
+Stanly	37	167
+Stokes	37	169
+Surry	37	171
+Swain	37	173
+Transylvania	37	175
+Tyrrell	37	177
+Union	37	179
+Vance	37	181
+Wake	37	183
+Warren	37	185
+Washington	37	187
+Watauga	37	189
+Wayne	37	191
+Wilkes	37	193
+Wilson	37	195
+Yadkin	37	197
+Yancey	37	199
+Adams	38	001
+Barnes	38	003
+Benson	38	005
+Billings	38	007
+Bottineau	38	009
+Bowman	38	011
+Burke	38	013
+Burleigh	38	015
+Cass	38	017
+Cavalier	38	019
+Dickey	38	021
+Divide	38	023
+Dunn	38	025
+Eddy	38	027
+Emmons	38	029
+Foster	38	031
+Golden Valley	38	033
+Grand Forks	38	035
+Grant	38	037
+Griggs	38	039
+Hettinger	38	041
+Kidder	38	043
+Lamoure	38	045
+Logan	38	047
+McHenry	38	049
+McIntosh	38	051
+Mckenzie	38	053
+Mclean	38	055
+Mercer	38	057
+Morton	38	059
+Mountrail	38	061
+Nelson	38	063
+Oliver	38	065
+Pembina	38	067
+Pierce	38	069
+Ramsey	38	071
+Ransom	38	073
+Renville	38	075
+Richland	38	077
+Rolette	38	079
+Sargent	38	081
+Sheridan	38	083
+Sioux	38	085
+Slope	38	087
+Stark	38	089
+Steele	38	091
+Stutsman	38	093
+Towner	38	095
+Traill	38	097
+Walsh	38	099
+Ward	38	101
+Wells	38	103
+Williams	38	105
+Adams	39	001
+Allen	39	003
+Ashland	39	005
+Ashtabula	39	007
+Athens	39	009
+Auglaize	39	011
+Belmont	39	013
+Brown	39	015
+Butler	39	017
+Carroll	39	019
+Champaign	39	021
+Clark	39	023
+Clermont	39	025
+Clinton	39	027
+Columbiana	39	029
+Coshocton	39	031
+Crawford	39	033
+Cuyahoga	39	035
+Darke	39	037
+Defiance	39	039
+Delaware	39	041
+Erie	39	043
+Fairfield	39	045
+Fayette	39	047
+Franklin	39	049
+Fulton	39	051
+Gallia	39	053
+Geauga	39	055
+Greene	39	057
+Guernsey	39	059
+Hamilton	39	061
+Hancock	39	063
+Hardin	39	065
+Harrison	39	067
+Henry	39	069
+Highland	39	071
+Hocking	39	073
+Holmes	39	075
+Huron	39	077
+Jackson	39	079
+Jefferson	39	081
+Knox	39	083
+Lake	39	085
+Lawrence	39	087
+Licking	39	089
+Logan	39	091
+Lorain	39	093
+Lucas	39	095
+Madison	39	097
+Mahoning	39	099
+Marion	39	101
+Medina	39	103
+Meigs	39	105
+Mercer	39	107
+Miami	39	109
+Monroe	39	111
+Montgomery	39	113
+Morgan	39	115
+Morrow	39	117
+Muskingum	39	119
+Noble	39	121
+Ottawa	39	123
+Paulding	39	125
+Perry	39	127
+Pickaway	39	129
+Pike	39	131
+Portage	39	133
+Preble	39	135
+Putnam	39	137
+Richland	39	139
+Ross	39	141
+Sandusky	39	143
+Scioto	39	145
+Seneca	39	147
+Shelby	39	149
+Stark	39	151
+Summit	39	153
+Trumbull	39	155
+Tuscarawas	39	157
+Union	39	159
+Van Wert	39	161
+Vinton	39	163
+Warren	39	165
+Washington	39	167
+Wayne	39	169
+Williams	39	171
+Wood	39	173
+Wyandot	39	175
+Adair	40	001
+Alfalfa	40	003
+Atoka	40	005
+Beaver	40	007
+Beckham	40	009
+Blaine	40	011
+Bryan	40	013
+Caddo	40	015
+Canadian	40	017
+Carter	40	019
+Cherokee	40	021
+Choctaw	40	023
+Cimarron	40	025
+Cleveland	40	027
+Coal	40	029
+Comanche	40	031
+Cotton	40	033
+Craig	40	035
+Creek	40	037
+Custer	40	039
+Delaware	40	041
+Dewey	40	043
+Ellis	40	045
+Garfield	40	047
+Garvin	40	049
+Grady	40	051
+Grant	40	053
+Greer	40	055
+Harmon	40	057
+Harper	40	059
+Haskell	40	061
+Hughes	40	063
+Jackson	40	065
+Jefferson	40	067
+Johnston	40	069
+Kay	40	071
+Kingfisher	40	073
+Kiowa	40	075
+Latimer	40	077
+Le Flore	40	079
+Lincoln	40	081
+Logan	40	083
+Love	40	085
+Mcclain	40	087
+McCurtain	40	089
+McIntosh	40	091
+Major	40	093
+Marshall	40	095
+Mayes	40	097
+Murray	40	099
+Muskogee	40	101
+Noble	40	103
+Nowata	40	105
+Okfuskee	40	107
+Oklahoma	40	109
+Okmulgee	40	111
+Osage	40	113
+Ottawa	40	115
+Pawnee	40	117
+Payne	40	119
+Pittsburg	40	121
+Pontotoc	40	123
+Pottawatomie	40	125
+Pushmataha	40	127
+Roger Mills	40	129
+Rogers	40	131
+Seminole	40	133
+Sequoyah	40	135
+Stephens	40	137
+Texas	40	139
+Tillman	40	141
+Tulsa	40	143
+Wagoner	40	145
+Washington	40	147
+Washita	40	149
+Woods	40	151
+Woodward	40	153
+Baker	41	001
+Benton	41	003
+Clackamas	41	005
+Clatsop	41	007
+Columbia	41	009
+Coos	41	011
+Crook	41	013
+Curry	41	015
+Deschutes	41	017
+Douglas	41	019
+Gilliam	41	021
+Grant	41	023
+Harney	41	025
+Hood River	41	027
+Jackson	41	029
+Jefferson	41	031
+Josephine	41	033
+Klamath	41	035
+Lake	41	037
+Lane	41	039
+Lincoln	41	041
+Linn	41	043
+Malheur	41	045
+Marion	41	047
+Morrow	41	049
+Multnomah	41	051
+Polk	41	053
+Sherman	41	055
+Tillamook	41	057
+Umatilla	41	059
+Union	41	061
+Wallowa	41	063
+Wasco	41	065
+Washington	41	067
+Wheeler	41	069
+Yamhill	41	071
+Adams	42	001
+Allegheny	42	003
+Armstrong	42	005
+Beaver	42	007
+Bedford	42	009
+Berks	42	011
+Blair	42	013
+Bradford	42	015
+Bucks	42	017
+Butler	42	019
+Cambria	42	021
+Cameron	42	023
+Carbon	42	025
+Centre	42	027
+Chester	42	029
+Clarion	42	031
+Clearfield	42	033
+Clinton	42	035
+Columbia	42	037
+Crawford	42	039
+Cumberland	42	041
+Dauphin	42	043
+Delaware	42	045
+Elk	42	047
+Erie	42	049
+Fayette	42	051
+Forest	42	053
+Franklin	42	055
+Fulton	42	057
+Greene	42	059
+Huntingdon	42	061
+Indiana	42	063
+Jefferson	42	065
+Juniata	42	067
+Lackawanna	42	069
+Lancaster	42	071
+Lawrence	42	073
+Lebanon	42	075
+Lehigh	42	077
+Luzerne	42	079
+Lycoming	42	081
+McKean	42	083
+Mercer	42	085
+Mifflin	42	087
+Monroe	42	089
+Montgomery	42	091
+Montour	42	093
+Northampton	42	095
+Northumberland	42	097
+Perry	42	099
+Philadelphia	42	101
+Pike	42	103
+Potter	42	105
+Schuylkill	42	107
+Snyder	42	109
+Somerset	42	111
+Sullivan	42	113
+Susquehanna	42	115
+Tioga	42	117
+Union	42	119
+Venango	42	121
+Warren	42	123
+Washington	42	125
+Wayne	42	127
+Westmoreland	42	129
+Wyoming	42	131
+York	42	133
+Bristol	44	001
+Kent	44	003
+Newport	44	005
+Providence	44	007
+Washington	44	009
+Abbeville	45	001
+Aiken	45	003
+Allendale	45	005
+Anderson	45	007
+Bamberg	45	009
+Barnwell	45	011
+Beaufort	45	013
+Berkeley	45	015
+Calhoun	45	017
+Charleston	45	019
+Cherokee	45	021
+Chester	45	023
+Chesterfield	45	025
+Clarendon	45	027
+Colleton	45	029
+Darlington	45	031
+Dillon	45	033
+Dorchester	45	035
+Edgefield	45	037
+Fairfield	45	039
+Florence	45	041
+Georgetown	45	043
+Greenville	45	045
+Greenwood	45	047
+Hampton	45	049
+Horry	45	051
+Jasper	45	053
+Kershaw	45	055
+Lancaster	45	057
+Laurens	45	059
+Lee	45	061
+Lexington	45	063
+McCormick	45	065
+Marion	45	067
+Marlboro	45	069
+Newberry	45	071
+Oconee	45	073
+Orangeburg	45	075
+Pickens	45	077
+Richland	45	079
+Saluda	45	081
+Spartanburg	45	083
+Sumter	45	085
+Union	45	087
+Williamsburg	45	089
+York	45	091
+Aurora	46	003
+Beadle	46	005
+Bennett	46	007
+Bon Homme	46	009
+Brookings	46	011
+Brown	46	013
+Brule	46	015
+Buffalo	46	017
+Butte	46	019
+Campbell	46	021
+Charles Mix	46	023
+Clark	46	025
+Clay	46	027
+Codington	46	029
+Corson	46	031
+Custer	46	033
+Davison	46	035
+Day	46	037
+Deuel	46	039
+Dewey	46	041
+Douglas	46	043
+Edmunds	46	045
+Fall River	46	047
+Faulk	46	049
+Grant	46	051
+Gregory	46	053
+Haakon	46	055
+Hamlin	46	057
+Hand	46	059
+Hanson	46	061
+Harding	46	063
+Hughes	46	065
+Hutchinson	46	067
+Hyde	46	069
+Jackson	46	071
+Jerauld	46	073
+Jones	46	075
+Kingsbury	46	077
+Lake	46	079
+Lawrence	46	081
+Lincoln	46	083
+Lyman	46	085
+McCook	46	087
+McPherson	46	089
+Marshall	46	091
+Meade	46	093
+Mellette	46	095
+Miner	46	097
+Minnehaha	46	099
+Moody	46	101
+Pennington	46	103
+Perkins	46	105
+Potter	46	107
+Roberts	46	109
+Sanborn	46	111
+Shannon	46	113
+Spink	46	115
+Stanley	46	117
+Sully	46	119
+Todd	46	121
+Tripp	46	123
+Turner	46	125
+Union	46	127
+Walworth	46	129
+Yankton	46	135
+Ziebach	46	137
+Anderson	47	001
+Bedford	47	003
+Benton	47	005
+Bledsoe	47	007
+Blount	47	009
+Bradley	47	011
+Campbell	47	013
+Cannon	47	015
+Carroll	47	017
+Carter	47	019
+Cheatham	47	021
+Chester	47	023
+Claiborne	47	025
+Clay	47	027
+Cocke	47	029
+Coffee	47	031
+Crockett	47	033
+Cumberland	47	035
+Davidson	47	037
+Decatur	47	039
+Dekalb	47	041
+Dickson	47	043
+Dyer	47	045
+Fayette	47	047
+Fentress	47	049
+Franklin	47	051
+Gibson	47	053
+Giles	47	055
+Grainger	47	057
+Greene	47	059
+Grundy	47	061
+Hamblen	47	063
+Hamilton	47	065
+Hancock	47	067
+Hardeman	47	069
+Hardin	47	071
+Hawkins	47	073
+Haywood	47	075
+Henderson	47	077
+Henry	47	079
+Hickman	47	081
+Houston	47	083
+Humphreys	47	085
+Jackson	47	087
+Jefferson	47	089
+Johnson	47	091
+Knox	47	093
+Lake	47	095
+Lauderdale	47	097
+Lawrence	47	099
+Lewis	47	101
+Lincoln	47	103
+Loudon	47	105
+McMinn	47	107
+McNairy	47	109
+Macon	47	111
+Madison	47	113
+Marion	47	115
+Marshall	47	117
+Maury	47	119
+Meigs	47	121
+Monroe	47	123
+Montgomery	47	125
+Moore	47	127
+Morgan	47	129
+Obion	47	131
+Overton	47	133
+Perry	47	135
+Pickett	47	137
+Polk	47	139
+Putnam	47	141
+Rhea	47	143
+Roane	47	145
+Robertson	47	147
+Rutherford	47	149
+Scott	47	151
+Sequatchie	47	153
+Sevier	47	155
+Shelby	47	157
+Smith	47	159
+Stewart	47	161
+Sullivan	47	163
+Sumner	47	165
+Tipton	47	167
+Trousdale	47	169
+Unicoi	47	171
+Union	47	173
+Van Buren	47	175
+Warren	47	177
+Washington	47	179
+Wayne	47	181
+Weakley	47	183
+White	47	185
+Williamson	47	187
+Wilson	47	189
+Anderson	48	001
+Andrews	48	003
+Angelina	48	005
+Aransas	48	007
+Archer	48	009
+Armstrong	48	011
+Atascosa	48	013
+Austin	48	015
+Bailey	48	017
+Bandera	48	019
+Bastrop	48	021
+Baylor	48	023
+Bee	48	025
+Bell	48	027
+Bexar	48	029
+Blanco	48	031
+Borden	48	033
+Bosque	48	035
+Bowie	48	037
+Brazoria	48	039
+Brazos	48	041
+Brewster	48	043
+Briscoe	48	045
+Brooks	48	047
+Brown	48	049
+Burleson	48	051
+Burnet	48	053
+Caldwell	48	055
+Calhoun	48	057
+Callahan	48	059
+Cameron	48	061
+Camp	48	063
+Carson	48	065
+Cass	48	067
+Castro	48	069
+Chambers	48	071
+Cherokee	48	073
+Childress	48	075
+Clay	48	077
+Cochran	48	079
+Coke	48	081
+Coleman	48	083
+Collin	48	085
+Collingsworth	48	087
+Colorado	48	089
+Comal	48	091
+Comanche	48	093
+Concho	48	095
+Cooke	48	097
+Coryell	48	099
+Cottle	48	101
+Crane	48	103
+Crockett	48	105
+Crosby	48	107
+Culberson	48	109
+Dallam	48	111
+Dallas	48	113
+Dawson	48	115
+Deaf Smith	48	117
+Delta	48	119
+Denton	48	121
+De Witt	48	123
+Dickens	48	125
+Dimmit	48	127
+Donley	48	129
+Duval	48	131
+Eastland	48	133
+Ector	48	135
+Edwards	48	137
+Ellis	48	139
+El Paso	48	141
+Erath	48	143
+Falls	48	145
+Fannin	48	147
+Fayette	48	149
+Fisher	48	151
+Floyd	48	153
+Foard	48	155
+Fort Bend	48	157
+Franklin	48	159
+Freestone	48	161
+Frio	48	163
+Gaines	48	165
+Galveston	48	167
+Garza	48	169
+Gillespie	48	171
+Glasscock	48	173
+Goliad	48	175
+Gonzales	48	177
+Gray	48	179
+Grayson	48	181
+Gregg	48	183
+Grimes	48	185
+Guadalupe	48	187
+Hale	48	189
+Hall	48	191
+Hamilton	48	193
+Hansford	48	195
+Hardeman	48	197
+Hardin	48	199
+Harris	48	201
+Harrison	48	203
+Hartley	48	205
+Haskell	48	207
+Hays	48	209
+Hemphill	48	211
+Henderson	48	213
+Hidalgo	48	215
+Hill	48	217
+Hockley	48	219
+Hood	48	221
+Hopkins	48	223
+Houston	48	225
+Howard	48	227
+Hudspeth	48	229
+Hunt	48	231
+Hutchinson	48	233
+Irion	48	235
+Jack	48	237
+Jackson	48	239
+Jasper	48	241
+Jeff Davis	48	243
+Jefferson	48	245
+Jim Hogg	48	247
+Jim Wells	48	249
+Johnson	48	251
+Jones	48	253
+Karnes	48	255
+Kaufman	48	257
+Kendall	48	259
+Kenedy	48	261
+Kent	48	263
+Kerr	48	265
+Kimble	48	267
+King	48	269
+Kinney	48	271
+Kleberg	48	273
+Knox	48	275
+Lamar	48	277
+Lamb	48	279
+Lampasas	48	281
+La Salle	48	283
+Lavaca	48	285
+Lee	48	287
+Leon	48	289
+Liberty	48	291
+Limestone	48	293
+Lipscomb	48	295
+Live Oak	48	297
+Llano	48	299
+Loving	48	301
+Lubbock	48	303
+Lynn	48	305
+McCulloch	48	307
+McLennan	48	309
+McMullen	48	311
+Madison	48	313
+Marion	48	315
+Martin	48	317
+Mason	48	319
+Matagorda	48	321
+Maverick	48	323
+Medina	48	325
+Menard	48	327
+Midland	48	329
+Milam	48	331
+Mills	48	333
+Mitchell	48	335
+Montague	48	337
+Montgomery	48	339
+Moore	48	341
+Morris	48	343
+Motley	48	345
+Nacogdoches	48	347
+Navarro	48	349
+Newton	48	351
+Nolan	48	353
+Nueces	48	355
+Ochiltree	48	357
+Oldham	48	359
+Orange	48	361
+Palo Pinto	48	363
+Panola	48	365
+Parker	48	367
+Parmer	48	369
+Pecos	48	371
+Polk	48	373
+Potter	48	375
+Presidio	48	377
+Rains	48	379
+Randall	48	381
+Reagan	48	383
+Real	48	385
+Red River	48	387
+Reeves	48	389
+Refugio	48	391
+Roberts	48	393
+Robertson	48	395
+Rockwall	48	397
+Runnels	48	399
+Rusk	48	401
+Sabine	48	403
+San Augustine	48	405
+San Jacinto	48	407
+San Patricio	48	409
+San Saba	48	411
+Schleicher	48	413
+Scurry	48	415
+Shackelford	48	417
+Shelby	48	419
+Sherman	48	421
+Smith	48	423
+Somervell	48	425
+Starr	48	427
+Stephens	48	429
+Sterling	48	431
+Stonewall	48	433
+Sutton	48	435
+Swisher	48	437
+Tarrant	48	439
+Taylor	48	441
+Terrell	48	443
+Terry	48	445
+Throckmorton	48	447
+Titus	48	449
+Tom Green	48	451
+Travis	48	453
+Trinity	48	455
+Tyler	48	457
+Upshur	48	459
+Upton	48	461
+Uvalde	48	463
+Val Verde	48	465
+Van Zandt	48	467
+Victoria	48	469
+Walker	48	471
+Waller	48	473
+Ward	48	475
+Washington	48	477
+Webb	48	479
+Wharton	48	481
+Wheeler	48	483
+Wichita	48	485
+Wilbarger	48	487
+Willacy	48	489
+Williamson	48	491
+Wilson	48	493
+Winkler	48	495
+Wise	48	497
+Wood	48	499
+Yoakum	48	501
+Young	48	503
+Zapata	48	505
+Zavala	48	507
+Beaver	49	001
+Box Elder	49	003
+Cache	49	005
+Carbon	49	007
+Daggett	49	009
+Davis	49	011
+Duchesne	49	013
+Emery	49	015
+Garfield	49	017
+Grand	49	019
+Iron	49	021
+Juab	49	023
+Kane	49	025
+Millard	49	027
+Morgan	49	029
+Piute	49	031
+Rich	49	033
+Salt Lake	49	035
+San Juan	49	037
+Sanpete	49	039
+Sevier	49	041
+Summit	49	043
+Tooele	49	045
+Uintah	49	047
+Utah	49	049
+Wasatch	49	051
+Washington	49	053
+Wayne	49	055
+Weber	49	057
+Addison	50	001
+Bennington	50	003
+Caledonia	50	005
+Chittenden	50	007
+Essex	50	009
+Franklin	50	011
+Grand Isle	50	013
+Lamoille	50	015
+Orange	50	017
+Orleans	50	019
+Rutland	50	021
+Washington	50	023
+Windham	50	025
+Windsor	50	027
+Accomack	51	001
+Albemarle	51	003
+Alleghany	51	005
+Amelia	51	007
+Amherst	51	009
+Appomattox	51	011
+Arlington	51	013
+Augusta	51	015
+Bath	51	017
+Bedford	51	019
+Bland	51	021
+Botetourt	51	023
+Brunswick	51	025
+Buchanan	51	027
+Buckingham	51	029
+Campbell	51	031
+Caroline	51	033
+Carroll	51	035
+Charles City	51	036
+Charlotte	51	037
+Chesterfield	51	041
+Clarke	51	043
+Craig	51	045
+Culpeper	51	047
+Cumberland	51	049
+Dickenson	51	051
+Dinwiddie	51	053
+Essex	51	057
+Fairfax	51	059
+Fauquier	51	061
+Floyd	51	063
+Fluvanna	51	065
+Franklin	51	067
+Frederick	51	069
+Giles	51	071
+Gloucester	51	073
+Goochland	51	075
+Grayson	51	077
+Greene	51	079
+Greensville	51	081
+Halifax	51	083
+Hanover	51	085
+Henrico	51	087
+Henry	51	089
+Highland	51	091
+Isle of Wight	51	093
+James City	51	095
+King and Queen	51	097
+King George	51	099
+King William	51	101
+Lancaster	51	103
+Lee	51	105
+Loudoun	51	107
+Louisa	51	109
+Lunenburg	51	111
+Madison	51	113
+Mathews	51	115
+Mecklenburg	51	117
+Middlesex	51	119
+Montgomery	51	121
+Nelson	51	125
+New Kent	51	127
+Northampton	51	131
+Northumberland	51	133
+Nottoway	51	135
+Orange	51	137
+Page	51	139
+Patrick	51	141
+Pittsylvania	51	143
+Powhatan	51	145
+Prince Edward	51	147
+Prince George	51	149
+Prince William	51	153
+Pulaski	51	155
+Rappahannock	51	157
+Richmond	51	159
+Roanoke	51	161
+Rockbridge	51	163
+Rockingham	51	165
+Russell	51	167
+Scott	51	169
+Shenandoah	51	171
+Smyth	51	173
+Southampton	51	175
+Spotsylvania	51	177
+Stafford	51	179
+Surry	51	181
+Sussex	51	183
+Tazewell	51	185
+Warren	51	187
+Washington	51	191
+Westmoreland	51	193
+Wise	51	195
+Wythe	51	197
+York	51	199
+Alexandria City	51	510
+Bedford City	51	515
+Bristol City	51	520
+Buena Vista City	51	530
+Charlottesville City	51	540
+Chesapeake City	51	550
+Clifton Forge City	51	560
+Colonial Heights City	51	570
+Covington City	51	580
+Danville City	51	590
+Emporia City	51	595
+Fairfax City	51	600
+Falls Church City	51	610
+Franklin City	51	620
+Fredericksburg City	51	630
+Galax City	51	640
+Hampton City	51	650
+Harrisonburg City	51	660
+Hopewell City	51	670
+Lexington City	51	678
+Lynchburg City	51	680
+Manassas City	51	683
+Manassas Park City	51	685
+Martinsville City	51	690
+Newport News City	51	700
+Norfolk City	51	710
+Norton City	51	720
+Petersburg City	51	730
+Poquoson City	51	735
+Portsmouth City	51	740
+Radford	51	750
+Richmond City	51	760
+Roanoke City	51	770
+Salem City	51	775
+South Boston City	51	780
+Staunton City	51	790
+Suffolk City	51	800
+Virginia Beach City	51	810
+Waynesboro City	51	820
+Williamsburg City	51	830
+Winchester City	51	840
+Adams	53	001
+Asotin	53	003
+Benton	53	005
+Chelan	53	007
+Clallam	53	009
+Clark	53	011
+Columbia	53	013
+Cowlitz	53	015
+Douglas	53	017
+Ferry	53	019
+Franklin	53	021
+Garfield	53	023
+Grant	53	025
+Grays Harbor	53	027
+Island	53	029
+Jefferson	53	031
+King	53	033
+Kitsap	53	035
+Kittitas	53	037
+Klickitat	53	039
+Lewis	53	041
+Lincoln	53	043
+Mason	53	045
+Okanogan	53	047
+Pacific	53	049
+Pend Oreille	53	051
+Pierce	53	053
+San Juan	53	055
+Skagit	53	057
+Skamania	53	059
+Snohomish	53	061
+Spokane	53	063
+Stevens	53	065
+Thurston	53	067
+Wahkiakum	53	069
+Walla Walla	53	071
+Whatcom	53	073
+Whitman	53	075
+Yakima	53	077
+Barbour	54	001
+Berkeley	54	003
+Boone	54	005
+Braxton	54	007
+Brooke	54	009
+Cabell	54	011
+Calhoun	54	013
+Clay	54	015
+Doddridge	54	017
+Fayette	54	019
+Gilmer	54	021
+Grant	54	023
+Greenbrier	54	025
+Hampshire	54	027
+Hancock	54	029
+Hardy	54	031
+Harrison	54	033
+Jackson	54	035
+Jefferson	54	037
+Kanawha	54	039
+Lewis	54	041
+Lincoln	54	043
+Logan	54	045
+McDowell	54	047
+Marion	54	049
+Marshall	54	051
+Mason	54	053
+Mercer	54	055
+Mineral	54	057
+Mingo	54	059
+Monongalia	54	061
+Monroe	54	063
+Morgan	54	065
+Nicholas	54	067
+Ohio	54	069
+Pendleton	54	071
+Pleasants	54	073
+Pocahontas	54	075
+Preston	54	077
+Putnam	54	079
+Raleigh	54	081
+Randolph	54	083
+Ritchie	54	085
+Roane	54	087
+Summers	54	089
+Taylor	54	091
+Tucker	54	093
+Tyler	54	095
+Upshur	54	097
+Wayne	54	099
+Webster	54	101
+Wetzel	54	103
+Wirt	54	105
+Wood	54	107
+Wyoming	54	109
+Adams	55	001
+Ashland	55	003
+Barron	55	005
+Bayfield	55	007
+Brown	55	009
+Buffalo	55	011
+Burnett	55	013
+Calumet	55	015
+Chippewa	55	017
+Clark	55	019
+Columbia	55	021
+Crawford	55	023
+Dane	55	025
+Dodge	55	027
+Door	55	029
+Douglas	55	031
+Dunn	55	033
+Eau Claire	55	035
+Florence	55	037
+Fond Du Lac	55	039
+Forest	55	041
+Grant	55	043
+Green	55	045
+Green Lake	55	047
+Iowa	55	049
+Iron	55	051
+Jackson	55	053
+Jefferson	55	055
+Juneau	55	057
+Kenosha	55	059
+Kewaunee	55	061
+La Crosse	55	063
+Lafayette	55	065
+Langlade	55	067
+Lincoln	55	069
+Manitowoc	55	071
+Marathon	55	073
+Marinette	55	075
+Marquette	55	077
+Menominee	55	078
+Milwaukee	55	079
+Monroe	55	081
+Oconto	55	083
+Oneida	55	085
+Outagamie	55	087
+Ozaukee	55	089
+Pepin	55	091
+Pierce	55	093
+Polk	55	095
+Portage	55	097
+Price	55	099
+Racine	55	101
+Richland	55	103
+Rock	55	105
+Rusk	55	107
+St Croix	55	109
+Sauk	55	111
+Sawyer	55	113
+Shawano	55	115
+Sheboygan	55	117
+Taylor	55	119
+Trempealeau	55	121
+Vernon	55	123
+Vilas	55	125
+Walworth	55	127
+Washburn	55	129
+Washington	55	131
+Waukesha	55	133
+Waupaca	55	135
+Waushara	55	137
+Winnebago	55	139
+Wood	55	141
+Albany	56	001
+Big Horn	56	003
+Campbell	56	005
+Carbon	56	007
+Converse	56	009
+Crook	56	011
+Fremont	56	013
+Goshen	56	015
+Hot Springs	56	017
+Johnson	56	019
+Laramie	56	021
+Lincoln	56	023
+Natrona	56	025
+Niobrara	56	027
+Park	56	029
+Platte	56	031
+Sheridan	56	033
+Sublette	56	035
+Sweetwater	56	037
+Teton	56	039
+Uinta	56	041
+Washakie	56	043
+Weston	56	045
