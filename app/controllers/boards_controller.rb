@@ -1,11 +1,9 @@
 class BoardsController < ApplicationController
 	
-
-
 	def index
 		headers['Content-Type'] = 'application/json'
-	    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-	    headers["Access-Control-Allow-Headers"] = '*'
+	    	headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+	    	headers["Access-Control-Allow-Headers"] = '*'
 
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
@@ -17,14 +15,14 @@ class BoardsController < ApplicationController
 		elsif state && county && !city 
 			render json: {success: true, message: nil, data: county.boards}
 		else
-			render json: {success: fail, message: 'Invalid API format', data: nil}
+			render json: {success: false, message: 'No response from database', data: []}
 		end
 	end
 
 	def show
 		headers['Content-Type'] = 'application/json'
-	    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-	    headers["Access-Control-Allow-Headers"] = '*'
+	    	headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+	   	headers["Access-Control-Allow-Headers"] = '*'
 	    
 		p params[:q]
 		board = Board.where(id: params[:id]).first
@@ -45,8 +43,7 @@ class BoardsController < ApplicationController
 	end
 
 	def get_jurisdiction(state,county,city)
-		state = State.where(abbreviation: state).first
-		state = State.where(id: state) unless state
+		state = State.where("lower(abbreviation) = ?", state.downcase ).first
 		
 		if county
 			county = County.where(code_id: county, state_id: state.id)
@@ -55,7 +52,6 @@ class BoardsController < ApplicationController
 		end
 
 		if city
-			city = City.where(name: city, state_id: state.id).first
 			city = City.where(id: city) unless city
 		else
 			city = nil
@@ -66,7 +62,7 @@ class BoardsController < ApplicationController
 
 	def allow_cors
 	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-      headers['Content-Type'] = 'application/json'
+	  headers['Content-Type'] = 'application/json'
 	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
 	  headers["Access-Control-Allow-Headers"] = '*,Content-Type'
 

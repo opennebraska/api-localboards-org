@@ -54,8 +54,8 @@ my_boards.each do |board|
         url:               board[16],
     #    term_length:       board[5],  TODD
         is_active:         1,
-        state_id:          1,
-        county_id:         1,
+        state_id:          27,
+        county_id:         41,
         city_id:           1,
         meeting_cron:      board[20] 
     )
