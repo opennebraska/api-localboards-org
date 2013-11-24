@@ -63,6 +63,8 @@ rails g migration AddGeoInfoToMembers state_id:integer county_id:integer city_id
 
 rails g migration AddTitleToBoardSeats title:string
 
+rails g migration AddOpeningsToBoards next_opening:string next_opening_qual:string
+
 
 rake db:drop
 rake db:create
