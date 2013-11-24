@@ -23,12 +23,17 @@ end
 
 
 File.open("db/human_data_entry/states.tsv","r").each_line do |line|
-	line = line.chop.split("\t")[0].split(",")
-	State.create(abbreviation: line[0],name: line[1])
+    line = line.chop.try(:split, "\t") || next
+    /\w/.match(line[0]) || next
+ 	State.create(abbreviation: line[0],name: line[1])
 end
-File.open("db/human_data_entry/counties.tsv","r").each_line do |line|
-	line = line.chop.split("\t")[0].split(",")
-	state = State.where(name: line[1]).first
+File.open("db/human_data_entry/counties.tsv","r").each_line.with_index do |line, i|
+    next if i == 0 
+    line = line.chop.try(:split, "\t") || next
+    /\w/.match(line[0]) || next
+	state = State.where(id: line[1]).first
+    # p "...#{line[0]}..."
+    # p "...#{line[1]}..."
 	County.create(name: line[0],state_id: state.id, code_id: line[2])
 end
 
@@ -69,7 +74,7 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
     /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
     board = my_boards[temp[2]]
-    p "...#{temp[2]}...#{board.id}..."
+    # p "...#{temp[2]}...#{board.id}..."
     m = Member.create(
         last_name:  temp[0],
         first_name: temp[1],
