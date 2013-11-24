@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131124194938) do
+ActiveRecord::Schema.define(:version => 20131124200552) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(:version => 20131124194938) do
     t.boolean  "is_active"
     t.datetime "installation_date"
     t.datetime "appointment_date"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
   end
 
   create_table "board_seats", :force => true do |t|
@@ -34,6 +36,8 @@ ActiveRecord::Schema.define(:version => 20131124194938) do
     t.boolean  "is_active"
     t.integer  "period"
     t.string   "title"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
   end
 
   create_table "boards", :force => true do |t|
@@ -57,6 +61,8 @@ ActiveRecord::Schema.define(:version => 20131124194938) do
     t.string   "meeting_cron"
     t.string   "next_opening"
     t.string   "next_opening_qual"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
   end
 
   create_table "cities", :force => true do |t|
@@ -86,20 +92,24 @@ ActiveRecord::Schema.define(:version => 20131124194938) do
 
   create_table "departments", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
     t.boolean  "is_active"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
   end
 
   create_table "members", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
     t.string   "first_name"
     t.string   "last_name"
     t.boolean  "is_active"
     t.integer  "state_id"
     t.integer  "county_id"
     t.integer  "city_id"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
   end
 
   create_table "states", :force => true do |t|
