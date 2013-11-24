@@ -4,7 +4,7 @@ API Docs
 ------
 ### Description
 
-A REST API for state, county, and city boards.
+A REST API for state, county, and city boards. Created at #HackOmaha 2013
 
 
 ### Base path
