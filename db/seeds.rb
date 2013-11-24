@@ -65,6 +65,8 @@ my_boards.each_key do |board_name|
         meeting_time:      board[13],
         duties:            board[15],
         url:               board[16],
+        next_opening:      board[17],
+        next_opening_qual: board[19],
     #    term_length:       board[5],  TODD
         is_active:         1,
         state_id:          state.id,
