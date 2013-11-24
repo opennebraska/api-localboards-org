@@ -63,7 +63,8 @@ end
 my_people = []
 File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
-    temp = line.chop.split("\t")
+    temp = line.chop.try(:split, "\t") || next
+    /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
 #    Member.create(
 #   )
