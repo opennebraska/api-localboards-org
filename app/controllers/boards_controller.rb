@@ -1,9 +1,7 @@
-class BoardsController < ApplicationController
+class BoardsController < OptionsController
 	
 	def index
-		headers['Content-Type'] = 'application/json'
-	    	headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-	    	headers["Access-Control-Allow-Headers"] = '*'
+		inject_option_headers
 
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
@@ -20,19 +18,16 @@ class BoardsController < ApplicationController
 	end
 
 	def show
-		headers['Content-Type'] = 'application/json'
-	    	headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-	   	headers["Access-Control-Allow-Headers"] = '*'
+		inject_option_headers
 	    
 		p params[:q]
 		board = Board.where(id: params[:id]).first
-		render json: {board: board}
+		if board
+			render json: {success: true, message: '', data: board}
+		else
+			## render json: {success: false, message: 'Board Not Found', data: nil}
+			raise ActionController::RoutingError.new('Not Found')
 	end
-
-	def options
-        allow_cors
-        head :ok
-      end
 
 	def update
 
@@ -58,16 +53,5 @@ class BoardsController < ApplicationController
 		end
 
 		return [state,county,city]
-	end
-
-	def allow_cors
-	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-	  headers['Content-Type'] = 'application/json'
-	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
-	  headers["Access-Control-Allow-Headers"] = '*,Content-Type'
-
-	  head(:ok) if request.request_method == "OPTIONS"
-	  # or, render text: ''
-	  # if that's more your style
 	end
 end
