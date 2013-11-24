@@ -4,6 +4,7 @@ API Docs
 ------
 ### Description
 
+An REST API for keeping track of State, County, and City boards. #HackOmaha
 
 ### Base path
 <tt>http://api.localboards.org</tt>
