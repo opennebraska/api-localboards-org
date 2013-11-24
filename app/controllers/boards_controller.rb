@@ -22,17 +22,21 @@ class BoardsController < OptionsController
 
 	def show
 		inject_option_headers
-
+		p 'in show'
 		board = Board.where(id: params[:id]).first
+		p 'find board'
 		if board
+			p 'in board true'
 			# render json: {success: true, message: '', data: board}
 			render json: RestResponse.success(board)
 		else
+			p 'in board false'
 			## render json: {success: false, message: 'Board Not Found', data: nil}
 			# raise ActionController::RoutingError.new('Not Found')
 			RestResponse.notFound( 'Not Found' )
 
 		end
+		p 'end show'
 	end
 
 	def edit
