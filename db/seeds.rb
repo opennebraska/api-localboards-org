@@ -8,8 +8,8 @@
 
 
 
-my_boards = []
-my_departments = {}
+my_boards = {}
+my_department = {}
 File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
 	temp = line.chop.try(:split, "\t") || next
@@ -17,8 +17,8 @@ File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_i
     temp = temp.collect{|x| x.strip}
     # p "...#{temp[0]}..."
     # p "...#{temp[0].strip}..."
-    my_boards << temp
-    my_departments[temp[11].upcase] = 1
+    my_boards[temp[0]] = temp
+    my_department[temp[11].upcase] = 1
 end
 
 
@@ -32,21 +32,22 @@ File.open("db/human_data_entry/counties.tsv","r").each_line do |line|
 	County.create(name: line[0],state_id: state.id, code_id: line[2])
 end
 
-my_departments.each_key do |key|
+my_department.each_key do |dept_name|
     d = Department.create(
-        name: key
+        name: dept_name
     )
-    my_departments[key] = d.id
+    my_department[dept_name] = d
 end
 
-my_boards.each do |board|
+my_boards.each_key do |board_name|
+    board = my_boards[board_name]
     # p "...#{board[20]}..."
-    Board.create(
+    b = Board.create(
         title:             board[0],
         seats:             board[1],
         alternating_seats: board[2],
         qualifications:    board[5],
-        department_id:     my_departments[board[11].upcase], 
+        department_id:     my_department[board[11].upcase].id, 
         meeting_dates:     board[12],
         meeting_place:     board[14],
         meeting_time:      board[13],
@@ -59,22 +60,36 @@ my_boards.each do |board|
         city_id:           1,
         meeting_cron:      board[20] 
     )
+    my_boards[board_name] = b
 end
 
-
-
-
-my_people = []
 File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
     temp = line.chop.try(:split, "\t") || next
     /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
-    p "...#{temp[1]}..."
-    Member.create(
+    board = my_boards[temp[2]]
+    p "...#{temp[2]}...#{board.id}..."
+    m = Member.create(
         last_name:  temp[0],
         first_name: temp[1],
         is_active:  1
+    )
+    bs = BoardSeat.create(
+        board_id:        board.id,
+        # alternate:       
+        # qualifications: 
+        # term_notes: 
+        is_active:       1 
+        # period:   
+    )
+    bm = BoardMember.create(
+        board_id:           board.id,
+        member_id:          m.id,
+        board_seat_id:      bs.id, 
+        is_active:          1
+        # installation_date:
+        # appointment_date:
     )
 end
 
