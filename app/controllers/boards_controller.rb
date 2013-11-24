@@ -3,6 +3,7 @@ class BoardsController < ApplicationController
 
 
 	def index
+		headers['Content-Type'] = 'application/json'
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
@@ -18,6 +19,7 @@ class BoardsController < ApplicationController
 	end
 
 	def show
+		headers['Content-Type'] = 'application/json'
 		p params[:q]
 		board = Board.where(id: params[:id]).first
 		render json: {board: board}
