@@ -70,8 +70,12 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
     temp = line.chop.try(:split, "\t") || next
     /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
-#    Member.create(
-#   )
+    p "...#{temp[1]}..."
+    Member.create(
+        last_name:  temp[0],
+        first_name: temp[1],
+        is_active:  1
+    )
 end
 
 # state = State.where(name: 'Nebraska')
