@@ -2,3 +2,9 @@
 
 require ::File.expand_path('../config/environment',  __FILE__)
 run OrgOrg::Application
+
+use Rack::Static,
+	urls: ["/images","/js","/css"],
+	root: "public"
+
+run RackFile.new("public")
