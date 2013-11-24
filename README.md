@@ -4,7 +4,6 @@ API Docs
 ------
 ### Description
 
-An REST API for keeping track of State, County, and City boards. #HackOmaha
 
 ### Base path
 <tt>http://api.localboards.org</tt>
@@ -35,5 +34,19 @@ Get all boards in a specific city
 
 
 ### GET members
+
+Get all members in a specific state
+<tt>/states/:state_abbreviation/boards</tt> 
+
+Get all members in a specific county
+<tt>/states/:state_abbreviation/county/:code_id/boards</tt> 
+
+Get all members in a specific city
+<tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
+
+###### Params
+
+active = [true,false,all]
+defaults to true
 
 
