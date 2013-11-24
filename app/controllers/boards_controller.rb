@@ -36,7 +36,14 @@ class BoardsController < OptionsController
 	end
 
 	def update
+		inject_option_headers
 
+		board = Board.where(id: params[:id]).first
+		if board = board.update_attributes(params[:board])
+			render json: RestResponse.success(board)
+		else
+			RestResponse.notFound( 'Could not update' )
+		end
 	end
 
 	def destroy

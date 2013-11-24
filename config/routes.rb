@@ -11,6 +11,10 @@ OrgOrg::Application.routes.draw do
   match '/states/:id/cities/:id/boards/:id', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}  
   match '/states/:id/counties/:id/boards/:id', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
 
+  match '/states/:id/boards/:id/seats', :controller => 'board_seats', action: 'options', constraints: {method: 'OPTIONS'}
+  match '/states/:id/counties/:id/boards/:id/seats', :controller => 'board_seats', action: 'options', constraints: {method: 'OPTIONS'}
+  match '/states/:id/cities/:id/boards/:id/seats', :controller => 'board_seats', action: 'options', constraints: {method: 'OPTIONS'}
+
   match '/states/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/members/:id', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/counties/:id/members/:id', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
@@ -23,10 +27,11 @@ OrgOrg::Application.routes.draw do
   match '/states/:id/cities/:id/boards/:id/seats', :controller => 'board_seats', :action => 'options', :constraints => {:method => 'OPTIONS'}  
   match '/states/:id/counties/:id/boards/:id/seats', :controller => 'board_seats', :action => 'options', :constraints => {:method => 'OPTIONS'}
 
-  match '/states/:state_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'index'
+  get '/states/:state_id/boards/:board_id/seats', to: 'board_seats#index'
   match '/states/:state_id/cities/:city_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'index'
   match '/states/:state_id/counties/:county_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'index'
 
+  post '/states/:state_id/boards/:board_id/seats', to: 'board_seats#create'
   match '/states/:state_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
   match '/states/:state_id/cities/:city_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
   match '/states/:state_id/counties/:county_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
@@ -40,23 +45,20 @@ OrgOrg::Application.routes.draw do
 
       resources :boards do
         resources :members
-        resources :seats
-        resources :board_seats
+        resources :board_seats, path: 'seats'
       end
       resources :members
     end
 
     resources :boards do
       resources :members
-      resources :seats
-      resources :board_seats
+      resources :board_seats, path: 'seats'
     end
 
     resources :cities do
       resources :boards do
         resources :members
-        resources :seats
-        resources :board_seats
+        resources :board_seats, path: 'seats'
       end
       resources :members
     end
