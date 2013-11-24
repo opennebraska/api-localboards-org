@@ -2,7 +2,24 @@ OrgOrg::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   match '/states/:id/boards/', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/', :controller => 'states', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/cities/:id/boards', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}  
+  match '/states/:id/cities/:id/boards', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  
+  match '/states/:id/boards/:id', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id', :controller => 'cities', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/cities/:id/boards/:id', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}  
+  match '/states/:id/cities/:id/boards/:id', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
+
+  match '/states/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/', :controller => 'counties', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/cities/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}  
+  match '/states/:id/cities/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
+
   resources :states do
+    collection do
+
+    end
     resources :counties do
 
       resources :boards do
