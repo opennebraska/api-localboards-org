@@ -51,4 +51,25 @@ Get all members in a specific city
 active = [true,false,all]
 defaults to true
 
+### GET seats
+
+Get all seats in a specific state
+<tt>/states/:state_abbreviation/boards/:id/seats</tt> 
+
+Get all seats in a specific county
+<tt>/states/:state_abbreviation/county/:code_id/boards/:id/seats</tt> 
+
+Get all seats specific city
+<tt>/states/:state_abbreviation/city/:city_id/boards/:id/seats</tt> 
+
+### GET a specific board
+
+in a specific state
+<tt>/states/:state_abbreviation/boards/:id</tt> 
+
+in a specific county
+<tt>/states/:state_abbreviation/county/:code_id/boards/:id</tt> 
+
+in a specific city
+<tt>/states/:state_abbreviation/city/:city_id/boards/:id</tt> 
 
