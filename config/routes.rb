@@ -23,7 +23,7 @@ OrgOrg::Application.routes.draw do
     resources :members
   end
 
-  match '/states/ne/boards/', :controller => 'boards_controller', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/ne/boards/', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
 
 
   # Sample of regular route:
