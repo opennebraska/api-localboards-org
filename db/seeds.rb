@@ -20,6 +20,7 @@ my_departments = {}
 File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
 	temp = line.chop.split("\t")
+    next unless temp[0]
     temp = temp.collect{|x| x.strip}
     # p "...#{temp[0]}..."
     # p "...#{temp[0].strip}..."
