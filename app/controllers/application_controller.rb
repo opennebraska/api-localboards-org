@@ -1,11 +1,13 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  after_filter :set_access_control_headers
+  # after_filter :set_access_control_headers
 
-  def set_access_control_headers 
-  	headers['Access-Control-Allow-Origin'] = 'http://localhost:3000' 
-      headers['Content-Type'] = 'application/json'
-  	headers['Access-Control-Request-Method'] = '*'
-      headers['Access-Control-Allow-Headers'] = '*' 
-  end
+  # def set_access_control_headers 
+    
+  #   headers['Access-Control-Allow-Origin'] = 'http://localhost:3000' 
+  #   headers['Content-Type'] = 'application/json'
+  #   headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
+  #   headers["Access-Control-Allow-Headers"] = '*'
+    
+  # end
 end

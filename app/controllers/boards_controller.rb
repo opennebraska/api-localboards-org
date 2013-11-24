@@ -59,8 +59,9 @@ class BoardsController < ApplicationController
 
 	def allow_cors
 	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+        headers['Content-Type'] = 'application/json'
 	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
-	  headers["Access-Control-Allow-Headers"] = '*,x-requested-with'
+	  headers["Access-Control-Allow-Headers"] = '*'
 
 	  head(:ok) if request.request_method == "OPTIONS"
 	  # or, render text: ''
