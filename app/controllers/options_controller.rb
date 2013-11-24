@@ -1,17 +1,18 @@
 class OptionsController < ApplicationController
   def options
+    p 'start options def'
     inject_cors_headers
+    p 'end before head ok'
     head :ok
   end
   
   def inject_option_headers( )
+    p 'start inject options'
     headers['Content-Type'] = 'application/json'
-    p request.remote_ip
-    if request.remote_ip == '184.187.10.3'
-      p "EVALUATES TRUE"
-      headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-      headers["Access-Control-Allow-Headers"] = '*'
-    end
+    # if request.remote_ip == '184.187.10.3'
+    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
+    headers["Access-Control-Allow-Headers"] = '*'
+    # end
   end
 
   def inject_cors_headers( )

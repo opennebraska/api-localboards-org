@@ -12,6 +12,7 @@ class StatesController < OptionsController
 	end
 	
 	def show
+		p 'djflksjadklfj'
 		inject_option_headers
 
 		if params[:id]
@@ -22,9 +23,8 @@ class StatesController < OptionsController
 		end
 	end
 
-	def get_jurisdiction(state)
-		state = State.where("lower(abbreviation) = ?", state.downcase).first
-		state = State.where(id: state) unless state
+	def get_jurisdiction(state_abbr)
+		state = State.where("lower(abbreviation) = ?", state_abbr.downcase).first
 		if state
 			return state
 		else
