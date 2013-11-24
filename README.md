@@ -36,13 +36,13 @@ Get all boards in a specific city
 ### GET members
 
 Get all members in a specific state
-<tt>/states/:state_abbreviation/boards</tt> 
+<tt>/states/:state_abbreviation/boards/:id/members</tt> 
 
 Get all members in a specific county
-<tt>/states/:state_abbreviation/county/:code_id/boards</tt> 
+<tt>/states/:state_abbreviation/county/:code_id/boards/:id/members</tt> 
 
 Get all members in a specific city
-<tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
+<tt>/states/:state_abbreviation/city/:city_id/boards/:id/members</tt> 
 
 ###### Params
 
