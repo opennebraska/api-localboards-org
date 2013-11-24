@@ -33,7 +33,7 @@ CityCounty.create(city_id: city.id, county_id: county.id)
 my_boards = {}
 my_departments = {}
 File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_index do |line, i|
-    next if i == 0 
+    next if i < 2
 	temp = line.chop.try(:split, "\t") || next
     /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
