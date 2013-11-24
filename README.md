@@ -1,3 +1,26 @@
-# Local Board README.md
-# - Note this file may be modified soon.
-# 
+# Local Boards API
+
+API Docs
+------
+Base path
+<tt>http://api.localboards.org</tt>
+
+Get all states
+<tt>/states</tt> 
+
+Get all cities in a state
+<tt>/states/:state_abbreviation</tt> 
+
+Get all counties in a state
+<tt>/states/:state_abbreviation/counties</tt> 
+
+
+
+Get all boards in a specific state
+<tt>/states/:state_abbreviation/boards</tt> 
+
+Get all boards in a specific county
+<tt>/states/:state_abbreviation/county/:code_id/boards</tt> 
+
+Get all boards in a specific city
+<tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
