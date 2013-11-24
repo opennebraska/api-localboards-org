@@ -73,8 +73,8 @@ OrgOrg::Application.routes.draw do
 
   resources :departments
 
-  resources :specs, path: 'docs'
-  resources :docs, path: 'specs'
+  # resources :specs, path: 'docs'
+  # resources :docs, path: 'specs'
 
 
 
