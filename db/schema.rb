@@ -11,15 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131124012941) do
+ActiveRecord::Schema.define(:version => 20131124024114) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
     t.integer  "member_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
     t.integer  "board_seat_id"
     t.boolean  "is_active"
+    t.datetime "installation_date"
+    t.datetime "appointment_date"
   end
 
   create_table "board_seats", :force => true do |t|
@@ -30,6 +32,7 @@ ActiveRecord::Schema.define(:version => 20131124012941) do
     t.datetime "updated_at",     :null => false
     t.string   "term_notes"
     t.boolean  "is_active"
+    t.integer  "period"
   end
 
   create_table "boards", :force => true do |t|
