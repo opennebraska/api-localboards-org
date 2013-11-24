@@ -5,8 +5,11 @@ class OptionsController < ApplicationController
   end
   
   def inject_option_headers( )
+    headers['Content-Type'] = 'application/json'
+    p "8" * 100
+    p request.host
+    p "8" * 100
     if request.host.include?('localboards.org')
-      headers['Content-Type'] = 'application/json'
       headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
       headers["Access-Control-Allow-Headers"] = '*'
     end
