@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131123211518) do
+ActiveRecord::Schema.define(:version => 20131124012941) do
 
   create_table "board_members", :force => true do |t|
     t.integer  "board_id"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20131123211518) do
     t.integer  "state_id"
     t.integer  "county_id"
     t.integer  "city_id"
+    t.string   "meeting_cron"
   end
 
   create_table "cities", :force => true do |t|

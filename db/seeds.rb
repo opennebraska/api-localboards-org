@@ -51,6 +51,7 @@ my_boards.each do |board|
         state_id:          1,
         county_id:         1,
         city_id:           1,
+        meeting_cron:      board[20] 
     )
 end
 
