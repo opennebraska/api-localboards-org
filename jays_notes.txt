@@ -65,6 +65,14 @@ rails g migration AddTitleToBoardSeats title:string
 
 rails g migration AddOpeningsToBoards next_opening:string next_opening_qual:string
 
+rails g migration AddByIdToBoardMembers created_by_id:integer updated_by_id:integer
+rails g migration AddByIdToBoardSeats created_by_id:integer updated_by_id:integer
+rails g migration AddByIdToBoards created_by_id:integer updated_by_id:integer
+rails g migration AddByIdToDepartments created_by_id:integer updated_by_id:integer
+rails g migration AddByIdToMembers created_by_id:integer updated_by_id:integer
+
+
+
 
 rake db:drop
 rake db:create
