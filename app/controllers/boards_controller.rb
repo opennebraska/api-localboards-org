@@ -8,13 +8,13 @@ class BoardsController < ApplicationController
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
 		if state && !county && !city
-			render json: {state_boards: state.boards}
+			render json: {success: true, message: nil, data: state.boards}
 		elsif state && county && city || state && city && !county
-			render json: {city_boards: city.boards}
+			render json: {success: true, message: nil, data: city.boards}
 		elsif state && county && !city 
-			render json: {county_boards: county.boards}
+			render json: {success: true, message: nil, data: county.boards}
 		else
-			render json: {fail: 'Invalid API format'}
+			render json: {success: fail, message: 'Invalid API format', data: nil}
 		end
 	end
 
@@ -43,8 +43,7 @@ class BoardsController < ApplicationController
 		state = State.where(id: state) unless state
 		
 		if county
-			county = County.where(name: county, state_id: state.id).first
-			county = County.where(id: county, state_id: state.id) unless county
+			county = County.where(code_id: county, state_id: state.id)
 		else
 			county = nil
 		end

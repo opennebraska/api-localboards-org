@@ -5,13 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-if (County.where(name: 'Douglas').empty? && City.where(name: 'Omaha').empty?)
-	state = State.create(name: 'Nebraska', abbreviation: 'ne')
-	county = County.create(name: 'Douglas', state_id: state.id)
-	city = City.create(name: 'Omaha')
-	CityCounty.create(city_id: city.id, county_id: county.id)
-end
-
 
 
 
@@ -25,6 +18,17 @@ File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_i
     # p "...#{temp[0].strip}..."
     my_boards << temp
     my_departments[temp[11].upcase] = 1
+end
+
+
+File.open("db/human_data_entry/states.tsv","r").each_line do |line|
+	line = line.chop.split("\t")[0].split(",")
+	State.create(abbreviation: line[0],name: line[1])
+end
+File.open("db/human_data_entry/counties.tsv","r").each_line do |line|
+	line = line.chop.split("\t")[0].split(",")
+	state = State.where(name: line[1]).first
+	County.create(name: line[0],state_id: state.id, code_id: line[2])
 end
 
 my_departments.each_key do |key|
@@ -65,5 +69,10 @@ File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_i
 #    Member.create(
 #   )
 end
+
+# state = State.where(name: 'Nebraska')
+# city = City.create(name: 'Omaha', state_id: , state.id)
+# county = County.where(state_id: state.id, )
+# CityCounty.create(city_id: city.id, county_id: county.id)
 
 
