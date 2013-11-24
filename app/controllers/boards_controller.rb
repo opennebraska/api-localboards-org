@@ -63,7 +63,7 @@ class BoardsController < ApplicationController
 	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
         headers['Content-Type'] = 'application/json'
 	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
-	  headers["Access-Control-Allow-Headers"] = 'Content-Type, Origin, Accept'
+	  headers["Access-Control-Allow-Headers"] = '*'
 
 	  head(:ok) if request.request_method == "OPTIONS"
 	  # or, render text: ''
