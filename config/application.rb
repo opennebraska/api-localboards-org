@@ -63,5 +63,6 @@ module OrgOrg
     
     # Autoload utility classes
     config.autoload_paths += %W(#{config.root}/lib)
+    config.autoload_paths += %W(#{config.root}/lib/utility)
   end
 end
