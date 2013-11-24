@@ -83,7 +83,7 @@ File.open("db/human_data_entry/omaha-boards - seats.tsv", "r").each_line.with_in
     board = my_boards[temp[0]]
     bs = BoardSeat.create(
         board_id:        board.id,
-        alternate:       /alternate/i.match(temp[1]) ? 1 : 0,
+        alternate:       /true/i.match(temp[2]) ? 1 : 0,
         qualifications:  temp[1], 
         # term_notes: 
         is_active:       1 
