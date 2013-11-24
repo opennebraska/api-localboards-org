@@ -35,6 +35,7 @@ my_departments.each_key do |key|
 end
 
 my_boards.each do |board|
+    # p "...#{board[20]}..."
     Board.create(
         title:             board[0],
         seats:             board[1],
