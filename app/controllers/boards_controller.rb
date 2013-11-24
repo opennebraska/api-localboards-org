@@ -4,6 +4,7 @@ class BoardsController < ApplicationController
 
 	def index
 		headers['Content-Type'] = 'application/json'
+	    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
 	    headers["Access-Control-Allow-Headers"] = '*'
 
 		# Find the state by the abbreviation
@@ -22,6 +23,7 @@ class BoardsController < ApplicationController
 
 	def show
 		headers['Content-Type'] = 'application/json'
+	    headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
 	    headers["Access-Control-Allow-Headers"] = '*'
 	    
 		p params[:q]
