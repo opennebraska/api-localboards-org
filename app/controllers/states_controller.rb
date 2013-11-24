@@ -1,6 +1,8 @@
 class StatesController < ApplicationController
 
 	def index
+		inject_option_headers
+
 		if params[:pg] && params[:pgSize]
 			states = State.paginate(page: params[:pg], per_page: params[:pgSize])
 		else
@@ -10,6 +12,8 @@ class StatesController < ApplicationController
 	end
 	
 	def show
+		inject_option_headers
+
 		if params[:id]
 			state = get_jurisdiction(params[:id])
 			render json: {cities: state.cities}

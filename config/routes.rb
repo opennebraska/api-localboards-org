@@ -16,6 +16,11 @@ OrgOrg::Application.routes.draw do
   match '/states/:id/cities/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}  
   match '/states/:id/cities/:id/boards/:id/members', :controller => 'members', :action => 'options', :constraints => {:method => 'OPTIONS'}
 
+  match '/states/:id/boards/:id/seats', :controller => 'seats', :action => 'options', :constraints => {:method => 'OPTIONS'}
+  match '/states/:id/cities/:id/boards/:id/seats', :controller => 'seats', :action => 'options', :constraints => {:method => 'OPTIONS'}  
+  match '/states/:id/cities/:id/boards/:id/seats', :controller => 'seats', :action => 'options', :constraints => {:method => 'OPTIONS'}
+
+
   resources :states do
     collection do
 
@@ -24,17 +29,23 @@ OrgOrg::Application.routes.draw do
 
       resources :boards do
         resources :members
+        resources :seats
+        resources :board_seats
       end
       resources :members
     end
 
     resources :boards do
       resources :members
+      resources :seats
+      resources :board_seats
     end
 
     resources :cities do
       resources :boards do
         resources :members
+        resources :seats
+        resources :board_seats
       end
       resources :members
     end

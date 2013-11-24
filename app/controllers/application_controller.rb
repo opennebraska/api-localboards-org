@@ -10,4 +10,38 @@ class ApplicationController < ActionController::Base
   #   headers["Access-Control-Allow-Headers"] = '*'
     
   # end
+
+  def get_board(board_id, params)
+    if params[:state_id] 
+      state = State.where("lower(abbreviation) = ?", params[:state_id]).first
+      board = Board.where(id: board_id, state_id: state.id).first
+      if board
+        return board
+      else
+        return nil
+      end
+
+    elsif params[:county_id]
+      board = Board.where(id: board_id, county_id: params[:county_id]).first
+      if board
+        return board
+      else
+        return nil
+      end
+
+    elsif params[:city_id]
+
+      board = Board.where(id: board_id, city_id: params[:city_id]).first
+      if board
+        return board
+      else
+        return nil
+      end
+
+    else
+      return nil
+    end
+  end
+
+
 end
