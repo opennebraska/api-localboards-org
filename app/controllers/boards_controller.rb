@@ -4,6 +4,8 @@ class BoardsController < ApplicationController
 
 	def index
 		headers['Content-Type'] = 'application/json'
+	    headers["Access-Control-Allow-Headers"] = '*'
+
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
@@ -20,6 +22,8 @@ class BoardsController < ApplicationController
 
 	def show
 		headers['Content-Type'] = 'application/json'
+	    headers["Access-Control-Allow-Headers"] = '*'
+	    
 		p params[:q]
 		board = Board.where(id: params[:id]).first
 		render json: {board: board}
@@ -61,9 +65,9 @@ class BoardsController < ApplicationController
 
 	def allow_cors
 	  headers["Access-Control-Allow-Origin"] = request.env['HTTP_ORIGIN']
-        headers['Content-Type'] = 'application/json'
+      headers['Content-Type'] = 'application/json'
 	  headers["Access-Control-Allow-Methods"] = 'POST, GET, OPTIONS, PUT, DELETE'
-	  headers["Access-Control-Allow-Headers"] = '*'
+	  headers["Access-Control-Allow-Headers"] = '*,Content-Type'
 
 	  head(:ok) if request.request_method == "OPTIONS"
 	  # or, render text: ''
