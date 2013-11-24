@@ -47,7 +47,7 @@ my_boards.each do |board|
         duties:            board[15],
         url:               board[16],
     #    term_length:       board[5],  TODD
-        is_active:         1
+        is_active:         1,
         state_id:          1,
         county_id:         1,
         city_id:           1,
