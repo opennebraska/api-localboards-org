@@ -1,0 +1,85 @@
+Budgets!! Graphs?
+Geocoding ESRI ain't free anymore
+Startup Genome: business startup who investors are, etc. 
+OPS data
+Restaurant inspections
+Municipal code XML (nate)
+   https://hackomaha.socrata.com/dataset/Omaha-s-Municipal-code-in-XML-format/qzgx-g3ek
+   http://library.municode.com/index.aspx?clientId=10945 
+-----------------------------------------------------
+
+BOARDS BABY
+
+Current stuff:
+   http://www.cityofomaha.org/city-departments
+
+
+
+rails g model People first_name:string last_name:string
+ 
+rake db:migrate
+
+rails c
+
+   People
+   People.create(first_name: 'John', last_name: 'Smith')
+
+Board.all
+Board.pluck(:title)
+Board.first(3)
+Board.select([:title, :department_id])
+Department.select([:id, :name])
+
+reload!
+
+
+rails g migration AddTermNotesToBoardSeats term_notes:string
+
+rails g migration MoveTermLengthColumn 
+   vi db/migrate/20131123205349_move_term_length_column.rb
+
+rails g migration AddIsActiveToBoardMembers is_active:boolean
+rails g migration AddIsActiveToBoardSeats is_active:boolean
+rails g migration AddIsActiveToBoards is_active:boolean
+rails g migration AddIsActiveToCities is_active:boolean
+rails g migration AddIsActiveToCityCounties is_active:boolean
+rails g migration AddIsActiveToCounties is_active:boolean
+rails g migration AddIsActiveToDepartments is_active:boolean
+rails g migration AddIsActiveToMembers is_active:boolean
+rails g migration AddIsActiveToStates is_active:boolean
+
+rails g migration AddMeetingCronToBoards meeting_cron:string
+
+rails g migration AddPeriodToBoardSeats period:integer
+rails g migration AddInstallationDateToBoardMembers installation_date:datetime
+rails g migration AddAppointmentDateToBoardMembers appointment_date:datetime
+
+rails g migration ChangeMeetingTimeDatatype
+
+
+rake db:drop
+rake db:create
+rake db:migrate
+rake db:seed
+
+heroku run rake db:seed
+
+heroku config | grep POSTGRESQL
+heroku pg:reset HEROKU_POSTGRESQL_COPPER_URL --confirm api-localboards-org
+heroku run rake db:migrate --app api-localboards-org
+heroku run rake db:seed --app api-localboards-org
+
+heroku logs --tail
+
+
+heroku git:remote -a api-localboards-org
+
+
+willy nilly add shit to app/models/board.rb
+
+
+SELECT title, department_id FROM "boards"
+
+
+
+
