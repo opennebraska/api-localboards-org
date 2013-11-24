@@ -4,6 +4,8 @@ API Docs
 ------
 ### Description
 
+A REST API for state, county, and city boards.
+
 
 ### Base path
 <tt>http://api.localboards.org</tt>
