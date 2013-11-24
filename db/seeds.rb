@@ -18,6 +18,7 @@ File.open("db/human_data_entry/counties.tsv","r").each_line.with_index do |line,
     line = line.chop.try(:split, "\t") || next
     /\w/.match(line[0]) || next
     state = State.where(id: line[1]).first
+    state || next
     # p "...#{line[0]}..."
     # p "...#{line[1]}..."
     County.create(name: line[0],state_id: state.id, code_id: line[2])
