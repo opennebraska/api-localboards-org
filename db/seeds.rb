@@ -12,7 +12,8 @@ my_boards = []
 my_departments = {}
 File.open("db/human_data_entry/omaha-boards - boards.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
-	temp = line.chop.split("\t")
+	temp = line.chop.try(:split, "\t") || next
+    /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
     # p "...#{temp[0]}..."
     # p "...#{temp[0].strip}..."
@@ -39,6 +40,7 @@ my_departments.each_key do |key|
 end
 
 my_boards.each do |board|
+    # p "...#{board[20]}..."
     Board.create(
         title:             board[0],
         seats:             board[1],
@@ -55,6 +57,7 @@ my_boards.each do |board|
         state_id:          1,
         county_id:         1,
         city_id:           1,
+        meeting_cron:      board[20] 
     )
 end
 
@@ -64,7 +67,8 @@ end
 my_people = []
 File.open("db/human_data_entry/omaha-boards - people.tsv", "r").each_line.with_index do |line, i|
     next if i == 0 
-    temp = line.chop.split("\t")
+    temp = line.chop.try(:split, "\t") || next
+    /\w/.match(temp[0]) || next
     temp = temp.collect{|x| x.strip}
 #    Member.create(
 #   )
