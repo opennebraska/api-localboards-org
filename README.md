@@ -2,8 +2,14 @@
 
 API Docs
 ------
-Base path
+### Description
+
+
+### Base path
 <tt>http://api.localboards.org</tt>
+
+
+### GET jurisdictions
 
 Get all states
 <tt>/states</tt> 
@@ -15,6 +21,7 @@ Get all counties in a state
 <tt>/states/:state_abbreviation/counties</tt> 
 
 
+### GET boards
 
 Get all boards in a specific state
 <tt>/states/:state_abbreviation/boards</tt> 
@@ -24,3 +31,8 @@ Get all boards in a specific county
 
 Get all boards in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
+
+
+### GET members
+
+
