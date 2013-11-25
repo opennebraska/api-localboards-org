@@ -1,0 +1,172 @@
+{
+   "apiVersion":"1.0.0",
+   "swaggerVersion":"1.2",
+   "basePath":"http://petstore.swagger.wordnik.com/api",
+   "resourcePath":"/user",
+   "produces":[
+      "application/json"
+   ],
+   "apis":[
+      {
+         "path":"/states/{state-abbrev}/boards",
+         "operations":[
+            {
+               "method":"GET",
+               "summary":"Get get all of the boards defined for the provided state.",
+               "notes":"",
+               "type":"Board",
+               "nickname":"getBoardsByState",
+               "parameters":[
+                  {
+                  }
+               ],
+               "responseMessages":[
+                  {
+                     "success":'true',
+                     "message":"",
+                     "data":[
+                     	{'alternating_seats': 'number or null',
+						 'city_id': 'number'
+						 'county_id': 'number'
+						 'created_at': "date"
+						 'created_by_id': 'number'
+						 'department_id': 'number'
+						 'duties': "string"
+						 'id': 2
+						 'is_active': true
+						 'meeting_cron': "30 13 * * Tue#1"
+						 'meeting_dates': "First Tuesday of each month"
+						 'meeting_place': "Planning Department Central Conference Room, 11th Floor"
+						 'meeting_time': "1:30 p.m."
+						 'next_opening': "11/7/2014|11/28/2014"
+						 'next_opening_qual': "Residential Union|Residential Non-Union"
+						 'qualifications': "Four air conditioning and air distribution contractors and a registered professional mechanical engineer. Each licensed contractor shall have the following qualifications provided that the conditions of paragraphs (a), (b) and (c) may be met by a retired contractor that has held a master ACAD contractor license for the last 10 years: (a) A holder of a current, valid and registered master ACAD contractor license issued by the city. (b) Actively engaged in the business of installing, altering, repairing, or servicing air conditioning/air distribution systems in the area of the city. (c) A permanently established air conditioning/air distribution business in his/her own right or shall be registered as doing business on behalf of a firm or corporation that is permanently established in the business. (d) Had at least five years' experience as a certified and active contractor in the city. (e) Two licensed contractors shall be representative of the residential contractors and primarily engaged in the installation and construction of all types of furnaces, air conditioning units and ventilating systems over 500 CFM in residential units. One such member shall be currently affiliated with a union shop, and one such member shall be currently affiliated with a merit or open shop. (f) Two licensed contractors shall be representative of the commercial-industrial contractors and primarily engaged in the installation and construction of commercial and industrial air conditioning and air distribution systems. One member shall be currently affiliated with a merit or open shop, and one member shall be currently affiliated with a union shop. (2) The registered professional mechanical engineer shall have the following qualifications: (a) Be registered by the State of Nebraska, and practicing in the Omaha area. (b) Have had at least 10 years' experience in the design of air conditioning/air distribution & ventilating systems."
+						 'seats': 5
+						 'state_id': 27
+						 'term_length': null
+						 'title': "AIR CONDITIONING AND AIR DISTRIBUTION BOARD"
+						 'updated_at': "2013-11-24T23:03:26Z"
+						 'updated_by_id': null
+						 'url': ""},
+                     	{'alternating_seats': 'number or null',
+						 'city_id': 'number'
+						 'county_id': 'number'
+						 'created_at': "date"
+						 'created_by_id': 'number'
+						 'department_id': 'number'
+						 'duties': "string"
+						 'id': 2
+						 'is_active': true
+						 'meeting_cron': "30 13 * * Tue#1"
+						 'meeting_dates': "First Tuesday of each month"
+						 'meeting_place': "Planning Department Central Conference Room, 11th Floor"
+						 'meeting_time': "1:30 p.m."
+						 'next_opening': "11/7/2014|11/28/2014"
+						 'next_opening_qual': "Residential Union|Residential Non-Union"
+						 'qualifications': "Four air conditioning and air distribution contractors and a registered professional mechanical engineer. Each licensed contractor shall have the following qualifications provided that the conditions of paragraphs (a), (b) and (c) may be met by a retired contractor that has held a master ACAD contractor license for the last 10 years: (a) A holder of a current, valid and registered master ACAD contractor license issued by the city. (b) Actively engaged in the business of installing, altering, repairing, or servicing air conditioning/air distribution systems in the area of the city. (c) A permanently established air conditioning/air distribution business in his/her own right or shall be registered as doing business on behalf of a firm or corporation that is permanently established in the business. (d) Had at least five years' experience as a certified and active contractor in the city. (e) Two licensed contractors shall be representative of the residential contractors and primarily engaged in the installation and construction of all types of furnaces, air conditioning units and ventilating systems over 500 CFM in residential units. One such member shall be currently affiliated with a union shop, and one such member shall be currently affiliated with a merit or open shop. (f) Two licensed contractors shall be representative of the commercial-industrial contractors and primarily engaged in the installation and construction of commercial and industrial air conditioning and air distribution systems. One member shall be currently affiliated with a merit or open shop, and one member shall be currently affiliated with a union shop. (2) The registered professional mechanical engineer shall have the following qualifications: (a) Be registered by the State of Nebraska, and practicing in the Omaha area. (b) Have had at least 10 years' experience in the design of air conditioning/air distribution & ventilating systems."
+						 'seats': 5
+						 'state_id': 27
+						 'term_length': null
+						 'title': "AIR CONDITIONING AND AIR DISTRIBUTION BOARD"
+						 'updated_at': "2013-11-24T23:03:26Z"
+						 'updated_by_id': null
+						 'url': ""},
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "path":"/state/{state-abbrev}/boards/{boardid}",
+         "operations":[
+            {
+               "method":"GET",
+               "summary":"specific information about a board",
+               "notes":"",
+               "type":"number",
+               "nickname":"getBoardByStateAndId",
+               "parameters":[
+               ],
+               "responseMessages":[
+                  {
+					'success': true
+					'message': ""
+					'data': {
+						'alternating_seats': null
+						'city_id': 1
+						'county_id': 2380
+						'created_at': "2013-11-24T23:03:26Z"
+						'created_by_id': null
+						'department_id': 1
+						'duties': "Review and approves applications for air conditioning and air distribution licensing and continuing education of master and journeyman installers. Certifies examination scores, addresses complaints and misuse against licenseholders."
+						'id': 2
+						'is_active': true
+						'meeting_cron': "30 13 * * Tue#1"
+						'meeting_dates': "First Tuesday of each month"
+						'meeting_place': "Planning Department Central Conference Room, 11th Floor"
+						'meeting_time': "1:30 p.m."
+						'next_opening': "11/7/2014|11/28/2014"
+						'next_opening_qual': "Residential Union|Residential Non-Union"
+						'qualifications': "Four air conditioning and air distribution contractors and a registered professional mechanical engineer. Each licensed contractor shall have the following qualifications provided that the conditions of paragraphs (a), (b) and (c) may be met by a retired contractor that has held a master ACAD contractor license for the last 10 years: (a) A holder of a current, valid and registered master ACAD contractor license issued by the city. (b) Actively engaged in the business of installing, altering, repairing, or servicing air conditioning/air distribution systems in the area of the city. (c) A permanently established air conditioning/air distribution business in his/her own right or shall be registered as doing business on behalf of a firm or corporation that is permanently established in the business. (d) Had at least five years' experience as a certified and active contractor in the city. (e) Two licensed contractors shall be representative of the residential contractors and primarily engaged in the installation and construction of all types of furnaces, air conditioning units and ventilating systems over 500 CFM in residential units. One such member shall be currently affiliated with a union shop, and one such member shall be currently affiliated with a merit or open shop. (f) Two licensed contractors shall be representative of the commercial-industrial contractors and primarily engaged in the installation and construction of commercial and industrial air conditioning and air distribution systems. One member shall be currently affiliated with a merit or open shop, and one member shall be currently affiliated with a union shop. (2) The registered professional mechanical engineer shall have the following qualifications: (a) Be registered by the State of Nebraska, and practicing in the Omaha area. (b) Have had at least 10 years' experience in the design of air conditioning/air distribution & ventilating systems."
+						'seats': 5
+						'state_id': 27
+						'term_length': null
+						'title': "AIR CONDITIONING AND AIR DISTRIBUTION BOARD"
+						'updated_at': "2013-11-24T23:03:26Z"
+						'updated_by_id': null
+						'url': ""
+					}
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "models":{
+      "board":{
+         "id":"Board",
+         "properties":{
+            "id":{
+               "type":"integer",
+               "format":"int64",
+               "description":"Unique identifier for the board"
+            },
+            "username":{
+               "type":"string",
+               "description":"Unique username"
+            },
+            "firstName":{
+               "type":"string",
+               "description":"First name of the user"
+            },
+            "lastName":{
+               "type":"string",
+               "description":"Last name of the user"
+            },
+            "email":{
+               "type":"string",
+               "description":"Email address of the user"
+            },
+            "password":{
+               "type":"string",
+               "description":"Password name of the user"
+            },
+            "phone":{
+               "type":"string",
+               "description":"Phone number of the user"
+            },
+            "userStatus":{
+               "type":"integer",
+               "format":"int32",
+               "description":"User Status",
+               "enum":[
+                  "1-registered",
+                  "2-active",
+                  "3-closed"
+               ]
+            }
+         }
+      }
+   }
+}
