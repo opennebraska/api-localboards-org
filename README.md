@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Local Boards API
 
 API Docs
@@ -80,4 +80,3 @@ This repo has moved
 ======
 
 [http://github.com/noahkoch/api-localboards-org](http://github.com/noahkoch/api-localboards-org)
->>>>>>> ad16c3839ccc5db10b5158fb4dc89114898095e6
