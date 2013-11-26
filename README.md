@@ -6,6 +6,7 @@ API Docs
 
 A REST API for state, county, and city boards. Created at #HackOmaha 2013
 
+[Looking for the UI?](https://github.com/trakaus/localboards-ui)
 
 ### Base path
 <tt>http://api.localboards.org</tt>
