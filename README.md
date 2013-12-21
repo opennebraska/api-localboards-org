@@ -1,10 +1,10 @@
-
 # Local Boards API
 
 API Docs
 ------
 ### Description
 
+Track issues on [Waffle](https://waffle.io/noahkoch/api-localboards-org)
 A REST API for state, county, and city boards. Created at #HackOmaha 2013
 
 [Looking for the UI?](https://github.com/trakaus/localboards-ui)
