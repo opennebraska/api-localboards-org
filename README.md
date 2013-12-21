@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/noahkoch/api-localboards-org.png?label=ready)](https://waffle.io/noahkoch/api-localboards-org)  
 
 # Local Boards API
 
