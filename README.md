@@ -37,6 +37,26 @@ Get all boards in a specific county
 Get all boards in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
 
+### POST boards
+
+Post a board in a specific state
+<tt>/states/:state_abbreviation/boards/:board_id</tt> 
+
+Post a board in a specific county
+<tt>/states/:state_abbreviation/county/:code_id/boards/:board_id</tt> 
+
+Post a board in a specific city
+<tt>/states/:state_abbreviation/city/:city_id/boards/:board_id</tt> 
+
+Example Board Date
+data: {
+  board: {
+    title: "Our awesome board",
+    yada,
+    yada,
+    yada
+  }
+}
 
 ### GET members
 
