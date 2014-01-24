@@ -37,9 +37,9 @@ class BoardsController < OptionsController
 
 		board = Board.new(params[:board])
 		if board.save
-			RestResponse.success(board)
+			render json: RestResponse.success(board)
 		else
-			RestResponse.failed("Failed to save board with paramaters: #{params[:board]}")
+			render json: RestResponse.failed("Failed to save board with paramaters: #{params[:board]}")
 		end
 	end
 
