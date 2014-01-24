@@ -29,7 +29,12 @@ class BoardsController < OptionsController
 
 	def create
 		inject_option_headers
-		options
+		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
+		
+		params[:board][:state_id] = state.try(:id)
+		params[:board][:county_id] = county.try(:id)
+		params[:board][:city_id] = city.try(:id)
+
 		board = Board.new(params[:board])
 		if board.save
 			RestResponse.success(board)
@@ -55,21 +60,16 @@ class BoardsController < OptionsController
 
 	def get_jurisdiction(state,county,city)
 		state = State.where("lower(abbreviation) = ?", state.downcase ).first
-		
 		if county
 			county = County.where(code_id: county, state_id: state.id).first
-			unless county
-				RestResponse.notFound( 'Not Found' )
-			end
+			RestResponse.notFound( 'Not Found' ) unless county
 		else
 			county = nil
 		end
 
 		if city
 			city = City.where(id: city).first
-			unless city
-				RestResponse.notFound( 'Not Found' )
-			end
+			RestResponse.notFound( 'Not Found' ) unless city
 		else
 			city = nil
 		end
