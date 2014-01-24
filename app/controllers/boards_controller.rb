@@ -1,48 +1,41 @@
 class BoardsController < OptionsController
-	def index
-		
+	before_filter :verified_request?
 
+	def index
 		inject_option_headers
 		# Find the state by the abbreviation
 		state, county, city = get_jurisdiction(params[:state_id],params[:county_id],params[:city_id])
 
 		if state && !county && !city
-			# render json: {success: true, message: nil, data: state.boards}
 			render json: RestResponse.success( state.boards )
-			
 		elsif state && county && city || state && city && !county
-			# render json: {success: true, message: nil, data: city.boards}
 			render json: RestResponse.success( city.boards )
 		elsif state && county && !city 
-			# render json: {success: true, message: nil, data: county.boards}
 			render json: RestResponse.success( county.boards )
 		else
-			# render json: {success: false, message: 'No response from database', data: []}
 			RestResponse.notFound( 'No Response from database' )
 		end
 	end
 
 	def show
 		inject_option_headers
-		p 'in show'
 		board = Board.where(id: params[:id]).first
-		p 'find board'
 		if board
-			p 'in board true'
-			# render json: {success: true, message: '', data: board}
 			render json: RestResponse.success(board)
 		else
-			p 'in board false'
-			## render json: {success: false, message: 'Board Not Found', data: nil}
-			# raise ActionController::RoutingError.new('Not Found')
 			RestResponse.notFound( 'Not Found' )
-
 		end
-		p 'end show'
 	end
 
-	def edit
-
+	def create
+		inject_option_headers
+		options
+		board = Board.new(params[:board])
+		if board.save
+			RestResponse.success(board)
+		else
+			RestResponse.failed("Failed to save board with paramaters: #{params[:board]}")
+		end
 	end
 
 	def update

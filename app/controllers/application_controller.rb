@@ -43,5 +43,10 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def verified_request?
+    true
+  end
+
+
 
 end
