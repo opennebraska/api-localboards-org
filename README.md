@@ -39,13 +39,13 @@ Get all boards in a specific city
 
 ### POST boards
 
-Get all boards in a specific state
+Post a board in a specific state
 <tt>/states/:state_abbreviation/boards/:board_id</tt> 
 
-Get all boards in a specific county
+Post a board in a specific county
 <tt>/states/:state_abbreviation/county/:code_id/boards/:board_id</tt> 
 
-Get all boards in a specific city
+Post a board in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards/:board_id</tt> 
 
 Example Board Date
