@@ -37,7 +37,7 @@ Get all boards in a specific county
 Get all boards in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards</tt> 
 
-### POST boards
+### POST board
 
 Post a board in a specific state
 <tt>/states/:state_abbreviation/boards/:board_id</tt> 
@@ -53,9 +53,9 @@ Example Board Data
 data: {
   board: {
     title: "Our awesome board",
-    yada,
-    yada,
-    yada
+    seats: 1000000,
+    alternating_seats: 17,
+    url: "www.ronpaul2012.com"
   }
 }
 ```
@@ -77,7 +77,7 @@ active = [true,false,all]
 <br/>
 defaults to true
 
-### POST members
+### POST member
 
 Post a member in a specific state board
 <tt>/states/:state_abbreviation/boards/:board_id/members</tt> 
@@ -99,6 +99,8 @@ data: {
 }
 ```
 
+The board seat id can be retrieved from the id returned by the seats api.
+
 ### GET seats
 
 Get all seats in a specific state
@@ -109,6 +111,27 @@ Get all seats in a specific county
 
 Get all seats specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards/:id/seats</tt> 
+
+### POST seat
+
+Post a member in a specific state board
+<tt>/states/:state_abbreviation/boards/:board_id/members</tt> 
+
+Post a member in a specific county board
+<tt>/states/:state_abbreviation/county/:code_id/boards/:board_id/members</tt> 
+
+Post a member in a specific city board
+<tt>/states/:state_abbreviation/city/:city_id/boards/:board_id/members</tt> 
+
+Example Member Data
+```
+data: {
+  board_seat: {
+    alternate: True,
+    title: "Fire Marshall"
+  }
+}
+```
 
 ### GET a specific board
 
