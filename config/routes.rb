@@ -3,7 +3,15 @@ OrgOrg::Application.routes.draw do
   # first created -> highest priority.
   post '/states/:state_id/boards/:board_id/seats', to: 'board_seats#create'
   post '/states/:state_id/cities/:city_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'create'
+  post '/states/:state_id/counties/:county_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'create'
+  
+  post '/states/:state_id/boards/:board_id/members', :controller => 'members', :action => 'create'
   post '/states/:state_id/cities/:city_id/boards/:board_id/members', :controller => 'members', :action => 'create'
+  post '/states/:state_id/counties/:county_id/boards/:board_id/members', :controller => 'members', :action => 'create'
+
+  post '/states/:state_id/boards/', :controller => 'boards', :action => 'create'
+  post '/states/:state_id/cities/:city_id/boards/', :controller => 'boards', :action => 'create'
+  post '/states/:state_id/counties/:county_id/boards/', :controller => 'boards', :action => 'create'
 
   get '/states/:state_id/boards/:board_id/seats', to: 'board_seats#index'
   
