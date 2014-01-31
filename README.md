@@ -48,7 +48,8 @@ Post a board in a specific county
 Post a board in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards/:board_id</tt> 
 
-Example Board Date
+Example Board Data
+```
 data: {
   board: {
     title: "Our awesome board",
@@ -57,6 +58,7 @@ data: {
     yada
   }
 }
+```
 
 ### GET members
 
@@ -74,6 +76,28 @@ Get all members in a specific city
 active = [true,false,all]
 <br/>
 defaults to true
+
+### POST members
+
+Post a member in a specific state board
+<tt>/states/:state_abbreviation/boards/:board_id/members</tt> 
+
+Post a member in a specific county board
+<tt>/states/:state_abbreviation/county/:code_id/boards/:board_id/members</tt> 
+
+Post a member in a specific city board
+<tt>/states/:state_abbreviation/city/:city_id/boards/:board_id/members</tt> 
+
+Example Member Data
+```
+data: {
+  member: {
+    first_name: "John",
+    last_name: "Smith",
+    board_seat_id: 1
+  }
+}
+```
 
 ### GET seats
 
