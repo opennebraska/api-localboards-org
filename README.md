@@ -97,8 +97,3 @@ in a specific county
 in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards/:id</tt> 
 
-=======
-This repo has moved
-======
-
-[http://github.com/noahkoch/api-localboards-org](http://github.com/noahkoch/api-localboards-org)
