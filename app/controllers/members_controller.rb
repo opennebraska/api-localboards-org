@@ -38,4 +38,18 @@ class MembersController < OptionsController
 			end
 		end
 	end
+
+	def create
+		inject_option_headers
+		if board = get_board(params[:board_id], params)
+			member = Member.new(params[:member])
+			if member.save
+				render json: RestResponse.success(member)
+			else
+				render json: RestResponse.notFound("Could not create Member with params #{params}")
+			end
+		else
+			RestResponse.notFound('No board found')
+		end
+	end
 end

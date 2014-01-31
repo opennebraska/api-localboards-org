@@ -1,6 +1,12 @@
 OrgOrg::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  post '/states/:state_id/boards/:board_id/seats', to: 'board_seats#create'
+  post '/states/:state_id/cities/:city_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'create'
+  post '/states/:state_id/cities/:city_id/boards/:board_id/members', :controller => 'members', :action => 'create'
+
+  get '/states/:state_id/boards/:board_id/seats', to: 'board_seats#index'
+  
   match '/states/:id/boards/', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/', :controller => 'states', :action => 'options', :constraints => {:method => 'OPTIONS'}
   match '/states/:id/cities/:id/boards', :controller => 'boards', :action => 'options', :constraints => {:method => 'OPTIONS'}  
@@ -27,11 +33,8 @@ OrgOrg::Application.routes.draw do
   match '/states/:id/cities/:id/boards/:id/seats', :controller => 'board_seats', :action => 'options', :constraints => {:method => 'OPTIONS'}  
   match '/states/:id/counties/:id/boards/:id/seats', :controller => 'board_seats', :action => 'options', :constraints => {:method => 'OPTIONS'}
 
-  get '/states/:state_id/boards/:board_id/seats', to: 'board_seats#index'
   match '/states/:state_id/counties/:county_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'index'
 
-  post '/states/:state_id/boards/:board_id/seats', to: 'board_seats#create'
-  post '/states/:state_id/cities/:city_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'create'
   match '/states/:state_id/cities/:city_id/boards/:board_id/seats', :controller => 'board_seats', :action => 'index'
   match '/states/:state_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
   match '/states/:state_id/cities/:city_id/boards/:board_id/seats/:id', :controller => 'board_seats', :action => 'show'
