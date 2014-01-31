@@ -28,6 +28,7 @@ class BoardSeatsController < OptionsController
 		else
 			RestResponse.notFound('Could not create Board Seat')
 		end
+
 	end
 
 end
