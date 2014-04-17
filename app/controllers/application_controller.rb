@@ -43,8 +43,21 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def verified_request?
-    true
+  def whitelist_headers?
+    return true if refered_from_our_site?
+    key = ApiKey.where("key = ?", params[:key]).first
+    if key.whitelisted_sites.include?("#{request.env['HTTP_ORIGIN']}")
+      return true
+    else
+      return false
+    end
+  end
+
+  def refered_from_our_site?
+    http_referer_uri ||= nil
+    if uri = http_referer_uri
+      uri.host == request.host
+    end
   end
 
 

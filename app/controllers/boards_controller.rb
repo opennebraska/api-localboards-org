@@ -1,5 +1,5 @@
 class BoardsController < OptionsController
-	before_filter :verified_request?
+	before_filter :inject_option_headers
 
 	def index
 		inject_option_headers

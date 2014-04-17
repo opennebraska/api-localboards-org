@@ -1,0 +1,23 @@
+<%= form_for(@api_key) do |f| %>
+  <% if @api_key.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@api_key.errors.count, "error") %> prohibited this api_key from being saved:</h2>
+
+      <ul>
+      <% @api_key.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.label :application_url, "Application URL, enter at least one url. Seperate by commas, wildcards not allowed."  %>
+    <br>
+    <%= f.text_field :application_url %>
+    <br>
+    <br>
+    <%= f.submit %>
+    
+  </div>
+<% end %>

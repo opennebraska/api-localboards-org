@@ -1,4 +1,9 @@
 OrgOrg::Application.routes.draw do
+  resources :api_keys
+
+
+  devise_for :users
+  root to: 'dashboard#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
   post '/states/:state_id/boards/:board_id/seats', to: 'board_seats#create'
