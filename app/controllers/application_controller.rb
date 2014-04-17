@@ -44,7 +44,9 @@ class ApplicationController < ActionController::Base
   end
 
   def whitelist_headers?
-    return true if refered_from_our_site?
+    # This will always go through, until we have the API set on our UI
+    # Just remove the `|| true` to make it check for api keys
+    return true if refered_from_our_site? || true
     key = ApiKey.where("key = ?", params[:key]).first
     if key.whitelisted_sites.include?("#{request.env['HTTP_ORIGIN']}")
       return true
