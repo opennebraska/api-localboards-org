@@ -154,8 +154,13 @@ We need you
 ------
 
 ` Who? Me? `
+
 ` Yes you! `
+
 ` But all I know is RSpec! `
+
 ` Well that's perfect! `
+
 ` Why? `
+
 ` Because we need tests! `
