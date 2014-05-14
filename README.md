@@ -1,14 +1,20 @@
 # Local Boards API
 
-API Docs
+
+About
 ------
 ### Description
 
-Track issues on [Waffle](https://waffle.io/noahkoch/api-localboards-org)
-<br/>
 A REST API for state, county, and city boards. Created at #HackOmaha 2013
 
 [Looking for the UI?](https://github.com/trakaus/localboards-ui)
+
+We're slowly adding in authentication. Just don't do anything you wouldn't want your mother to see, for now.
+
+Contact
+------
+We're on Twitter! [@openlocalboards](http://twitter.com/openlocalboards)
+
 
 ### Base path
 <tt>http://api.localboards.org</tt>
@@ -144,3 +150,12 @@ in a specific county
 in a specific city
 <tt>/states/:state_abbreviation/city/:city_id/boards/:id</tt> 
 
+We need you
+------
+
+` Who? Me? `
+` Yes you! `
+` But all I know is RSpec! `
+` Well that's perfect! `
+` Why? `
+` Because we need tests! `
